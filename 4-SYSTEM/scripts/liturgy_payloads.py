@@ -154,9 +154,11 @@ def build_text(fm, category_id, path):
         role = (rol.group(1).strip() if rol else "author")
         if role not in CONTRIBUTOR_ROLES:
             raise ValueError(f"role {role!r} not one of {sorted(CONTRIBUTOR_ROLES)}")
-        entry = {"type": "person", "id": pid.group(1).strip(), "role": role}
-        if bid:
-            entry["bdrc_id"] = bid.group(1).strip()
+        # The API rejects a person contribution carrying BOTH: "Only one of id
+        # or bdrc_id can be provided". The backend's own person id is the more
+        # precise key, so it wins; bdrc_id is only a fallback for a person we
+        # could identify in BDRC but not resolve in the library.
+        entry = {"type": "person", "role": role, "id": pid.group(1).strip()}
         contributions.append(entry)
     if contributions:
         out["contributions"] = contributions

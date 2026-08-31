@@ -469,16 +469,24 @@ def pass_authors():
             raw = fm[line].split(":", 1)[1].strip()
             bare = re.sub(r"\s*\[(?:person|bdrc|role):[^\]]*\]", "", raw).strip()
             if not bare:
-                return False
+                # `author:` present but empty — the text is anonymous. That is a
+                # real state, not a gap, and must not read as "unresolved".
+                return set_key(fm, "contributor_status", "none", after="author")
             rec = reg.get(bare)
             if not rec or not rec.get("person_id"):
-                # No confident match: make sure no stale tag is left behind.
-                return set_key(fm, "author", bare)
+                # No confident match: strip any stale tag and say so plainly, so
+                # a reader can tell "nobody resolved this yet" apart from
+                # "this text genuinely has no named author".
+                a = set_key(fm, "author", bare)
+                b = set_key(fm, "contributor_status", "unresolved", after="author")
+                return a or b
             tags = f"[person:{rec['person_id']}]"
             if rec.get("person_bdrc"):
                 tags += f" [bdrc:{rec['person_bdrc']}]"
             tags += f" [role:{rec.get('role') or 'author'}]"
-            return set_key(fm, "author", f"{bare} {tags}")
+            a = set_key(fm, "author", f"{bare} {tags}")
+            b = set_key(fm, "contributor_status", "resolved", after="author")
+            return a or b
 
         if edit(os.path.join(SRC_DIR, name), apply):
             n += 1
@@ -487,6 +495,8 @@ def pass_authors():
         if not rec.get("person_id"):
             unmatched += 1
     print(f"authors: {n} source notes updated; {unmatched} author strings still unmatched")
+    print("         contributor_status written on every note: "
+          "resolved | unresolved | none")
     return 0
 
 

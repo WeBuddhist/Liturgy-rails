@@ -143,10 +143,13 @@ def build(note: Path, category_id: str = "") -> dict:
             if role not in CONTRIBUTOR_ROLES:
                 raise SystemExit(
                     f"{note}: role {role!r} is not one of {sorted(CONTRIBUTOR_ROLES)}")
+            # The API rejects a person contribution carrying BOTH id and
+            # bdrc_id ("Only one of id or bdrc_id can be provided"). Prefer the
+            # backend person id; fall back to bdrc_id only when there is none.
             entry = {"type": "person", "role": role}
             if pid:
                 entry["id"] = pid.group(1).strip()
-            if bid:
+            elif bid:
                 entry["bdrc_id"] = bid.group(1).strip()
             contributions.append(entry)
 
