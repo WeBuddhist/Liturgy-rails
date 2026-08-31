@@ -54,6 +54,7 @@ SRC_DIR = os.path.join(VAULT, "1-SOURCES", "Text")
 TRACKS_DIR = os.path.join(VAULT, "3-TRANSFORMATIONS", "Translations")
 LEDGER = os.path.join(VAULT, "4-SYSTEM", "scripts", "upload_ledger.json")
 REGISTRY = os.path.join(VAULT, "1-SOURCES", "liturgy-titles.json")
+PERSONS = os.path.join(VAULT, "1-SOURCES", "liturgy-persons.json")
 
 # Files in a track folder that are track documentation, not a translated text.
 TRACK_DOCS = {"about.md", "style.md", "context-header.md", "requirements.md", "termbase.md"}
@@ -431,6 +432,64 @@ def _retitle_title_block(body, title, bo_heading):
 
 # --------------------------------------------------------------------------
 
+
+def pass_authors():
+    """Stamp backend person ids onto each source note's `author:` field.
+
+    build_payloads.py reads the ids back out of that one field, one contributor
+    per `;`:
+
+        author: གླང་རི་ཐང་པ། [person:u4IF…] [bdrc:P3445] [role:author]
+
+    They live here rather than in a key of their own because the payload
+    builder already parses bracket tags off `author`, and because a note
+    rebuilt by `block_ids.py stamp 0-INBOX` keeps only what the inbox had —
+    so, exactly like text_id/edition_id and the researched titles, the ids
+    must be re-applied from a registry (1-SOURCES/liturgy-persons.json)
+    rather than being hand-typed into the note and lost on the next rebuild.
+
+    Idempotent: existing bracket tags are stripped and rewritten, so running
+    twice changes nothing. Authors with no confident match are left bare.
+    """
+    if not os.path.exists(PERSONS):
+        print(f"authors: {PERSONS} not found — build it first", file=sys.stderr)
+        return 1
+    with open(PERSONS) as fh:
+        reg = {a["author"]: a for a in json.load(fh)["authors"]}
+
+    n = unmatched = 0
+    for name in sorted(os.listdir(SRC_DIR)):
+        if not name.endswith(".md"):
+            continue
+
+        def apply(fm, body):
+            line = find_key(fm, "author")
+            if line is None:
+                return False
+            raw = fm[line].split(":", 1)[1].strip()
+            bare = re.sub(r"\s*\[(?:person|bdrc|role):[^\]]*\]", "", raw).strip()
+            if not bare:
+                return False
+            rec = reg.get(bare)
+            if not rec or not rec.get("person_id"):
+                # No confident match: make sure no stale tag is left behind.
+                return set_key(fm, "author", bare)
+            tags = f"[person:{rec['person_id']}]"
+            if rec.get("person_bdrc"):
+                tags += f" [bdrc:{rec['person_bdrc']}]"
+            tags += f" [role:{rec.get('role') or 'author'}]"
+            return set_key(fm, "author", f"{bare} {tags}")
+
+        if edit(os.path.join(SRC_DIR, name), apply):
+            n += 1
+
+    for a, rec in reg.items():
+        if not rec.get("person_id"):
+            unmatched += 1
+    print(f"authors: {n} source notes updated; {unmatched} author strings still unmatched")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -438,6 +497,7 @@ def main():
     ap.add_argument("--track-meta", action="store_true")
     ap.add_argument("--titles", action="store_true")
     ap.add_argument("--source-titles", action="store_true")
+    ap.add_argument("--authors", action="store_true")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--track", default=None,
                     help="restrict the translation passes to one track folder — "
@@ -447,7 +507,8 @@ def main():
     if args.track:
         global ONLY_TRACK
         ONLY_TRACK = args.track
-    if not any([args.ids, args.track_meta, args.titles, args.source_titles, args.all]):
+    if not any([args.ids, args.track_meta, args.titles, args.source_titles,
+                args.authors, args.all]):
         ap.error("choose at least one pass")
 
     rc = 0
@@ -459,6 +520,8 @@ def main():
         rc |= pass_titles()
     if args.source_titles or args.all:
         rc |= pass_source_titles()
+    if args.authors or args.all:
+        rc |= pass_authors()
     return rc
 
 

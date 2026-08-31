@@ -1,0 +1,945 @@
+{
+  "generated": "2026-08-31",
+  "what": "Author-string -> backend person id. Built by searching GET /v2/persons, adjudicated per author, then gap-filled by BDRC id where the name search missed. `role` is the v2 ContributorRole (translator|reviser|author|scholar). `bdrc_roles_on_those_works` records what BDRC says about creators of those works, for verification -- it is NOT applied automatically.",
+  "count": 61,
+  "matched": 51,
+  "unmatched": 10,
+  "authors": [
+    {
+      "author": "༸རྒྱལ་བ་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "person_id": "mqN6KHezJgQYQNzgpFREh",
+      "person_bdrc": "P1649",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༡༤་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "resolved via BDRC id P1649 (14th Dalai Lama); name search had missed it",
+      "texts": [
+        "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "ཀརྨ་པ ༡༥་མཁའ་ཁྱབ་རྡོ་རྗེ།",
+      "person_id": "Tixa72qJVFSPhUsomtVyY",
+      "person_bdrc": "P563",
+      "person_name_bo": "ཀརྨ་པ ༡༥་མཁའ་ཁྱབ་རྡོ་རྗེ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned.",
+      "texts": [
+        "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཀརྨ་པ་མི་བསྐྱོད་རྡོ་རྗེ།",
+      "person_id": "fHjpFXfDy5fLoUu5TMpKB",
+      "person_bdrc": "P385",
+      "person_name_bo": "ཀརྨ་པ ༠༨་མི་བསྐྱོད་རྡོ་རྗེ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "resolved via BDRC id P385 (8th Karmapa Mikyö Dorje); name search had missed it",
+      "texts": [
+        "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཁ་ཆེ་པཎ་ཆེན་ཤཱཀྱ་ཤྲཱི།",
+      "person_id": "FN5B45vnANJiMkuYIoDTL",
+      "person_bdrc": "P1518",
+      "person_name_bo": "ཁ་ཆེ་པཎ་ཆེན་ཤཱཀྱ་ཤྲཱི།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact name match, Sanskrit equivalent Śākyaśrībhadra confirms identity.",
+      "texts": [
+        "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "གཏེར་ཆེན་མཆོག་གྱུར་གླིང་པ།",
+      "person_id": "INZAvWYExgOr1lZq0EMsS",
+      "person_bdrc": "P564",
+      "person_name_bo": "གཏེར་སྟོན་མཆོག་གྱུར་གླིང་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Same distinctive name Chokgyur Lingpa; the two prefixes are synonymous treasure-revealer epithets, not different people.",
+      "texts": [
+        "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔": [
+          "tertön"
+        ]
+      }
+    },
+    {
+      "author": "གཏེར་བདག་གླིང་པ་འགྱུར་མེད་རྡོ་རྗེ།",
+      "person_id": "ARkLU6eAzHTCkGbsqitfB",
+      "person_bdrc": "P7",
+      "person_name_bo": "གཏེར་བདག་གླིང་པ་འགྱུར་མེད་རྡོ་རྗེ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact verbatim name match and the only candidate offered.",
+      "texts": [
+        "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "གནས་ཆུང་ཆོས་རྒྱལ་ཆེན་པོ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "This refers to the Nechung state-oracle protector deity, not a human author; none of the candidates (specific oracle mediums with different personal names) represents that deity.",
+      "texts": [
+        "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "གླང་རི་ཐང་པ།",
+      "person_id": "u4IF1iXKCtryLY6Gtf4KZ",
+      "person_bdrc": "P3445",
+      "person_name_bo": "གླང་རི་ཐང་པ་རྡོ་རྗེ་སེངྒེ",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Short form of the same name, corroborated by the attributed Eight Verses of Training the Mind, his signature work.",
+      "texts": [
+        "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཏཱ་ལའི་བླ་མ ༠༢",
+      "person_id": "octgJML1f2mMzy53WKDKv",
+      "person_bdrc": "P84",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༠༢་དགེ་འདུན་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Ordinal and title match exactly (Dalai Lama 02, Gendun Gyatso); only candidate, and a praise to Khedrup Je fits his period.",
+      "texts": [
+        "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཏཱ་ལའི་བླ་མ ༠༢་དགེ་འདུན་རྒྱ་མཚོ།",
+      "person_id": "octgJML1f2mMzy53WKDKv",
+      "person_bdrc": "P84",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༠༢་དགེ་འདུན་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact match including ordinal; record's English label explicitly reads 'Dalai Lama 02 Gendun Gyatso'.",
+      "texts": [
+        "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཏཱ་ལའི་བླ་མ ༡༤་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "person_id": "mqN6KHezJgQYQNzgpFREh",
+      "person_bdrc": "P1649",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༡༤་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned.",
+      "texts": [
+        "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།",
+        "བདེན་ཚིག་སྨོན་ལམ།",
+        "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།": [
+          "main author"
+        ],
+        "བདེན་ཚིག་སྨོན་ལམ།": [
+          "main author"
+        ],
+        "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཐང་སྟོང་རྒྱལ་པོ།",
+      "person_id": "FlDeBgGM6on5VrJDvBN8O",
+      "person_bdrc": "P2778",
+      "person_name_bo": "གྲུབ་ཆེན་ཐང་སྟོང་རྒྱལ་པོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Only candidate; differs from the author string only by the honorific prefix 'Drupchen' (great adept).",
+      "texts": [
+        "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "དཀོན་མཆོག་འཇིགས་མེད་དབང་པོ་ཡེ་ཤེས་བརྩོན་འགྲུས་གྲགས་པ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "None of the 19 candidates contain the distinctive name elements 'འཇིགས་མེད་དབང་པོ' or 'ཡེ་ཤེས་བརྩོན་འགྲུས'; only generic single-word fragments were retrieved.",
+      "texts": [
+        "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "དགེ་སློང་བློ་བཟང་ཆོས་ཀྱི་རྒྱལ་མཚན།",
+      "person_id": "W8rxCL4CIcZ7lmDRto1EM",
+      "person_bdrc": "P719",
+      "person_name_bo": "པཎ་ཆེན་བློ་བཟང་ཆོས་ཀྱི་རྒྱལ་མཚན།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Same ordination name as the 4th Panchen Lama, who authored the well-known Mahamudra lineage prayer attributed here; the 'monk' prefix is a humility title, not a different person.",
+      "texts": [
+        "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "དགེ་སློང་མ་དཔལ་མོ།",
+      "person_id": "UMRFY4DkUB7Q0YaATjsLA",
+      "person_bdrc": "P4CZ10542",
+      "person_name_bo": "དགེ་སློང་མ་དཔལ་མོ།",
+      "role": "author",
+      "confidence": "medium",
+      "reason": "Exact name match; BDRC record is well-formed (female, 9th c., cross-linked to Treasury of Lives' Gelongma Pelmo biography) versus the sparser, miscoded (gender=male) alternate candidate P0RK388, and the credited text is her signature Avalokiteshvara praise.",
+      "texts": [
+        "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "པདྨ་ལུང་རྟོགས་རྒྱ་མཚོ།",
+      "person_id": "aKG8SIF5klum4FcSe5Aug",
+      "person_bdrc": "P731",
+      "person_name_bo": "པདྨ་ལུང་རྟོགས་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Verified via BDRC: P731 (1891-1964, Dudjom Lingpa disciple) is recorded under this bare name, while candidate P8709 is BDRC-flagged as a distinct, earlier 'Ling Trulku' figure (1852-1904) 'not to be confused with' this one.",
+      "texts": [
+        "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཕ་དམ་པ་སངས་རྒྱས།",
+      "person_id": "MdJYTpw6Nv8nIPmtlefUf",
+      "person_bdrc": "P1243",
+      "person_name_bo": "ཕ་དམ་པ་སངས་རྒྱས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact match; the attributed text is his famous Hundred Verses of Advice to Tingri.",
+      "texts": [
+        "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "བཀྲ་ཤིས་དཔལ་ལྡན།",
+      "person_id": "MkBE7MUQtZtdkvzT0MHSd",
+      "person_bdrc": "P35",
+      "person_name_bo": "འཇམ་དབྱངས་ཆོས་རྗེ་བཀྲ་ཤིས་དཔལ་ལྡན།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Short/full-name pattern; verified externally that Jamyang Choje Tashi Palden (Treasury of Lives RID P35, Drepung's founder) authored Tsongkhapa's Secret Biography, the credited text.",
+      "texts": [
+        "རྗེ་གསང་བའི་རྣམ་ཐར།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "བློ་གྲོས་མཐའ་ཡས།",
+      "person_id": "vyZ6q7SoFqlkLonyaHZxp",
+      "person_bdrc": "P4638",
+      "person_name_bo": "བློ་གྲོས་མཐའ་ཡས།",
+      "role": "author",
+      "confidence": "medium",
+      "reason": "Exact primary-name match to a distinct, real 15th-century Gelug/Kadam scholar (Dakpo Lodro Thaye), not the more famous Jamgön Kongtrul (who is referenced by his full name elsewhere in this corpus); some residual doubt since the name is a generic auspicious compound shared by several candidates.",
+      "texts": [
+        "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "བློ་བཟང་རྟ་མགྲིན།",
+      "person_id": "IbI5ow2aK0JbnjT2tmXJQ",
+      "person_bdrc": "P1638",
+      "person_name_bo": "བློ་བཟང་རྟ་མགྲིན།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name match, only candidate, consistent with a Gelug tantric author of a Guhyasamaja practice text.",
+      "texts": [
+        "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {
+        "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "མཁས་གྲུབ་དགེ་ལེགས་དཔལ་བཟང་།",
+      "person_id": "xtIiX4EJflzmkfTU5keQN",
+      "person_bdrc": "P55",
+      "person_name_bo": "མཁས་གྲུབ་རྗེ་དགེ་ལེགས་དཔལ་བཟང་།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "resolved via BDRC id P55 (Khedrup Je); name search had missed it",
+      "texts": [
+        "དཔལ་ལྡན་ས་གསུམ་མ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "མཁས་གྲུབ་སངས་རྒྱས་ཡེ་ཤེས།",
+      "person_id": "VSQqsAHIw7AuC6EemWCCT",
+      "person_bdrc": "P97",
+      "person_name_bo": "མཁས་གྲུབ་སངས་རྒྱས་ཡེ་ཤེས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact name match.",
+      "texts": [
+        "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "མགོན་པོ་ཀླུ་སྒྲུབ།",
+      "person_id": "IRWlWVFA5WsikREc2hyG1",
+      "person_bdrc": "P1TLMTGA001391",
+      "person_name_bo": "མགོན་པོ་ཀླུ་སྒྲུབ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact match, an honorific name for Nagarjuna; the attributed Praise to the Twelve Deeds fits his known oeuvre.",
+      "texts": [
+        "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "མི་ཕམ་འཇམ་དཔལ།",
+      "person_id": "ZyJNDx8x6Stnj3ozFaTPB",
+      "person_bdrc": "P6176",
+      "person_name_bo": "མི་ཕམ་འཇམ་དཔལ་རྡོ་རྗེ།",
+      "role": "author",
+      "confidence": "medium",
+      "reason": "Only candidate, near-total string overlap (adds only 'Dorje'); confirmed a distinct, documented 19th-century Nyingma figure rather than a stray record, though not independently corroborated by the text.",
+      "texts": [
+        "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "person_id": "vFD9qpYCoSSasPWTpllMq",
+      "person_bdrc": "P64",
+      "person_name_bo": "ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact match; corroborated by the attributed works (Mind Training poem, Three Principal Aspects of the Path), both famous Tsongkhapa compositions.",
+      "texts": [
+        "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།",
+        "ལམ་གཙོ་རྣམ་གསུམ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ལམ་གཙོ་རྣམ་གསུམ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།",
+      "person_id": "bTakhojQCzFXyE78oms6y",
+      "person_bdrc": "P1646",
+      "person_name_bo": "ཚེ་ཏན་ཞབས་དྲུང ༠༦་འཇིགས་མེད་རིགས་པའི་བློ་གྲོས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned.",
+      "texts": [
+        "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།",
+        "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།": [
+          "main author"
+        ],
+        "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཟ་ཧོར་གྱི་བནྡེ་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།",
+      "person_id": "6oBulMUkMU18FsCCic3bF",
+      "person_bdrc": "P37",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༠༥་ངག་དབང་བློ་བཟང་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "'Zahor gyi Bende' (the monk of Zahor) is the 5th Dalai Lama's well-known self-appellation in his colophons; ordinal and name match exactly.",
+      "texts": [
+        "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས།",
+      "person_id": "f8SXo17QL4cpc1VLqFopV",
+      "person_bdrc": "P264",
+      "person_name_bo": "འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact full-name match; corroborated by the attributed text, 'Calling the Guru from Afar', a well-known Jamgön Kongtrul composition.",
+      "texts": [
+        "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "འཇིགས་མེད་འཕྲིན་ལས་རྒྱ་མཚོ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "Two equally plausible candidates (place-name-prefixed variants) differ only by an unresolvable prefix; no way to pick one.",
+      "texts": [
+        "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "འཇུ་མི་ཕམ།",
+      "person_id": "xf5USP7B0HG9JjegVhRU2",
+      "person_bdrc": "P252",
+      "person_name_bo": "འཇུ་མི་ཕམ་འཇམ་དབྱངས་རྣམ་རྒྱལ་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Canonical short-form/full-name match for Ju Mipham; only candidate.",
+      "texts": [
+        "དབང་སྡུད་གསོལ་འདེབས།",
+        "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།",
+        "བདུད་བཟློག་གསང་བའི་མན་ངག"
+      ],
+      "bdrc_roles_on_those_works": {
+        "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།": [
+          "main author"
+        ],
+        "བདུད་བཟློག་གསང་བའི་མན་ངག": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "འབྲི་གུང་ཆུང་ཚང ༠༡་ཆོས་ཀྱི་གྲགས་པ།",
+      "person_id": "0TAfGkGJ0dctWpHW1iXu5",
+      "person_bdrc": "P2666",
+      "person_name_bo": "འབྲི་གུང་ཆུང་ཚང ༠༡་ཆོས་ཀྱི་གྲགས་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact match including the incarnation ordinal.",
+      "texts": [
+        "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "རཱ་ག་ཨ་ས",
+      "person_id": "uUyoAXWpJzm3kxnt8e48u",
+      "person_bdrc": "P649",
+      "person_name_bo": "གནས་མདོ་ཀརྨ་ཆགས་མེད།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "རཱ་ག་ཨ་སྲས (Rāga Asya) is Karma Chagmé's pen name; BDRC P649 confirmed as 'gnas mdo karma chags med'",
+      "texts": [
+        "བདེ་སྨོན་བསྡུས་པ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རཱ་ག་ཨ་སྲས།",
+      "person_id": "uUyoAXWpJzm3kxnt8e48u",
+      "person_bdrc": "P649",
+      "person_name_bo": "གནས་མདོ་ཀརྨ་ཆགས་མེད།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "རཱ་ག་ཨ་སྲས (Rāga Asya) is Karma Chagmé's pen name; BDRC P649 confirmed as 'gnas mdo karma chags med'",
+      "texts": [
+        "ཆགས་མེད་བདེ་སྨོན།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རིག་འཛིན་ཆེན་པོ་རིག་པའི་རྡོ་རྗེ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "Only candidate sharing the base name (P2839) is a 13th-century Shangpa Kagyu master with no attested 'Rigdzin Chenpo' (Great Vidyadhara) title on record and no corroborating link to this text; tradition/title mismatch makes the match too uncertain to assert.",
+      "texts": [
+        "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རིག་འཛིན་འཇིགས་མེད་གླིང་པ།",
+      "person_id": "jFv04HVNFPCAHZrVXWu7p",
+      "person_bdrc": "P314",
+      "person_name_bo": "ཀུན་མཁྱེན་འཇིགས་མེད་གླིང་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Same person under a different honorific (vidyadhara vs. omniscient-one epithet for Jigme Lingpa); the attributed termas fit his known revelations.",
+      "texts": [
+        "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།",
+        "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རེ་མདའ་བ་གཞོན་ནུ་དཔལ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "All 8 candidates are different 'Zhonnu Pal' figures (Chukmo, Gelong, Gawa Lotsawa, Golungpa, Bangmo Zhuwa, Go Lotsawa, Ga Lotsawa, Tsetang Lotsawa) -- none carries the distinguishing 'Rendawa' epithet of the intended author.",
+      "texts": [
+        "དམིགས་བརྩེ་མ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རེད་མདའ་བ་གཞོན་ནུ་བློ་གྲོས།",
+      "person_id": "YCna9OHMb9sCNMGAc0fcp",
+      "person_bdrc": "P60",
+      "person_name_bo": "རེད་མདའ་བ་གཞོན་ནུ་བློ་གྲོས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact match, well-known figure (Rendawa, Tsongkhapa's teacher).",
+      "texts": [
+        "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྒྱལ་ཁམས་པ་བློ་བཟང་གྲགས་པ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "No candidate combines the same wandering-yogi epithet with this exact name; each candidate carries a different, non-matching prefix.",
+      "texts": [
+        "ཐོག་མཐའ་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྒྱལ་བ་བསྐལ་བཟང་རྒྱ་མཚོ།",
+      "person_id": "syb3XnVXA4CCHTVUQrTZX",
+      "person_bdrc": "P179",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༠༧་བསྐལ་བཟང་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "'Gyalwa' (Victorious One) is a standard Dalai Lama epithet; ordinal and name (Kelzang Gyatso) match the 7th Dalai Lama exactly.",
+      "texts": [
+        "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྒྱལ་སྲས་ཞི་བ་ལྷ།",
+      "person_id": "FUeF3VrJOix1at29AL8Gw",
+      "person_bdrc": "P6161",
+      "person_name_bo": "ཞི་བ་ལྷ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Text is the aspiration prayer from the Bodhicharyāvatāra itself, confirming Śāntideva; 'Gyalse' (bodhisattva-heir) is his standard epithet and the author has no incarnation ordinal, ruling out the separate numbered Zhiwalha tulku lineage among the candidates.",
+      "texts": [
+        "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།": [
+          "main author",
+          "translator"
+        ]
+      }
+    },
+    {
+      "author": "རྗེ་བླ་མ་དྷཱརྨ་སཱུརྱས་སྩལ་བའོ",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "No candidate name corresponds to the Sanskritized name in the author string; the closest prefix matches belong to differently-named individuals.",
+      "texts": [
+        "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྗེ་ཙོང་ཁ་ཆེན་མོ།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "Likely a corrupted/concatenated form of 'Je Tsongkhapa' (this corpus has a known concatenated-title bug pattern); even under that reading, the 4 'Je Tsongkhapa' candidates are verified duplicate stub records with no distinguishing data, so no single ID can be chosen.",
+      "texts": [
+        "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྗེ་ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "person_id": "vFD9qpYCoSSasPWTpllMq",
+      "person_bdrc": "P64",
+      "person_name_bo": "ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Honorific 'Je' dropped, matches Tsongkhapa exactly; corroborated by attributed work 'In Praise of Dependent Origination', one of Tsongkhapa's most famous compositions.",
+      "texts": [
+        "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།",
+        "རྟེན་འབྲེལ་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྡོ་གྲུབ་ཆེན ༠༣་འཇིགས་མེད་བསྟན་པའི་ཉི་མ།",
+      "person_id": "zQdohCEfXqUalJ3gbr3Bz",
+      "person_bdrc": "P248",
+      "person_name_bo": "རྡོ་གྲུབ་ཆེན ༠༣་འཇིགས་མེད་བསྟན་པའི་ཉི་མ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned.",
+      "texts": [
+        "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "རྡོ་རྗེ་མཚོན་ཆ།",
+      "person_id": "yMoMotAxCJEgmp6NDf6wa",
+      "person_bdrc": "P0AT0378",
+      "person_name_bo": "སློབ་དཔོན་རྡོ་རྗེ་མཚོན་ཆ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Only candidate, differs from the author string only by the honorific 'Acharya' prefix; a distinctive name (Sanskrit Vajrasastra), low homonym risk.",
+      "texts": [
+        "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྫེ་ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "person_id": "vFD9qpYCoSSasPWTpllMq",
+      "person_bdrc": "P64",
+      "person_name_bo": "ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "resolved via BDRC id P64 (Tsongkhapa (རྫེ = typo for རྗེ)); name search had missed it",
+      "texts": [
+        "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "རྫོང་གསར་མཁྱེན་བརྩེ ༠༢་འཇམ་དབྱངས་ཆོས་ཀྱི་བློ་གྲོས།",
+      "person_id": "YjbtMHApn5cuecMmLjLMt",
+      "person_bdrc": "P733",
+      "person_name_bo": "རྫོང་གསར་མཁྱེན་བརྩེ ༠༢་འཇམ་དབྱངས་ཆོས་ཀྱི་བློ་གྲོས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned, and the Sakya aspiration text fits this figure.",
+      "texts": [
+        "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {
+        "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ལྷ་བཙུན་ནམ་མཁའ་འཇིགས་མེད།",
+      "person_id": "AH8OpfVphrFRoHjP5TrMW",
+      "person_bdrc": "P1691",
+      "person_name_bo": "ལྷ་བཙུན་ནམ་མཁའ་འཇིགས་མེད།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact verbatim name match and the only candidate offered.",
+      "texts": [
+        "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔"
+      ],
+      "bdrc_roles_on_those_works": {
+        "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "ཤ་ཝ་རི་དབང་ཕྱུག",
+      "person_id": "Y0PFDmZb2f2soKHJFgxfz",
+      "person_bdrc": "P4CZ302229",
+      "person_name_bo": "ཤ་ཝ་ར་དབང་ཕྱུག",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Minor spelling variant of the same name (Shavaripa/Shavara Wangchuk, a mahasiddha); BDRC confirms this figure as a direct student of Shakyashribhadra (this batch's own P1518), cross-corroborating the identification, and fits the Mahakala-praise text theme.",
+      "texts": [
+        "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "ཤཱཀྱ་ཐུབ་པ།",
+      "person_id": "QLFX2OutyWlZPkyrf1wse",
+      "person_bdrc": "P0AT0029",
+      "person_name_bo": "ཤཱཀྱ་ཐུབ་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact match to Buddha Sakyamuni; the alternative candidate has an extra prefix denoting a different figure.",
+      "texts": [
+        "བསྟན་འབར་མ་བཞུགས་སོ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "ཤཱཀྱའི་དགེ་སློང་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "person_id": "mqN6KHezJgQYQNzgpFREh",
+      "person_bdrc": "P1649",
+      "person_name_bo": "ཏཱ་ལའི་བླ་མ ༡༤་བསྟན་འཛིན་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "resolved via BDRC id P1649 (14th Dalai Lama, self-styled); name search had missed it",
+      "texts": [
+        "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སངས་རྒྱས།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "'Sangye' (Buddha) is too generic to disambiguate; all 8 candidates are bare-name or minor combos with no distinguishing data, and the text is plausibly attributed to the Buddha himself as a canonical source rather than any cataloged individual.",
+      "texts": [
+        "བྱམས་པའི་སྨོན་ལམ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "སི་ཏུ་ལྔ་པ་ཆོས་ཀྱི་རྒྱལ་མཚན་དགེ་ལེགས་དཔལ་བཟང།",
+      "person_id": null,
+      "person_bdrc": null,
+      "person_name_bo": null,
+      "role": "author",
+      "confidence": "low",
+      "reason": "No candidate specifies this ordinal incarnation or full personal name; the generic same-title entries carry no ordinal or given name to confirm which one.",
+      "texts": [
+        "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "སྐྱོབ་པ་འཇིག་རྟེན་གསུམ་མགོན།",
+      "person_id": "ZZAaDnxTpS5cxeVKqRZet",
+      "person_bdrc": "P16",
+      "person_name_bo": "སྐྱོབ་པ་འཇིག་རྟེན་གསུམ་མགོན།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact verbatim name match and the only candidate; founder of the Drikung Kagyu.",
+      "texts": [
+        "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།",
+        "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སྙན་དགོན་སྤྲུལ་སྐུ་མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།",
+      "person_id": "eNW2XW7odUymoU4tOGe6t",
+      "person_bdrc": "P5425",
+      "person_name_bo": "སྙན་དགོན་སྤྲུལ་སྐུ་མདོ་སྔགས་ཆོས་ཀྱི་རྒྱ་མཚོ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact full-name match.",
+      "texts": [
+        "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སྟག་ཕུ ༠༥་བློ་བཟང་ཆོས་ཀྱི་དབང་ཕྱུག",
+      "person_id": "m67UpeGb3KPs2kBdBzzO0",
+      "person_bdrc": "P295",
+      "person_name_bo": "སྟག་ཕུ ༠༥་བློ་བཟང་ཆོས་ཀྱི་དབང་ཕྱུག",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact name and ordinal match; the only candidate returned.",
+      "texts": [
+        "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །"
+      ],
+      "bdrc_roles_on_those_works": {
+        "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སྟོན་པ་ཤཀྱཱ་ཐུབ་པ།",
+      "person_id": "QLFX2OutyWlZPkyrf1wse",
+      "person_bdrc": "P0AT0029",
+      "person_name_bo": "ཤཱཀྱ་ཐུབ་པ།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Differs from the author string only by dropping the honorific 'Tonpa' (the Teacher); Sanskrit tag confirms Sakyamuni, and all credited texts are classic Buddha-attributed liturgical works.",
+      "texts": [
+        "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།",
+        "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།",
+        "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།",
+        "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།",
+        "ཡན་ལག་བདུན་པ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཡན་ལག་བདུན་པ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སློབ་དཔོན་དཔའ་བོ།",
+      "person_id": "mjD8uic8jBTRZlhtzXjdO",
+      "person_bdrc": "P7588",
+      "person_name_bo": "སློབ་དཔོན་དཔའ་བོ།",
+      "role": "author",
+      "confidence": "medium",
+      "reason": "Text is the canonical praise 'Gang tshe kang gnyis ma', traditionally ascribed in the Tengyur to Āryaśūra/Slobdpon Dpa'bo; chosen over near-duplicate P0RK302 (same name/identification but a sparser record) and over P3455 which is a distinct name (Dpa'bo Dorje/Vīravajra).",
+      "texts": [
+        "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སློབ་དཔོན་པདྨ་འབྱུང་གནས།",
+      "person_id": "WGP7G8qnevgqhLvlvbBd9",
+      "person_bdrc": "P4956",
+      "person_name_bo": "སློབ་དཔོན་པདྨ་འབྱུང་གནས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Exact match; the several attributed texts are all classic prayers from this figure's known corpus.",
+      "texts": [
+        "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།",
+        "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།",
+        "གསོལ་འདེབས་ལེའུ་བདུན་མ།",
+        "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།",
+        "ཚིག་བདུན་གསོལ་འདེབས།",
+        "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "ཚིག་བདུན་གསོལ་འདེབས།": [
+          "main author"
+        ]
+      }
+    },
+    {
+      "author": "སློབ་དཔོན་པདྨ།",
+      "person_id": "WGP7G8qnevgqhLvlvbBd9",
+      "person_bdrc": "P4956",
+      "person_name_bo": "སློབ་དཔོན་པདྨ་འབྱུང་གནས།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "'Acharya Pema' is standard shorthand for Padmasambhava (Sanskrit tag confirms it); corroborated by the credited 'Abridged Chronicle', a terma biography of Padmasambhava's life.",
+      "texts": [
+        "བཀའ་ཐང་བསྡུས་པ།"
+      ],
+      "bdrc_roles_on_those_works": {}
+    },
+    {
+      "author": "ཨ་འཇམ་སྤྲུལ་སྐུ་ཀུན་དགའ་རྒྱལ་མཚན།",
+      "person_id": "SVEmE5agfOcsoTZPAadS6",
+      "person_bdrc": "P967",
+      "person_name_bo": "ཨ་འཇམ་སྤྲུལ་སྐུ་ཀུན་དགའ་རྒྱལ་མཚན།",
+      "role": "author",
+      "confidence": "high",
+      "reason": "Sole candidate, exact full-name match.",
+      "texts": [
+        "མར་མེའི་སྨོན་ལམ།"
+      ],
+      "bdrc_roles_on_those_works": {
+        "མར་མེའི་སྨོན་ལམ།": [
+          "main author"
+        ]
+      }
+    }
+  ]
+}

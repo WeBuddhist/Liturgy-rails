@@ -42,6 +42,9 @@ import re
 from pathlib import Path
 
 FM_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.S)
+# v2 API ContributorRole enum — the API rejects anything else.
+CONTRIBUTOR_ROLES = {"translator", "reviser", "author", "scholar"}
+
 LICENSE_TO_COPYRIGHT = {
     "public": "Public domain", "cc0": "Public domain",
     "unknown": "Unknown", "copyrighted": "In copyright",
@@ -110,17 +113,41 @@ def build(note: Path, category_id: str = "") -> dict:
         assert content[span["start"]:span["end"]] == b, f"span mismatch in {note}"
 
     lic = fm.get("license", "")
+    # FORK(liturgy-rails): the v2 API's PersonContributionInput is
+    #   {"type": "person", "id": <person_id>, "bdrc_id": <P-number>, "role": <ContributorRole>}
+    # with `type` and `role` REQUIRED and role drawn from
+    #   translator | reviser | author | scholar.
+    # This used to emit {"role", "person_bdrc_id", "_name"} — no `type`, wrong
+    # key for bdrc, and a `_name` the API does not accept — so every upload
+    # silently landed with contributions: []. All 94 texts in the backend had
+    # no author recorded as a result. Verified against the live records, not
+    # inferred.
+    #
+    # The author field carries its ids and role inline, one contributor per `;`:
+    #   author: གླང་རི་ཐང་པ། [person:u4IF1iXKCtryLY6Gtf4KZ] [bdrc:P3445] [role:author]
+    # role defaults to "author" when the tag is absent.
+    #
+    # NOTE: upload_liturgy.py POSTs text.json VERBATIM — it does NOT strip
+    # underscore-prefixed keys. So no `_name` (or any other local-only key) may
+    # be emitted here; the API would receive it.
     contributions = []
     if fm.get("author"):
         for part in fm["author"].split(";"):
             part = part.strip()
             if not part:
                 continue
-            m = re.search(r"\[bdrc:([^\]]+)\]", part)
-            entry = {"role": "author"}
-            if m:
-                entry["person_bdrc_id"] = m.group(1)
-            entry["_name"] = re.sub(r"\s*\[[^\]]+\]", "", part).strip()
+            pid = re.search(r"\[person:([^\]]+)\]", part)
+            bid = re.search(r"\[bdrc:([^\]]+)\]", part)
+            rol = re.search(r"\[role:([^\]]+)\]", part)
+            role = (rol.group(1).strip() if rol else "author")
+            if role not in CONTRIBUTOR_ROLES:
+                raise SystemExit(
+                    f"{note}: role {role!r} is not one of {sorted(CONTRIBUTOR_ROLES)}")
+            entry = {"type": "person", "role": role}
+            if pid:
+                entry["id"] = pid.group(1).strip()
+            if bid:
+                entry["bdrc_id"] = bid.group(1).strip()
             contributions.append(entry)
 
     text_payload = {

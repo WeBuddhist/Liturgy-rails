@@ -43,6 +43,8 @@ LICENSES = {
     "cc-by-nc-sa", "cc-by-nc-nd", "copyrighted", "unknown",
 }
 EDITION_TYPES = {"diplomatic", "critical", "collated"}
+# v2 API ContributorRole enum — the API rejects anything else.
+CONTRIBUTOR_ROLES = {"translator", "reviser", "author", "scholar"}
 ORNAMENT_RE = re.compile(r'^[༄༅༆࿓࿔\s།]+')
 # A colophon names how the text came to be: composed, written, arranged,
 # completed, dedicated, requested, carved.
@@ -127,9 +129,38 @@ def build_text(fm, category_id, path):
     if date:
         out["date"] = date
 
-    # contributions are NOT emitted: resolving a person to an id needs the
-    # persons API, which is a separate step. An unresolved author is
-    # dropped rather than guessed.
+    # FORK(liturgy-rails): contributions ARE emitted now. Resolving an author
+    # to a backend person id was the "separate step" this comment used to defer
+    # to; it has been done (1-SOURCES/liturgy-persons.json), and
+    # stamp_metadata.py --authors writes the ids back onto the note's `author:`
+    # field as bracket tags:
+    #
+    #     author: གླང་རི་ཐང་པ། [person:u4IF…] [bdrc:P3445] [role:author]
+    #
+    # Shape required by the v2 API (PersonContributionInput): `type` and `role`
+    # are REQUIRED, role must be one of ContributorRole. An author with no
+    # [person:…] tag is STILL dropped rather than guessed — that was the right
+    # call and it stands.
+    contributions = []
+    for part in (fm.get("author") or "").split(";"):
+        part = part.strip()
+        if not part:
+            continue
+        pid = re.search(r"\[person:([^\]]+)\]", part)
+        if not pid:
+            continue                      # unresolved author: drop, never guess
+        bid = re.search(r"\[bdrc:([^\]]+)\]", part)
+        rol = re.search(r"\[role:([^\]]+)\]", part)
+        role = (rol.group(1).strip() if rol else "author")
+        if role not in CONTRIBUTOR_ROLES:
+            raise ValueError(f"role {role!r} not one of {sorted(CONTRIBUTOR_ROLES)}")
+        entry = {"type": "person", "id": pid.group(1).strip(), "role": role}
+        if bid:
+            entry["bdrc_id"] = bid.group(1).strip()
+        contributions.append(entry)
+    if contributions:
+        out["contributions"] = contributions
+
     return out
 
 
