@@ -14,5 +14,8 @@ __pycache__/
 .env
 
 # vendored toolchain: generated payloads and caches
+# payloads/ sits directly under scripts/, so the */output/ glob misses it —
+# it is regenerated wholesale from 1-SOURCES/Text on every build.
+4-SYSTEM/scripts/payloads/
 4-SYSTEM/scripts/*/output/
 4-SYSTEM/scripts/**/__pycache__/

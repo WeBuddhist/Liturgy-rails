@@ -26,15 +26,25 @@ files before laying the first rail or track.
 
 ## 2. The load-bearing facts
 
-**Notes carry no block IDs.** `1-SOURCES/Text/*.md` contain exactly three
-things: metadata frontmatter, TOC headings, and segmentation as
-blank-line-separated blocks. The v2 API expresses segmentation as
-character spans, so the block boundary *is* the segmentation. Do not add
-`^chapter-verse` anchors.
+**Notes carry block IDs, and they are load-bearing.** (This paragraph said
+the opposite until 2026-08-31; it predated the block-ID migration.)
+`1-SOURCES/Text/*.md` carry metadata frontmatter, TOC headings,
+blank-line-separated blocks, and an Obsidian `^N` anchor closing every block.
+The anchors are stamped by `4-SYSTEM/scripts/block_ids.py` from the
+expert-segmented notes in `0-INBOX/` — never by hand, and never by an agent.
 
-**Consequence:** `webuddhist-library-data-pipeline/tools/parser/parser.py`
-cannot read these notes — it derives spans from block IDs and returns zero
-segments. Use `4-SYSTEM/scripts/build_payloads.py` instead.
+They are not decoration. Each `edition.json` carries
+`segmentation.segments[].reference`, and that reference *is* the block id, so
+the anchors are what the v2 API's character spans are derived from. They are
+also the alignment between a Tibetan block and its translation: block `^N` in
+`3-TRANSFORMATIONS/Translations/…` renders source block `^N`. **Stripping them
+silently destroys both the upload segmentation and every translation
+alignment.**
+
+**Consequence:** the parser reads these notes *because* they carry ids —
+`parser-root-text/parser.py` matches `^N` to find block boundaries. A note
+without ids is what returns zero segments. `build_payloads.py` is the older
+ID-free path; see the note in §3.
 
 **Empty metadata values are deliberate.** A key with no value means the
 backend does not record one. Never fill it with a guess. Two are empty by
@@ -59,6 +69,12 @@ python3 4-SYSTEM/scripts/format_liturgy_batch.py \
 # notes → OpenPecha v2 API payloads, into 4-SYSTEM/scripts/output/
 python3 4-SYSTEM/scripts/build_payloads.py --category-id <CATEGORY_ID>
 ```
+
+> **Stale (2026-08-31):** this describes the older ID-free path, which wrote
+> `instance.json`/`toc.json` into `4-SYSTEM/scripts/output/`. What is actually
+> uploaded today is `<stem>.text.json` + `<stem>.edition.json`, flat, in
+> `4-SYSTEM/scripts/payloads/`, POSTed by `upload_liturgy.py` to `/v2/texts`
+> and `/v2/texts/{text_id}/editions`. Re-trace before relying on this section.
 
 `build_payloads.py` emits, per note, `text.json` (`POST /v2/texts`),
 `instance.json` (`POST /v2/texts/{text_id}/instances` — content plus span
