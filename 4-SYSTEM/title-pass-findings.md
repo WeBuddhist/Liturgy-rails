@@ -9,6 +9,12 @@
    FIXED in 1-SOURCES. 0-INBOX left as the verbatim intake record.
    >> The text was UPLOADED with the bad title: text_id 17Ui1qnL3NJCnEowPZ2ZQ,
       edition_id f7qs8kKZMFZ30ynqq7cif. Backend record needs the same fix.
+   >> DONE 2026-08-31: PATCH /v2/texts/17Ui1qnL3NJCnEowPZ2ZQ set title.bo to
+      སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།. Verified after: title correct, and every other
+      field (editions, bdrc WA0RT3216, language, license) byte-identical to
+      before; དམིགས་བརྩེ་མ།'s own record untouched. NOTE the stale copy still
+      lives in 4-SYSTEM/scripts/payloads/*.text.json — that file is generated,
+      so rebuild payloads before any re-upload or the bad title returns.
 
 ## Flagged, not changed
 2. **Stray genitive** — `འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།`
