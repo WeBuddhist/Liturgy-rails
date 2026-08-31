@@ -115,7 +115,6 @@ opening lines first.
 | སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ། | Prayer to Tārā: A Sevenfold Supplication for Protection | [source](https://www.lotsawahouse.org/tibetan-masters/drikung-kyobpa-jikten-sumgon/sevenfold-tara-refuge-supplication) | Sevenfold Supplication, Sevenfold Prayer for Tara's Protection |
 | སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། | Praises to the Twenty-One Tārās | [source](https://www.lotsawahouse.org/words-of-the-buddha/twenty-one-tara-praise) | Praise to Tārā with Twenty-One Verses of Homage and Their Benefits, In Praise of the Twenty-One Tārās |
 | ༄༅། །སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། ། | Stairway to Liberation: The Uncommon Guru Yoga in Reliance on Cittamaṇi Tārā | [source](https://www.awakeningvajrainternational.org/wp-content/uploads/2019/10/UNCOMMON-GURU-YOGA-OF-CITTAMANI-TARA.pdf) | Stairway to Liberation: the Uncommon Guru Yoga in Reliance to Cittamaṇi Tārā, Cittamaṇi Tārā Guru Yoga |
-| སྣང་སྲིད་དབང་དུ་སྡུད་པའི་གསོལ་འདེབས་བྱིན་རླབས་སྤྲིན་ཆེན། | The Great Cloud of Blessings: The Prayer which Magnetizes All that Appears and All that Exists | [source](https://www.lotsawahouse.org/tibetan-masters/mipham/great-cloud-blessings) | Wangdu, Wang Du: The Great Cloud of Blessings |
 | སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ། | Aspiration Prayer from the Bodhicharyāvatāra | [source](https://www.yowangdu.com/tibetan-buddhism/bonus-shantidevas-dedication.html) | Shantideva's Dedication Prayer, Dedication Prayers from A Guide to the Bodhisattva's Way of Life |
 | སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི། | The Secret Vajra Knot | [source](https://www.lotsawahouse.org/tibetan-masters/minling-terchen/secret-vajra-knot) | The Secret Vajra Knot: An Aspiration Prayer of the Three Yogas, Vajra Knot Aspiration Prayer |
 | སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། ། | Yearning Song of Prayer to Invoke the Wisdom Mind of the Compassionate Teacher Padmasambhava | [source](https://www.lotsawahouse.org/tibetan-masters/fourteenth-dalai-lama/yearning-song-prayer) | A Yearning Song of Prayer to Invoke the Wisdom Mind of the Compassionate Teacher Padmasambhava |
@@ -222,7 +221,6 @@ opening lines first.
 | ལམ་གཙོ་རྣམ་གསུམ། | 三主要道 | [source](https://www.gosokrinpoche.com/three-principal-aspects-of-the-path/) | 聖道三要, 三主要道論 |
 | སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ། | 七救怙祈請文 | [source](http://bud-yamola.blogspot.com/2011/11/blog-post_5.html) | 七救怙祈请文 |
 | སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། | 二十一度母禮讚文 | [source](https://www.kagyuoffice.org.tw/17th-karmapa/2013-04-22-12-49-55/21-taras-praises) | 聖救度佛母二十一種禮讚經, 救度佛母二十一種禮讚經 |
-| སྣང་སྲིད་དབང་དུ་སྡུད་པའི་གསོལ་འདེབས་བྱིན་རླབས་སྤྲིན་ཆེན། | 懷業祈禱文 | [source](https://buddhism.lib.ntu.edu.tw/en/search/search_detail.jsp?seq=694766) | 懷業祈禱文—加持之雲, 懷攝顯有祈請文‧加持大雲 |
 | སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ། | 入菩薩行論‧迴向品 | [source](https://www.lama.com.tw/content/edu/data.aspx?id=613) | 入行論迴向文, 入菩薩行論第十品迴向 |
 | ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔ | 鄔金仁波切遺教祈請文 | [source](https://www.lotsawahouse.org/zh/tibetan-masters/chokgyur-dechen-lingpa/testament-prayer) | 邬金仁波切遗教祈请文 |
 

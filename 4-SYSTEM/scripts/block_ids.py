@@ -300,17 +300,51 @@ def lint_text(raw: str, path: str):
 # CLI
 # --------------------------------------------------------------------------
 
+# FORK(liturgy-rails): a text can be retired (a duplicate of another note, its
+# backend records deleted) while its 0-INBOX copy is deliberately KEPT as the
+# archival record. Without this, the next `stamp 0-INBOX` would silently walk it
+# straight back into 1-SOURCES/Text and re-create everything downstream.
+RETIRED_LIST = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    "4-SYSTEM", "retired-texts.txt")
+
+
+def load_retired(path=RETIRED_LIST):
+    """Stems (filename without .md) that must never be picked up from a dir."""
+    if not os.path.exists(path):
+        return set()
+    out = set()
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.split("#", 1)[0].strip()
+            if line:
+                out.add(line[:-3] if line.endswith(".md") else line)
+    return out
+
+
 def collect(paths):
+    retired = load_retired()
+    skipped = []
     out = []
     for p in paths:
         if os.path.isdir(p):
-            out += [
-                os.path.join(p, f)
-                for f in sorted(os.listdir(p))
-                if f.endswith(".md")
-            ]
+            for f in sorted(os.listdir(p)):
+                if not f.endswith(".md"):
+                    continue
+                if f[:-3] in retired:
+                    skipped.append(f)
+                    continue
+                out.append(os.path.join(p, f))
         else:
+            # An explicitly named file is honoured even if retired — the guard
+            # is against directory sweeps, not against a deliberate one-off.
             out.append(p)
+    if skipped:
+        # Never skip silently: a quiet omission reads as "nothing to do".
+        print(f"retired: skipped {len(skipped)} note(s) listed in "
+              f"{os.path.relpath(RETIRED_LIST)}", file=sys.stderr)
+        for f in skipped:
+            print(f"         {f}", file=sys.stderr)
     return out
 
 

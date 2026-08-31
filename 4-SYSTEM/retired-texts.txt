@@ -1,0 +1,18 @@
+# Retired texts — notes that remain in 0-INBOX as the archival record but must
+# NEVER be picked up again by the pipeline.
+#
+# `block_ids.py::collect()` reads this file and skips any listed stem when it
+# sweeps a directory (it reports what it skipped on stderr — never silently).
+# An explicitly named file path is still honoured, so a deliberate one-off is
+# always possible.
+#
+# One stem per line: the filename without `.md`. `#` starts a comment.
+
+# Duplicate of དབང་སྡུད་གསོལ་འདེབས། — Mipham's magnetizing prayer, entered twice.
+# Same author, same date, same colophon, same 28 verse lines; this copy carried
+# the fuller title but two corrupted syllables (རྡོ་རྗི་ for རྡོ་རྗེ་, མཆོག་རྩོལ་ for
+# མཆོག་སྩོལ་), so the correctly-spelled copy was kept. Its full title survives in
+# the kept note's registry entry `notes` field.
+# Backend records deleted 2026-08-31: text GgvnquJHN7waAAvmewbJT,
+# edition J5X659dDCKohRrR6RmwGM (both verified 404, no orphans).
+སྣང་སྲིད་དབང་དུ་སྡུད་པའི་གསོལ་འདེབས་བྱིན་རླབས་སྤྲིན་ཆེན།
