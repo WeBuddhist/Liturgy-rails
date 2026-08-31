@@ -1,0 +1,466 @@
+#!/usr/bin/env python3
+"""Stamp backend ids, track metadata and researched titles into the vault.
+
+Four independent, idempotent passes. Run from the vault root.
+
+    python3 4-SYSTEM/scripts/stamp_metadata.py --ids
+    python3 4-SYSTEM/scripts/stamp_metadata.py --track-meta
+    python3 4-SYSTEM/scripts/stamp_metadata.py --titles          # needs the registry
+    python3 4-SYSTEM/scripts/stamp_metadata.py --source-titles   # needs the registry
+    python3 4-SYSTEM/scripts/stamp_metadata.py --all
+
+RE-RUN THIS AFTER EVERY dharmamitra-translate RUN. That script rebuilds each
+translation file's frontmatter and body from its ledger on every invocation and
+knows nothing about backend ids, provenance keys or researched titles, so it
+silently reverts all of them. This script restores them and is safe to repeat.
+
+--ids
+    Copies ``text_id`` and ``edition_id`` out of
+    ``4-SYSTEM/scripts/upload_ledger.json`` (the WeBuddhist library upload
+    receipt) into the frontmatter of every ``1-SOURCES/Text/*.md`` note and of
+    the matching translation file in every track under
+    ``3-TRANSFORMATIONS/Translations/``. The notes previously carried no ids —
+    they lived only in the ledger — which meant a translation could not be
+    mapped back to the text it belongs to at upload time.
+
+--track-meta
+    Fills the four provenance keys on every *translation* file:
+    ``author`` (empty — machine output has no author), ``license``,
+    ``source`` (the generator's website) and ``bdrc_work_id`` (empty).
+
+--titles
+    Reads ``1-SOURCES/liturgy-titles.json`` and writes the researched title of
+    each text into its translation files: the frontmatter ``title``, and the H1,
+    which becomes the target-language title with the Tibetan kept as a quoted
+    line beneath it. Any machine-translated rendering of the title block itself
+    is replaced by the researched title.
+
+--source-titles
+    Writes ``title_en`` / ``title_zh`` onto the source notes, so a text's names
+    live with the text.
+
+Nothing here writes translation *content*. --ids and --source-titles are the
+only passes that touch ``1-SOURCES/``.
+"""
+
+import argparse
+import json
+import os
+import re
+import sys
+
+VAULT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+SRC_DIR = os.path.join(VAULT, "1-SOURCES", "Text")
+TRACKS_DIR = os.path.join(VAULT, "3-TRANSFORMATIONS", "Translations")
+LEDGER = os.path.join(VAULT, "4-SYSTEM", "scripts", "upload_ledger.json")
+REGISTRY = os.path.join(VAULT, "1-SOURCES", "liturgy-titles.json")
+
+# Files in a track folder that are track documentation, not a translated text.
+TRACK_DOCS = {"about.md", "style.md", "context-header.md", "requirements.md", "termbase.md"}
+
+GENERATOR_SITE = "https://dharmamitra.org"
+TRACK_LICENSE = "public domain"
+
+
+# --------------------------------------------------------------------------
+# frontmatter helpers — line-based, so every byte we do not touch is preserved
+# --------------------------------------------------------------------------
+
+def split_note(text):
+    """-> (pre, fm_lines, body). Raises if there is no frontmatter block."""
+    if not text.startswith("---\n"):
+        raise ValueError("no frontmatter")
+    end = text.index("\n---\n", 3)
+    fm = text[4:end + 1].split("\n")[:-1]
+    return "---\n", fm, text[end + 5:]
+
+
+def join_note(pre, fm_lines, body):
+    return pre + "\n".join(fm_lines) + "\n---\n" + body
+
+
+def key_of(line):
+    m = re.match(r"^([A-Za-z_][A-Za-z0-9_]*):", line)
+    return m.group(1) if m else None
+
+
+def find_key(fm_lines, key):
+    for i, line in enumerate(fm_lines):
+        if key_of(line) == key:
+            return i
+    return -1
+
+
+def yaml_value(value):
+    """Quote only when the value would otherwise not survive a YAML round-trip."""
+    if value == "":
+        return ""
+    if re.search(r'^[\s>|&*!%@`\'"\[{-]|[:#]\s|["\']$|\s$', value):
+        return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
+    return value
+
+
+def drop_key(fm_lines, key):
+    """Remove a key entirely. Returns True if something was removed."""
+    i = find_key(fm_lines, key)
+    if i < 0:
+        return False
+    del fm_lines[i]
+    return True
+
+
+def set_key(fm_lines, key, value, after=None):
+    """Set key=value. Replaces in place if present, else inserts after `after`
+    (a key name or list of them, first match wins) or appends."""
+    rendered = f"{key}:" + (f" {yaml_value(value)}" if value != "" else "")
+    i = find_key(fm_lines, key)
+    if i >= 0:
+        if fm_lines[i] != rendered:
+            fm_lines[i] = rendered
+            return True
+        return False
+    pos = len(fm_lines)
+    if after:
+        for anchor in ([after] if isinstance(after, str) else after):
+            j = find_key(fm_lines, anchor)
+            if j >= 0:
+                pos = j + 1
+                break
+    fm_lines.insert(pos, rendered)
+    return True
+
+
+# --------------------------------------------------------------------------
+
+def load_ledger():
+    with open(LEDGER) as fh:
+        return json.load(fh)
+
+
+ONLY_TRACK = None   # set by --track: restrict every pass to one track folder
+
+
+def track_files():
+    """-> [(stem, path)] for every translated-text file in every track.
+
+    `--track` narrows this to one folder, which matters when a translation run
+    is in flight: stamping a track the runner is actively rewriting races it."""
+    out = []
+    for root, _dirs, files in os.walk(ONLY_TRACK or TRACKS_DIR):
+        for name in sorted(files):
+            if not name.endswith(".md") or name in TRACK_DOCS:
+                continue
+            path = os.path.join(root, name)
+            with open(path) as fh:
+                head = fh.read(4096)
+            m = re.search(r"^translation_of:\s*1-SOURCES/Text/(.+?)\.md\s*$", head, re.M)
+            if m:
+                out.append((m.group(1), path))
+    return out
+
+
+def edit(path, fn):
+    with open(path) as fh:
+        text = fh.read()
+    pre, fm, body = split_note(text)
+    changed = fn(fm, body)
+    if isinstance(changed, tuple):
+        changed, body = changed
+    if changed:
+        with open(path, "w") as fh:
+            fh.write(join_note(pre, fm, body))
+    return changed
+
+
+# --------------------------------------------------------------------------
+# pass 1 — backend ids
+# --------------------------------------------------------------------------
+
+def pass_ids():
+    ledger = load_ledger()
+    n_src = n_tr = 0
+    missing = []
+
+    for name in sorted(os.listdir(SRC_DIR)):
+        if not name.endswith(".md"):
+            continue
+        stem = name[:-3]
+        rec = ledger.get(stem)
+        if not rec:
+            missing.append(("source", stem))
+            continue
+
+        def apply(fm, body, rec=rec):
+            a = set_key(fm, "text_id", rec["text_id"], after=["category_id", "edition_type", "file_type"])
+            b = set_key(fm, "edition_id", rec["edition_id"], after="text_id")
+            return a or b
+
+        n_src += bool(edit(os.path.join(SRC_DIR, name), apply))
+
+    for stem, path in track_files():
+        rec = ledger.get(stem)
+        if not rec:
+            missing.append(("track", stem))
+            continue
+
+        def apply(fm, body, rec=rec):
+            # WEMI: a translation is its own Expression, so it becomes its own
+            # text with its own edition — not another edition of the Tibetan
+            # text. One rule holds everywhere in the vault:
+            #
+            #   text_id / edition_id            THIS document's own ids
+            #   translation_of_text_id / _edition_id   what it points at
+            #
+            # So a translation carries the Tibetan ids as pointers, and its own
+            # ids stay EMPTY until it is uploaded and the backend assigns them.
+            # (Writing the Tibetan ids into the bare keys, as an earlier version
+            # of this script did, claimed the translation *was* the Tibetan text
+            # and edition.)
+            changed = set_key(fm, "translation_of_text_id", rec["text_id"],
+                              after="translation_of")
+            changed |= set_key(fm, "translation_of_edition_id", rec["edition_id"],
+                               after="translation_of_text_id")
+            # own ids: create them empty, never overwrite one already assigned
+            if find_key(fm, "text_id") < 0:
+                changed |= set_key(fm, "text_id", "", after="translation_of_edition_id")
+            if find_key(fm, "edition_id") < 0:
+                changed |= set_key(fm, "edition_id", "", after="text_id")
+            return changed
+
+        n_tr += bool(edit(path, apply))
+
+    print(f"ids: {n_src} source notes, {n_tr} translation files updated")
+    for kind, stem in missing:
+        print(f"  !! no ledger entry for {kind}: {stem}", file=sys.stderr)
+    return len(missing)
+
+
+# --------------------------------------------------------------------------
+# pass 2 — translation-track provenance metadata
+# --------------------------------------------------------------------------
+
+def pass_track_meta():
+    n = 0
+    for _stem, path in track_files():
+        def apply(fm, body):
+            changed = False
+            changed |= set_key(fm, "author", "", after=["lang_tag", "target_language"])
+            changed |= set_key(fm, "license", TRACK_LICENSE, after="author")
+            changed |= set_key(fm, "source", GENERATOR_SITE, after="license")
+            changed |= set_key(fm, "bdrc_work_id", "", after="source")
+            return changed
+        n += bool(edit(path, apply))
+    print(f"track-meta: {n} translation files updated")
+    return 0
+
+
+# --------------------------------------------------------------------------
+# pass 3 — researched titles
+# --------------------------------------------------------------------------
+
+def _title_key(lang_tag):
+    return {"en": "en_title", "zh": "zh_title"}.get(lang_tag)
+
+
+def pass_titles():
+    if not os.path.exists(REGISTRY):
+        print(f"titles: {REGISTRY} not found — run the research pass first", file=sys.stderr)
+        return 1
+    with open(REGISTRY) as fh:
+        reg = {r["stem"]: r for r in json.load(fh)["texts"]}
+
+    n = 0
+    skipped = []
+    for stem, path in track_files():
+        rec = reg.get(stem)
+        if not rec:
+            skipped.append((stem, "no registry entry"))
+            continue
+        with open(path) as fh:
+            text = fh.read()
+        tag = re.search(r"^lang_tag:\s*(\S+)\s*$", text, re.M)
+        lang = re.search(r"^target_language:\s*(.+?)\s*$", text, re.M)
+        tkey = _title_key(tag.group(1)) if tag else None
+        if not tkey or not rec.get(tkey):
+            skipped.append((stem, "no researched title for that language"))
+            continue
+
+        title = rec[tkey]
+        language = lang.group(1).strip() if lang else ""
+        attested = rec.get(tkey.replace("_title", "_attested"), False)
+        src_url = rec.get(tkey.replace("_title", "_source"), "") or ""
+
+        def apply(fm, body, title=title, language=language, attested=attested,
+                  src_url=src_url, rec=rec):
+            changed = False
+            display = f"{title} — DharmaMitra zero-shot ({language})" if language else title
+            changed |= set_key(fm, "title", display)
+            # The researched title, on its own, plus where it came from.
+            changed |= set_key(fm, "title_translated", title, after="title")
+            changed |= set_key(fm, "title_original", rec["bo_title"], after="title_translated")
+            changed |= set_key(fm, "title_attested",
+                               "true" if attested else "false", after="title_original")
+            changed |= set_key(fm, "title_source", src_url, after="title_attested")
+            new_body, n_body = _retitle_body(body, title, rec.get("bo_heading", ""))
+            return (changed or n_body > 0), new_body
+
+        n += bool(edit(path, apply))
+
+    print(f"titles: {n} translation files updated")
+    for stem, why in skipped:
+        print(f"  skipped {stem}: {why}")
+    return 0
+
+
+def pass_source_titles():
+    """Put the researched titles on the source notes themselves.
+
+    The keys are `title_en` / `title_zh` and NOT `title_in_english`: the
+    dharmamitra-translate script reads `title_in_english` to build its output
+    filename and its context header, so writing that key would silently rename
+    every translation file on the next run.
+    """
+    if not os.path.exists(REGISTRY):
+        print(f"source-titles: {REGISTRY} not found — build the registry first", file=sys.stderr)
+        return 1
+    with open(REGISTRY) as fh:
+        reg = {r["stem"]: r for r in json.load(fh)["texts"]}
+
+    n = 0
+    for name in sorted(os.listdir(SRC_DIR)):
+        if not name.endswith(".md"):
+            continue
+        rec = reg.get(name[:-3])
+        if not rec:
+            continue
+
+        def apply(fm, body, rec=rec):
+            changed = False
+            if rec.get("en_title"):
+                changed |= set_key(fm, "title_en", rec["en_title"], after="title")
+            if rec.get("zh_title"):
+                changed |= set_key(fm, "title_zh", rec["zh_title"], after=["title_en", "title"])
+            return changed
+
+        n += bool(edit(os.path.join(SRC_DIR, name), apply))
+    print(f"source-titles: {n} source notes updated")
+    return 0
+
+
+def _strip_bo(s):
+    """Reduce Tibetan to comparable letters: drop punctuation, the tsheg, the
+    ornamental yig-mgo, quote markers and whitespace."""
+    return re.sub(r"[༄༅།༈་\s༎༏༐༑༔>|]+", "", s or "")
+
+
+def _retitle_body(body, title, bo_heading):
+    """Give the file a target-language H1 while keeping the Tibetan title, and
+    stop the machine's own rendering of the title from standing as a line of
+    translation.
+
+    Two edits, both idempotent:
+
+    1. ``# <Tibetan> ^0`` becomes ``# <researched title> ^0`` with the Tibetan
+       kept as a quoted line beneath it — the same source-above-translation
+       shape every other block in the file uses. The quoted line is followed by
+       a blank line, or it would be absorbed into the next block's source quote.
+    2. Where a *block* is itself the title (the text opens by naming itself, or
+       carries the ``རྒྱ་གར་སྐད་དུ།`` Sanskrit-title formula), the machine
+       translation of that block is replaced by the researched title. The block
+       and its id are kept: every source block must still appear exactly once.
+    """
+    n = 0
+    m = re.search(r"^# (.*?)(\s*\^0)\s*$", body, re.M)
+    if m:
+        current = m.group(1).strip()
+        anchor = m.group(2)
+        if current != title:
+            tail = body[m.end():]
+            # If a previous run already parked the Tibetan heading below the H1,
+            # take it back off rather than stacking a second copy.
+            existing = re.match(r"\n+> ([^\n]*)\n", tail)
+            if existing and _strip_bo(existing.group(1)) == _strip_bo(current):
+                tail = tail[existing.end():].lstrip("\n")
+                tail = "\n" + tail
+            body = body[:m.start()] + f"# {title}{anchor}\n\n> {current}\n" + tail
+            n += 1
+            bo_heading = bo_heading or current
+
+    body, n2 = _retitle_title_block(body, title, bo_heading)
+    return body, n + n2
+
+
+def _retitle_title_block(body, title, bo_heading):
+    """Replace the translation of a block that is itself the work's title."""
+    target = _strip_bo(bo_heading)
+    if not target:
+        return body, 0
+
+    # A rendered block is: quoted source lines, blank line, translation lines,
+    # the last of which carries the ` ^id` anchor.
+    pattern = re.compile(
+        r"(?m)^((?:> [^\n]*\n)+)\n((?:[^\n>#][^\n]*\n?)+?)[ \t]*\^(\S+)[ \t]*$")
+
+    out, pos, n = [], 0, 0
+    for mb in pattern.finditer(body):
+        quote, translation, bid = mb.group(1), mb.group(2), mb.group(3)
+        raw = " ".join(l[2:] for l in quote.strip().split("\n"))
+        src = _strip_bo(raw)
+        # A block counts as the title ONLY if it *is* the title, or if it is the
+        # `རྒྱ་གར་སྐད་དུ། … བོད་སྐད་དུ། <title>` bilingual title formula.
+        #
+        # Mere containment is not enough and was actively wrong: a colophon
+        # ("ཅེས་<title>་དཔལ་ཀརྨ་པས་བྲིས་པ…", "thus the <title>, written by…"), an
+        # end-marker ("<title>་རྫོགས་སོ།།"), and an opening verse that names the
+        # instruction it is about all contain the title while being ordinary
+        # translatable content. Replacing those destroys real translation.
+        is_title = src == target or ("བོད་སྐད་དུ" in raw and target in src)
+        if not is_title:
+            continue
+        if translation.strip() == title:
+            continue  # already done
+        out.append(body[pos:mb.start()])
+        out.append(f"{quote}\n{title} ^{bid}\n")
+        pos = mb.end() + 1 if body[mb.end():mb.end() + 1] == "\n" else mb.end()
+        n += 1
+    if not n:
+        return body, 0
+    out.append(body[pos:])
+    return "".join(out), n
+
+
+# --------------------------------------------------------------------------
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--ids", action="store_true")
+    ap.add_argument("--track-meta", action="store_true")
+    ap.add_argument("--titles", action="store_true")
+    ap.add_argument("--source-titles", action="store_true")
+    ap.add_argument("--all", action="store_true")
+    ap.add_argument("--track", default=None,
+                    help="restrict the translation passes to one track folder — "
+                         "use this when another track is being written by a live "
+                         "translation run")
+    args = ap.parse_args()
+    if args.track:
+        global ONLY_TRACK
+        ONLY_TRACK = args.track
+    if not any([args.ids, args.track_meta, args.titles, args.source_titles, args.all]):
+        ap.error("choose at least one pass")
+
+    rc = 0
+    if args.ids or args.all:
+        rc |= pass_ids()
+    if args.track_meta or args.all:
+        rc |= pass_track_meta()
+    if args.titles or args.all:
+        rc |= pass_titles()
+    if args.source_titles or args.all:
+        rc |= pass_source_titles()
+    return rc
+
+
+if __name__ == "__main__":
+    sys.exit(main())

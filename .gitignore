@@ -12,3 +12,7 @@ __pycache__/
 *.pyc
 .venv
 .env
+
+# vendored toolchain: generated payloads and caches
+4-SYSTEM/scripts/*/output/
+4-SYSTEM/scripts/**/__pycache__/

@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""Build WeBuddhist v2 API payloads for stamped liturgy notes.
+
+Emits, per note in 1-SOURCES/Text/:
+
+    <stem>.text.json      ->  POST /v2/texts
+    <stem>.edition.json   ->  POST /v2/texts/{text_id}/editions
+
+No toc.json: a flat liturgy text has no table of contents. The parser
+would manufacture a one-entry TOC out of the H1 title, which is an
+artifact of the parser rather than structure in the text, so it is not
+emitted. Texts that carry real `##` sections are handled separately.
+
+Content and character spans come from the vendored upstream parser
+(`parser-root-text/parser.py`), which stays untouched — see UPSTREAM.md.
+Two things are layered on top here:
+
+1. `text.json` is built straight from the note's own frontmatter, so the
+   upstream linter (dead endpoint, in-place .md patching, required
+   `category_id`/`source`) is not in the path. Person `contributions` are
+   NOT resolved yet and are omitted.
+2. Segment types are re-derived from segment SHAPE. Upstream infers type
+   from the reference string, which for this corpus always falls through
+   to a document-wide default and labels every segment "verse".
+
+Usage:
+    liturgy_payloads.py --category-id <ID> --out-dir <dir> <note.md>...
+"""
+
+from __future__ import annotations
+
+import argparse
+import importlib.util
+import json
+import os
+import re
+import statistics
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+LICENSES = {
+    "cc0", "public", "cc-by", "cc-by-sa", "cc-by-nd", "cc-by-nc",
+    "cc-by-nc-sa", "cc-by-nc-nd", "copyrighted", "unknown",
+}
+EDITION_TYPES = {"diplomatic", "critical", "collated"}
+ORNAMENT_RE = re.compile(r'^[༄༅༆࿓࿔\s།]+')
+# A colophon names how the text came to be: composed, written, arranged,
+# completed, dedicated, requested, carved.
+COLOPHON_RE = re.compile(
+    r'(མཛད་པ|བྲིས་པ|སྦྱར་བ|རྫོགས་ས|དགེའོ|བགྱིས་པ|ཞུས་ས|པར་དུ་བསྒྲུབས)'
+)
+VERSE_MAX_MEAN_LINE = 60   # chars; above this a "line" is prose, not metre
+
+
+def load_upstream_parser():
+    path = os.path.join(HERE, "parser-root-text", "parser.py")
+    spec = importlib.util.spec_from_file_location("wb_parser", path)
+    mod = importlib.util.module_from_spec(spec)
+    sys.path.insert(0, os.path.dirname(path))
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def classify(lines, is_last):
+    """Segment type from shape.
+
+    Tibetan liturgical verse is metrical: several short lines, each closed
+    by a shad. Ritual instruction, mantra and dhāraṇī run as one long line
+    with shads *inside* it. That difference is what this reads.
+    """
+    lengths = [len(l) for l in lines]
+    mean = statistics.mean(lengths) if lengths else 0
+    if is_last and mean >= VERSE_MAX_MEAN_LINE and COLOPHON_RE.search("".join(lines)):
+        return "back_matter"
+    if len(lines) >= 2 and mean < VERSE_MAX_MEAN_LINE:
+        return "verse"
+    return "paragraph"
+
+
+def retype_segments(edition):
+    """Replace upstream's uniform 'verse' with shape-derived types."""
+    content = edition["content"]
+    segs = edition["segmentation"]["segments"]
+    last = len(segs) - 1
+    counts = {}
+    for i, seg in enumerate(segs):
+        if seg["type"] == "title":
+            counts["title"] = counts.get("title", 0) + 1
+            continue
+        lines = [content[l["start"]:l["end"]] for l in seg["lines"]]
+        seg["type"] = classify(lines, i == last)
+        counts[seg["type"]] = counts.get(seg["type"], 0) + 1
+    return counts
+
+
+def build_text(fm, category_id, path):
+    lang = (fm.get("lang_tag") or "").strip()
+    if not lang:
+        raise ValueError("lang_tag missing — cannot build a localized title")
+
+    title = (fm.get("title") or "").strip()
+    if not title:
+        raise ValueError("title missing")
+    # The API's title field carries the bare title; the ༄༅། །  ornament
+    # belongs to the page, not the name.
+    title = ORNAMENT_RE.sub("", title).strip()
+    if not title:
+        raise ValueError("title is only ornament")
+
+    out = {
+        "title": {lang: title},
+        "language": lang,
+        "category_id": category_id,
+    }
+
+    lic = (fm.get("license") or "").strip()
+    if lic:
+        if lic not in LICENSES:
+            raise ValueError(f"license {lic!r} not one of {sorted(LICENSES)}")
+        out["license"] = lic
+
+    bdrc = (fm.get("bdrc_work_id") or fm.get("bdrc") or "").strip()
+    if bdrc:
+        out["bdrc"] = bdrc
+
+    date = (fm.get("date") or "").strip()
+    if date:
+        out["date"] = date
+
+    # contributions are NOT emitted: resolving a person to an id needs the
+    # persons API, which is a separate step. An unresolved author is
+    # dropped rather than guessed.
+    return out
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("paths", nargs="+", help="stamped .md notes")
+    ap.add_argument("--category-id", required=True)
+    ap.add_argument("--out-dir", required=True)
+    args = ap.parse_args(argv)
+
+    P = load_upstream_parser()
+    os.makedirs(args.out_dir, exist_ok=True)
+    ok = bad = 0
+
+    for path in args.paths:
+        stem = os.path.splitext(os.path.basename(path))[0]
+        try:
+            fm, _ = P._read_source(__import__("pathlib").Path(path))
+            text = build_text(fm, args.category_id, path)
+
+            etype = (fm.get("edition_type") or "critical").strip()
+            if etype not in EDITION_TYPES:
+                raise ValueError(f"edition_type {etype!r} not one of {sorted(EDITION_TYPES)}")
+
+            # upstream writes its own output/ copy; we only want the dict
+            _, edition = P.build_edition(__import__("pathlib").Path(path), None)
+            counts = retype_segments(edition)
+
+            meta = {"type": etype}
+            src = (fm.get("source") or "").strip()
+            if src:
+                meta["source"] = src
+            edition["metadata"] = meta
+
+            for name, payload in ((f"{stem}.text.json", text),
+                                  (f"{stem}.edition.json", edition)):
+                with open(os.path.join(args.out_dir, name), "w", encoding="utf-8") as fh:
+                    json.dump(payload, fh, ensure_ascii=False, indent=2)
+            ok += 1
+            n = len(edition["segmentation"]["segments"])
+            spans = sum(len(s["lines"]) for s in edition["segmentation"]["segments"])
+            print(f"ok     {stem}")
+            print(f"         {len(edition['content'])} chars | {n} segments | "
+                  f"{spans} line spans | {counts}")
+        except Exception as exc:
+            print(f"ABORT  {stem}\n         {type(exc).__name__}: {exc}")
+            bad += 1
+
+    print(f"\n{ok} built into {args.out_dir}, {bad} aborted")
+    return 1 if bad else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
