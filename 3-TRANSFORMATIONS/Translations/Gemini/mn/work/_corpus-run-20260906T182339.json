@@ -1,0 +1,32 @@
+{
+ "lang": "mongolian",
+ "lang_tag": "mn",
+ "track": "3-TRANSFORMATIONS/Translations/Gemini/mn",
+ "model": "gemini-3.1-pro-preview",
+ "thinking": "default",
+ "reference_track": null,
+ "started": "2026-09-06T18:23:39",
+ "finished": "2026-09-06T18:24:20",
+ "texts_attempted": 1,
+ "texts_planned": 1,
+ "blocks_done": 10,
+ "blocks_total": 10,
+ "calls": 2,
+ "parity_failures": [],
+ "failed_blocks": [],
+ "stopped": null,
+ "texts": [
+  {
+   "text": "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།",
+   "lang_tag": "mn",
+   "blocks_total": 10,
+   "blocks_done": 10,
+   "new": 10,
+   "calls": 2,
+   "fallbacks": 0,
+   "parity_failures": [],
+   "failed": [],
+   "stopped_at": null
+  }
+ ]
+}

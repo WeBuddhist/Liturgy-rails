@@ -1,0 +1,40 @@
+=== names pass 2 ===
+  འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བླ     1 block(s): ^21
+  རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔                    1 block(s): ^4
+  རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།     1 block(s): ^35
+  རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོ     1 block(s): ^12
+  སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།                  1 block(s): ^13
+20 block(s) in 16 text(s) lack a canonical name form (of 466 name occurrences)
+=== ornament re-run ===
+=== བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།  ^30
+[1/1] ^30  (1 blk, 249 src, 2786 ctx) … 38.26s  अहो !
+calls  1 for 1 block(s) recorded this run
+SUMMARY {"text": "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི�
+=== བློ་སྦྱོང་ཚིག་བརྒྱད་མ།  ^1
+[1/1] ^1  (1 blk, 24 src, 360 ctx) … 7.3s  चित्तशोधनका आठ श्लोक
+calls  1 for 1 block(s) recorded this run
+SUMMARY {"text": "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།", "lang_tag": "ne", "bloc
+texts re-run: 3
+ids: 0 source notes, 3 translation files updated track-meta: 3 translation files updated titles: 3 translation files updated 
+remaining lines with Tibetan characters in ne translations:
+  none
+=== verify ===
+last report : _corpus-run-20260906T194525.json  texts 94/94, blocks 1892/1892, calls 191, stopped=None
+ledgers     : 94 texts, 1892 blocks; 0 without line parity
+rendered    : 94 files; short 0, placeholders 0, untitled 0, no source site 0
+block ids   : 0 file(s) differ from the Tibetan
+stray script: 0 translation line(s) with Tibetan or CJK characters
+ne: OK
+=== names pass 3 (variant key, ཨེ་མ་ཧོ) ===
+  འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པ     1 block(s): ^9
+  འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།     1 block(s): ^3
+  རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།     1 block(s): ^35
+  སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།                  1 block(s): ^13
+9 block(s) in 9 text(s) lack a canonical name form (of 489 name occurrences)
+=== verify ===
+last report : _corpus-run-20260906T194525.json  texts 94/94, blocks 1892/1892, calls 191, stopped=None
+ledgers     : 94 texts, 1892 blocks; 0 without line parity
+rendered    : 94 files; short 0, placeholders 0, untitled 0, no source site 0
+block ids   : 0 file(s) differ from the Tibetan
+stray script: 0 translation line(s) with Tibetan or CJK characters
+ne: OK
