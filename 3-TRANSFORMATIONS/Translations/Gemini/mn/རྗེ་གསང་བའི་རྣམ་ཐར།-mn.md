@@ -31,7 +31,7 @@ glossary: 3-TRANSFORMATIONS/Translations/Gemini/mn/glossary.tsv
 line_parity_failures: 0
 style_instruction: "Translate this Tibetan liturgical text into Mongolian, line by line: render each Tibetan line as exactly one Mongolian line, in the same order, keeping the same number of lines as the source. Write modern Mongolian in Cyrillic script (Khalkha standard as used in Mongolia). Mongolian Buddhism has a centuries-old liturgical vocabulary derived from Tibetan — use it: бурхан, ном, хутагт, лам, ядам, дагина, сахиус, лагшин, бодь сэтгэл, буян, зориулга, аврал; and the established Mongolian names of deities (Жанрайсиг, Дарь эх, Манзушир, Очирваань, Ловон Бадамжунай). Devotional register suited to recitation, in natural Mongolian word order. Keep mantras and dhāraṇīs in Cyrillic transliteration as Mongolian practitioners recite them (Ум мани бадмэ хум), never translated. Transliterate other Tibetan personal names and place names. Do not add commentary, notes, or explanation."
 rails_used: none
-generated: 2026-09-06
+generated: 2026-09-07
 blocks_translated: 51
 blocks_total: 51
 status: draft
@@ -64,9 +64,9 @@ status: draft
 > དད་པས་སྤེལ་ལ་ཅུང་ཟད་མཉན་པར་གྱིས། །
 
 Таны лагшин, зарлиг, тааллын эрдэм бүхнийг
-Арван зүгт заларсан бурхан болоод шавь нар нь
-Үлдэлгүйгээр өгүүлэн эс чадах хэдий ч
-Сүсгээр дэлгэрүүлэхүйд минь өчүүхэн төдий соёрхон сонсоно уу. ^3
+Арван зүгт заларсан ялгуусан болоод хөвгүүд сэлт бээр
+Үлдэлгүйгээр өгүүлж үл чадах боловч
+Сүсгээр дэлгэрүүлэхийг өчүүхэн төдий сонсон соёрх. ^3
 
 > ཡོན་ཏན་རྒྱ་མཚོའི་བསྟོད་ཚིག་མེ་ཏོག་གི །
 > འཕྲེང་བ་སྤེལ་ལེགས་བློ་གསལ་མགྲིན་པའི་རྒྱན། །
@@ -93,10 +93,10 @@ status: draft
 > རྣལ་འབྱོར་དབང་ཕྱུག་སྔགས་རིག་ཀུན་གྱི་གཙོ། །
 > དཔལ་ལྡན་བླ་མ་ལུས་ཅན་གཙུག་ན་རྒྱལ། །
 
-Олон живаа Самадийг эрхшээж,
-Сайн номлол зохиох болон бүтээлд илт хичээгч,
-Налжор эрхтэн, тарнийн ухаан бүхний манлай,
-Цогт лам амьтан бүхний оройд ялгуусан болмуй. ^6
+Олон сая самадид сайтар эрхшээгээд,
+Сайн номлол зохиох хийгээд бүтээхүйд илт хичээгч,
+Налжорын эрхтэн тарнийн ухаан бүхний манлай,
+Цогт лам биетэн бүгдийн оройд ялгуусан бөлгөө. ^6
 
 > སྔོན་ཚེ་རྡོ་རྗེ་གདན་དུ་རྒྱལ་བ་ལ། །
 > རིན་ཆེན་ཤེལ་གྱི་ཕྲེང་བ་བརྒྱ་རྩ་གཅིག །

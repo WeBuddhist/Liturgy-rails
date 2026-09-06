@@ -1,11 +1,23 @@
 ---
-title: དབང་སྡུད་གསོལ་འདེབས། — Gemini zero-shot (mongolian)
+title: Эрхэнд хураах залбирал — Gemini zero-shot (mongolian)
+title_translated: Эрхэнд хураах залбирал
+title_original: དབང་སྡུད་གསོལ་འདེབས།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/དབང་སྡུད་གསོལ་འདེབས།.md
+translation_of_text_id: F6uq5RqCtMAPyqOmoa3cT
+translation_of_edition_id: bNDUylO5w169ah6pDrScr
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །དབང་སྡུད་གསོལ་འདེབས། ^0
+# Эрхэнд хураах залбирал ^0
+
+> ༄༅། །དབང་སྡུད་གསོལ་འདེབས།
 
 > ཨོཾ་ཨཱ་ཧཱུྃཿཧྲཱིཿ
 > བདེ་ཆེན་འབར་བ་དབང་གི་ཕོ་བྲང་དུ། །

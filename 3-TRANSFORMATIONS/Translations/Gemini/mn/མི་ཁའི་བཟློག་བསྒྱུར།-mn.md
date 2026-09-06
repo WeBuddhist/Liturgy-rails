@@ -1,11 +1,23 @@
 ---
-title: ༄༅། །མི་ཁའི་བཟློག་བསྒྱུར། — Gemini zero-shot (mongolian)
+title: Хэл ам хариулах арга — Gemini zero-shot (mongolian)
+title_translated: Хэл ам хариулах арга
+title_original: ༄༅། །མི་ཁའི་བཟློག་བསྒྱུར།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/མི་ཁའི་བཟློག་བསྒྱུར།.md
+translation_of_text_id: ah72PYssW0OH9034vKXr1
+translation_of_edition_id: HTZuV4cqg8kCEH21xUCmK
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །མི་ཁའི་བཟློག་བསྒྱུར། ། ^0
+# Хэл ам хариулах арга ^0
+
+> ༄༅། །མི་ཁའི་བཟློག་བསྒྱུར། །
 
 > ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ། ཧཱུྃ་ཧཱུྃ་བློ་སྦྱོ་བཟློག་བཟློག །
 

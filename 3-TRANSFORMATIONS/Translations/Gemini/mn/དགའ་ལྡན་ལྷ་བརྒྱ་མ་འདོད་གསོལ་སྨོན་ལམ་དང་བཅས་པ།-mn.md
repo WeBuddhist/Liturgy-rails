@@ -1,11 +1,23 @@
 ---
-title: དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ། — Gemini zero-shot (mongolian)
+title: Ганданлажаа — Gemini zero-shot (mongolian)
+title_translated: Ганданлажаа
+title_original: དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།.md
+translation_of_text_id: ewzxYYcM5UF1oCDtMDxNl
+translation_of_edition_id: 9HPXahDQ9ptYjc0QmmxjJ
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། ། དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ། ^0
+# Ганданлажаа ^0
+
+> ༄༅། ། དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།
 
 > ན་མོ་གུ་རུ་མཉྫུ་གྷོ་ཥཱ་ཡ། །
 > དགའ་ལྡན་ལྷ་བརྒྱའི་མགོན་གྱི་ཐུགས་ཀ་ནས། །

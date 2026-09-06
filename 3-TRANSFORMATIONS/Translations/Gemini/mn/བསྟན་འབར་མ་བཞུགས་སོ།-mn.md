@@ -1,11 +1,23 @@
 ---
-title: བསྟན་འབར་མ་བཞུགས་སོ། — Gemini zero-shot (mongolian)
+title: Шашин бадрахын ерөөл — Gemini zero-shot (mongolian)
+title_translated: Шашин бадрахын ерөөл
+title_original: བསྟན་འབར་མ་བཞུགས་སོ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/བསྟན་འབར་མ་བཞུགས་སོ།.md
+translation_of_text_id: JzdTksx02HFu7AJcrZoca
+translation_of_edition_id: D1SKehgiivid8Q9LJmqmU
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །བསྟན་འབར་མ་བཞུགས་སོ། ^0
+# Шашин бадрахын ерөөл ^0
+
+> ༄༅། །བསྟན་འབར་མ་བཞུགས་སོ།
 
 > སངས་རྒྱས་རྣམ་གཟིགས་གཙུག་ཏོར་ཐམས་ཅད་སྐྱོབ། །
 > འཁོར་བ་འཇིག་དང་གསེར་ཐུབ་འོད་སྲུང་དང་། །

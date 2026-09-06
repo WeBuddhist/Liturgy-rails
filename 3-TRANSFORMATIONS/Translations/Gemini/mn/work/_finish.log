@@ -27,3 +27,15 @@ mn mantra forms: [('базар гуру бадмэ сидди хум', 12), ('б
 mn glossary mantra pinned to majority form: базар гуру бадмэ сидди хум
 === names pass 3 (variant key, ཨེ་མ་ཧོ, Vajra Guru mantra) ===
 40 block(s) in 25 text(s) lack a canonical name form (of 627 name occurrences)
+  རྗེ་གསང་བའི་རྣམ་ཐར།                          2 block(s): ^3, ^6
+  སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།                  5 block(s): ^6, ^11, ^13, ^17, ^20
+  སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།              1 block(s): ^8
+  སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།               1 block(s): ^9
+30 block(s) in 21 text(s) lack a canonical name form (of 627 name occurrences)
+=== verify ===
+last report : _corpus-run-20260906T194525.json  texts 94/94, blocks 1892/1892, calls 206, stopped=None
+ledgers     : 94 texts, 1892 blocks; 0 without line parity
+rendered    : 94 files; short 0, placeholders 0, untitled 0, no source site 0
+block ids   : 0 file(s) differ from the Tibetan
+stray script: 0 translation line(s) with Tibetan or CJK characters
+mn: OK

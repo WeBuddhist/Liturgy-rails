@@ -1,11 +1,23 @@
 ---
-title: ༄༅། །དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། ། — Gemini zero-shot (mongolian)
+title: Сандуйн өдөр тутмын бясалгал, уншлага — Gemini zero-shot (mongolian)
+title_translated: Сандуйн өдөр тутмын бясалгал, уншлага
+title_original: ༄༅། །དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །.md
+translation_of_text_id: 9aEhOMQoNH2AbQcyaPfhI
+translation_of_edition_id: lb3SgF7wQg1V0nDvTmM4Q
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། ། ^0
+# Сандуйн өдөр тутмын бясалгал, уншлага ^0
+
+> ༄༅། །དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །
 
 > རྒྱལ་ཀུན་གསང་གསུམ་ནོར་བུའི་དབྱིག །
 > གང་དུ་འདུས་པའི་ཟ་མ་ཏོག །

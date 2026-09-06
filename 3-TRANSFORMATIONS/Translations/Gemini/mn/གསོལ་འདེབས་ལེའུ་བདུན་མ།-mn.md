@@ -1,11 +1,23 @@
 ---
-title: གསོལ་འདེབས་ལེའུ་བདུན་མ། — Gemini zero-shot (mongolian)
+title: Долоон бүлэгт залбирал — Gemini zero-shot (mongolian)
+title_translated: Долоон бүлэгт залбирал
+title_original: གསོལ་འདེབས་ལེའུ་བདུན་མ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/གསོལ་འདེབས་ལེའུ་བདུན་མ།.md
+translation_of_text_id: fKlCfal3gQNiPwEQ3qmgW
+translation_of_edition_id: ekv4YsfghJab1lrxoHEy0
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །གསོལ་འདེབས་ལེའུ་བདུན་མ། ^0
+# Долоон бүлэгт залбирал ^0
+
+> ༄༅། །གསོལ་འདེབས་ལེའུ་བདུན་མ།
 
 > ཨེ་མ་ཧོ༔
 > སྤྲོས་བྲལ་ཆོས་ཀྱི་དབྱིངས་ཀྱི་ཞིང་ཁམས་སུ༔

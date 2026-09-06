@@ -1,11 +1,23 @@
 ---
-title: བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ། — Gemini zero-shot (mongolian)
+title: Төвөд орны энх амгалангийн ерөөл — Gemini zero-shot (mongolian)
+title_translated: Төвөд орны энх амгалангийн ерөөл
+title_original: བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།.md
+translation_of_text_id: QlABWRJ1Buppn13fO4MFP
+translation_of_edition_id: busmPWQ4sdx77Ey5oBQTa
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ། ། ^0
+# Төвөд орны энх амгалангийн ерөөл ^0
+
+> ༄༅། །བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ། །
 
 > སྐྱབས་གནས་བསླུ་མེད་དཀོན་མཆོག་རྩ་བ་གསུམ། །
 > ཁྱད་པར་གངས་ཅན་མགོན་པོ་སྤྱན་རས་གཟིགས། །

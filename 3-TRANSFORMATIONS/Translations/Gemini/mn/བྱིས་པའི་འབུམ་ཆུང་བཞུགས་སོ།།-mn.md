@@ -1,11 +1,23 @@
 ---
-title: བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།། — Gemini zero-shot (mongolian)
+title: Хүүхдийн бага Юм — Gemini zero-shot (mongolian)
+title_translated: Хүүхдийн бага Юм
+title_original: བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།.md
+translation_of_text_id: ZUYKSNhId4fkM8GExRjIv
+translation_of_edition_id: efZc9xHWDmi5VqdhMPNI2
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།། ^0
+# Хүүхдийн бага Юм ^0
+
+> ༄༅། །བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།
 
 > ༄༅། ། རྒྱ་གར་སྐད་དུ། ཤཏ་སཧ་སྲི་ཀ་པྲཛྙཱ་པ་ར་མི་ཏ། བོད་སྐད་དུ། འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་སྟོང་ཕྲག་བརྒྱ་པའི་དོན་མ་ནོར་བར་བསྡུས་པ།
 

@@ -84,7 +84,7 @@ provenance keys or researched titles.
 | 2026-09-06 | Pilot: `བློ་སྦྱོང་ཚིག་བརྒྱད་མ།`, `སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།` | 39/39 blocks, line parity clean; reviewed block by block in `pilot-review.md` (READY FOR FULL RUN, `style.md` unchanged) |
 | 2026-09-06 | Full corpus, `gm_corpus.py --lang` (model `gemini-3.1-pro-preview`, thinking default) | 94/94 texts, 1892/1892 blocks, 206 calls in the final resumed run, 0 line-parity failures, 0 failed blocks |
 | 2026-09-06 | Spot-read of three unseen texts (`corpus-run-review.md`) | content sound; one systematic defect: recurring proper names spelled inconsistently across blocks |
-| 2026-09-06 | Names pinned (`gm_names.py --propose`; 47 glossary entries) and drifting blocks re-run (`--rerun`, two passes) | 15 block(s) of 452 name occurrences still lack the pinned form after the boundary-aware check — epithets or longer names containing the key, listed by `gm_names.py --check` |
+| 2026-09-06 | Names pinned (`gm_names.py --propose`; 50 glossary entries) and drifting blocks re-run (`--rerun`, two passes) | 30 block(s) of 627 name occurrences still lack the pinned form after the boundary-aware check — epithets or longer names containing the key, listed by `gm_names.py --check` |
 | 2026-09-06 | Ornament re-run (output contract now forbids copying ༈ ། ༔) and `gm_verify.py` | OK: every file whole, block ids identical to the Tibetan, no stray script |
 
 Every re-run is an appended ledger record produced by the same model under the

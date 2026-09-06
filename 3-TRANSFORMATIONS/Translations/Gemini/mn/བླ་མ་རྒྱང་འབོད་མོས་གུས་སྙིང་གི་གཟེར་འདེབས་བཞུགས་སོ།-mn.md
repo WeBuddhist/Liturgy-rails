@@ -1,11 +1,23 @@
 ---
-title: བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ། — Gemini zero-shot (mongolian)
+title: Ламыг холоос дуудах залбирал — Gemini zero-shot (mongolian)
+title_translated: Ламыг холоос дуудах залбирал
+title_original: བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།.md
+translation_of_text_id: EY2k27QEXVvK8teitNQjg
+translation_of_edition_id: H89B7i9l40fbzBU8aISNZ
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ། ། ^0
+# Ламыг холоос дуудах залбирал ^0
+
+> ༄༅། །བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ། །
 
 > ན་མོ་གུ་རུ་བེ།བླ་མ་རྒྱང་འབོད་ཀུན་ལ་གྲགས་ཆེའང༌། བྱིན་རླབས་བསྐུལ་བའི་གནད་སྐྱོ་ཤས་ངེས་འབྱུང་གིས་བསྐུལ་བའི་མོས་གུས་ཁ་ཙམ་ཚིག་ཙམ་མ་ཡིན་པར་སྙིང་གི་དཀྱིལ། རུས་པའི་གཏིང་ནས་བསྐྱེད། བླ་མ་ལས་ལྷག་པའི་སངས་རྒྱས་གཞན་ན་མེད་པར་ཐག་ཆོད་པའི་ངེས་ཤེས་དང་ལྡན་པས་དབྱངས་རྟ་སྙན་པོས།
 

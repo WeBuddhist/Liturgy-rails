@@ -1,11 +1,23 @@
 ---
-title: དཔལ་ལྡན་ས་གསུམ་མ། — Gemini zero-shot (mongolian)
+title: Цогт гурван ертөнц — Gemini zero-shot (mongolian)
+title_translated: Цогт гурван ертөнц
+title_original: དཔལ་ལྡན་ས་གསུམ་མ།
+title_attested: false
+title_source:
 file_type: translation
 track_type: machine-baseline
 translation_of: 1-SOURCES/Text/དཔལ་ལྡན་ས་གསུམ་མ།.md
+translation_of_text_id: rdnoZAE3O4iTy4ds73dA9
+translation_of_edition_id: y0tyghuqxtziSrVMobkNe
+text_id:
+edition_id:
 source_language: tibetan
 target_language: mongolian
 lang_tag: mn
+author:
+license: public
+source: https://ai.google.dev
+bdrc_work_id:
 generator: gemini-3.1-pro-preview
 endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
 model: gemini-3.1-pro-preview
@@ -28,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# ༄༅། །དཔལ་ལྡན་ས་གསུམ་མ། ^0
+# Цогт гурван ертөнц ^0
+
+> ༄༅། །དཔལ་ལྡན་ས་གསུམ་མ།
 
 > དཔལ་ལྡན་རྩ་བའི་བླ་མ་རིན་པོ་ཆེ། །
 > བདག་སོགས་སྙིང་གར་པདྨོའི་སྟེང་བཞུགས་ལ། །

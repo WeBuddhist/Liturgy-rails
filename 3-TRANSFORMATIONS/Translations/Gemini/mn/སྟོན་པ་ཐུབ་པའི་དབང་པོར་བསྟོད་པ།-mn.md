@@ -31,7 +31,7 @@ glossary: 3-TRANSFORMATIONS/Translations/Gemini/mn/glossary.tsv
 line_parity_failures: 0
 style_instruction: "Translate this Tibetan liturgical text into Mongolian, line by line: render each Tibetan line as exactly one Mongolian line, in the same order, keeping the same number of lines as the source. Write modern Mongolian in Cyrillic script (Khalkha standard as used in Mongolia). Mongolian Buddhism has a centuries-old liturgical vocabulary derived from Tibetan — use it: бурхан, ном, хутагт, лам, ядам, дагина, сахиус, лагшин, бодь сэтгэл, буян, зориулга, аврал; and the established Mongolian names of deities (Жанрайсиг, Дарь эх, Манзушир, Очирваань, Ловон Бадамжунай). Devotional register suited to recitation, in natural Mongolian word order. Keep mantras and dhāraṇīs in Cyrillic transliteration as Mongolian practitioners recite them (Ум мани бадмэ хум), never translated. Transliterate other Tibetan personal names and place names. Do not add commentary, notes, or explanation."
 rails_used: none
-generated: 2026-09-06
+generated: 2026-09-07
 blocks_translated: 22
 blocks_total: 22
 status: draft
@@ -119,9 +119,9 @@ status: draft
 > མཁྱེན་པར་བྱ་བའི་ཆོས་རྣམས་ཀུན། །
 > མ་ལུས་གཟིགས་པ་ཁྱོད་ཕྱག་འཚལ། །
 
-Олох ёстой эрдэм бүхнийг олсноор,
-Өөрийн хийгээд бусдын үйлсийг бүтээж,
-Мэдэхүйеэ зохих номс бүгдийг
+Олох ёстой эрдэм бүгдийг олсноор,
+Өөрийн хийгээд бусдын үйлсийг бүтээгч,
+Мэдэгдэхүүн номс бүгдийг
 Үлдэлгүйгээр болгоогч танд мөргөмү. ^8
 
 > དྲན་དང་བརྩོན་འགྲུས་ཏིང་ངེ་འཛིན། །
