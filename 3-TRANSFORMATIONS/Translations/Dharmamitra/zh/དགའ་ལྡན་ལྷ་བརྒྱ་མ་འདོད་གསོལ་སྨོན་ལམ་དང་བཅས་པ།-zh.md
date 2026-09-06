@@ -15,7 +15,7 @@ source_language: tibetan
 target_language: modern chinese
 lang_tag: zh
 author:
-license: public domain
+license: public
 source: https://dharmamitra.org
 bdrc_work_id:
 generator: dharmamitra cat-translate v1
