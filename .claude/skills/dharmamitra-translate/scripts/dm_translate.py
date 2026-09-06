@@ -452,24 +452,53 @@ def call_api(body, timeout, retries, verbose=False):
 # ---------------------------------------------------------------- render
 
 
-def render(out_md, units, ledger, meta, args, source_rel):
+DM_WARNING = (
+    "> [!warning] Machine baseline — not a rails-governed translation.\n"
+    "> Every line below is raw DharmaMitra `cat-translate` output, produced in "
+    "small batches of adjacent blocks with no termbase, no verse-context rails, "
+    "and no human review. It is a comparison baseline and a drafting aid only. "
+    "See `about.md` in this folder."
+)
+
+
+def render(out_md, units, ledger, meta, args, source_rel, prov=None):
+    """Write the block-ID-aligned markdown for one text.
+
+    `prov` lets a sibling generator (the gemini-translate skill) reuse this
+    exact renderer — same body shape, same frontmatter skeleton — while naming
+    itself honestly. It is a dict with `label` (the title suffix), `generator`,
+    `endpoint`, `fields` (an ordered dict of generator-specific frontmatter
+    keys that sit where `focus`/`context_blocks`/`batching` sit here) and
+    `warning` (the callout text). Left as None, the output is byte-for-byte
+    what this script has always written.
+    """
     by_id = {r["block_id"]: r for r in ledger}
     lines = []
+    if prov is None:
+        prov = {
+            "label": "DharmaMitra zero-shot",
+            "generator": "dharmamitra cat-translate v1",
+            "endpoint": ENDPOINT,
+            "fields": {
+                "focus": args.focus,
+                "context_blocks": args.context_blocks,
+                "batching": f"<={getattr(args, 'batch', 1)} blocks/call, "
+                            f"<={getattr(args, 'batch_max_chars', 0)} src chars, "
+                            f"<={getattr(args, 'payload_cap', 0)} payload chars",
+            },
+            "warning": DM_WARNING,
+        }
     fm = {
-        "title": f'{meta.get("title_in_english") or meta.get("title") or source_rel} — DharmaMitra zero-shot ({args.lang})',
+        "title": f'{meta.get("title_in_english") or meta.get("title") or source_rel} — {prov["label"]} ({args.lang})',
         "file_type": "translation",
         "track_type": "machine-baseline",
         "translation_of": source_rel,
         "source_language": args.source_language,
         "target_language": args.lang,
         "lang_tag": args.lang_tag,
-        "generator": "dharmamitra cat-translate v1",
-        "endpoint": ENDPOINT,
-        "focus": args.focus,
-        "context_blocks": args.context_blocks,
-        "batching": f"<={getattr(args, 'batch', 1)} blocks/call, "
-                    f"<={getattr(args, 'batch_max_chars', 0)} src chars, "
-                    f"<={getattr(args, 'payload_cap', 0)} payload chars",
+        "generator": prov["generator"],
+        "endpoint": prov["endpoint"],
+        **prov["fields"],
         "style_instruction": args.style,
         "rails_used": "none",
         "generated": _dt.date.today().isoformat(),
@@ -484,13 +513,7 @@ def render(out_md, units, ledger, meta, args, source_rel):
         lines.append(f"{k}: {v}")
     lines.append("---")
     lines.append("")
-    lines.append(
-        "> [!warning] Machine baseline — not a rails-governed translation.\n"
-        "> Every line below is raw DharmaMitra `cat-translate` output, produced in "
-        "small batches of adjacent blocks with no termbase, no verse-context rails, "
-        "and no human review. It is a comparison baseline and a drafting aid only. "
-        "See `about.md` in this folder."
-    )
+    lines.append(prov["warning"])
     lines.append("")
 
     for unit in units:

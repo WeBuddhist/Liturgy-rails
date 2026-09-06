@@ -59,8 +59,18 @@ PERSONS = os.path.join(VAULT, "1-SOURCES", "liturgy-persons.json")
 # Files in a track folder that are track documentation, not a translated text.
 TRACK_DOCS = {"about.md", "style.md", "context-header.md", "requirements.md", "termbase.md"}
 
-GENERATOR_SITE = "https://dharmamitra.org"
-TRACK_LICENSE = "public domain"
+# `generator:` prefix -> the generator's website, written to `source:` (the
+# edition's provenance URL on the backend). A translation file names its own
+# generator; the site is derived from that, never assumed track-wide.
+GENERATOR_SITES = {
+    "dharmamitra": "https://dharmamitra.org",
+    "gemini": "https://ai.google.dev",
+}
+TRACK_LABELS = {
+    "dharmamitra": "DharmaMitra zero-shot",
+    "gemini": "Gemini zero-shot",
+}
+TRACK_LICENSE = "public"          # LicenseType enum; "public domain" is rejected by the v2 API
 
 
 # --------------------------------------------------------------------------
@@ -129,6 +139,22 @@ def set_key(fm_lines, key, value, after=None):
                 break
     fm_lines.insert(pos, rendered)
     return True
+
+
+def get_key(fm_lines, key):
+    """The (unquoted) value of `key`, or "" when absent."""
+    i = find_key(fm_lines, key)
+    if i < 0:
+        return ""
+    return fm_lines[i].split(":", 1)[1].strip().strip('"').strip("'")
+
+
+def _generator_kind(fm_lines):
+    g = get_key(fm_lines, "generator").lower()
+    for prefix in GENERATOR_SITES:
+        if g.startswith(prefix):
+            return prefix
+    return ""
 
 
 # --------------------------------------------------------------------------
@@ -247,7 +273,9 @@ def pass_track_meta():
             changed = False
             changed |= set_key(fm, "author", "", after=["lang_tag", "target_language"])
             changed |= set_key(fm, "license", TRACK_LICENSE, after="author")
-            changed |= set_key(fm, "source", GENERATOR_SITE, after="license")
+            kind = _generator_kind(fm)
+            site = GENERATOR_SITES.get(kind) or get_key(fm, "source")
+            changed |= set_key(fm, "source", site, after="license")
             changed |= set_key(fm, "bdrc_work_id", "", after="source")
             return changed
         n += bool(edit(path, apply))
@@ -260,7 +288,8 @@ def pass_track_meta():
 # --------------------------------------------------------------------------
 
 def _title_key(lang_tag):
-    return {"en": "en_title", "zh": "zh_title"}.get(lang_tag)
+    """`<tag>_title` in the registry — en_title, zh_title, hi_title, …"""
+    return f"{lang_tag}_title" if lang_tag else None
 
 
 def pass_titles():
@@ -294,7 +323,8 @@ def pass_titles():
         def apply(fm, body, title=title, language=language, attested=attested,
                   src_url=src_url, rec=rec):
             changed = False
-            display = f"{title} — DharmaMitra zero-shot ({language})" if language else title
+            label = TRACK_LABELS.get(_generator_kind(fm), "machine zero-shot")
+            display = f"{title} — {label} ({language})" if language else title
             changed |= set_key(fm, "title", display)
             # The researched title, on its own, plus where it came from.
             changed |= set_key(fm, "title_translated", title, after="title")
@@ -336,11 +366,18 @@ def pass_source_titles():
             continue
 
         def apply(fm, body, rec=rec):
+            # Every `<tag>_title` the registry holds becomes `title_<tag>` on
+            # the note, each inserted after the previous one so the block of
+            # titles stays together directly under `title`.
             changed = False
-            if rec.get("en_title"):
-                changed |= set_key(fm, "title_en", rec["en_title"], after="title")
-            if rec.get("zh_title"):
-                changed |= set_key(fm, "title_zh", rec["zh_title"], after=["title_en", "title"])
+            anchors = ["title"]
+            for key in rec:
+                m = re.fullmatch(r"([a-z]{2,3})_title", key)
+                if not m or not rec.get(key) or m.group(1) == "bo":
+                    continue        # bo_title IS the note's own title
+                note_key = f"title_{m.group(1)}"
+                changed |= set_key(fm, note_key, rec[key], after=list(reversed(anchors)))
+                anchors.append(note_key)
             return changed
 
         n += bool(edit(os.path.join(SRC_DIR, name), apply))
