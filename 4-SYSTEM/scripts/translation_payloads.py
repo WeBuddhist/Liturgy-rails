@@ -153,6 +153,12 @@ def main(argv=None):
     with open(args.ledger, encoding="utf-8") as fh:
         ledger = json.load(fh)
 
+    # The v2 API enforces ONE title per language: a second POST with a title
+    # already used in that language is rejected 422. Two texts in this corpus
+    # were given the same generated title and the collision only surfaced
+    # mid-upload, after 61 texts were live. Catch it here instead.
+    seen_titles = {}
+
     ok = bad = 0
     for path in args.paths:
         name = os.path.splitext(os.path.basename(path))[0]      # <stem>-<lang>
@@ -167,6 +173,13 @@ def main(argv=None):
                 raise ValueError(f"file_type is {fm.get('file_type')!r}, not 'translation'")
 
             text = build_text(fm, args.category_id, ledger, stem)
+            key = (text["language"], list(text["title"].values())[0].strip())
+            if key in seen_titles:
+                raise ValueError(
+                    f"title {key[1]!r} in language {key[0]!r} is already used by "
+                    f"{seen_titles[key]!r} — the API allows only one text per "
+                    f"title+language; give one of them a different title")
+            seen_titles[key] = name
 
             _, edition = P.build_edition(pathlib.Path(path), None)
             segments = edition["segmentation"]["segments"]

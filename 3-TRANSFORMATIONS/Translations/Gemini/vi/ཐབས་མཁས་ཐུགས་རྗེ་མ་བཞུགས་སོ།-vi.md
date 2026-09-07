@@ -1,6 +1,6 @@
 ---
-title: Lời Tán Thán Mười Hai Hạnh Nguyện Đức Phật — Gemini zero-shot (vietnamese)
-title_translated: Lời Tán Thán Mười Hai Hạnh Nguyện Đức Phật
+title: Tán Thán Đức Phật — Gemini zero-shot (vietnamese)
+title_translated: Tán Thán Đức Phật
 title_original: ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།
 title_attested: false
 title_source:
@@ -40,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# Lời Tán Thán Mười Hai Hạnh Nguyện Đức Phật ^0
+# Tán Thán Đức Phật ^0
+
+> Lời Tán Thán Mười Hai Hạnh Nguyện Đức Phật
 
 > ༄༅། །ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།
 

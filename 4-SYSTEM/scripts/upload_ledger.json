@@ -8,6 +8,26 @@
     "edition_id": "3G9Xnkn2tzA0wI6iaFqlN",
     "text_id": "D9jPBS34fb9mawfEL7lod"
   },
+  "ཁྱུང་པོའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "GQJ2SmCvISPxpIN9EuIC0",
+    "text_id": "SFkGMZM01Deqq9YboOFH7"
+  },
+  "ཁྱུང་པོའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "yIpFUEYVrsdUdKiIGORmk",
+    "text_id": "7kFQycbxGcNYpltr2M7xN"
+  },
+  "ཁྱུང་པོའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "DeO6sz8seI9CmA5vs4sBN",
+    "text_id": "jtKanLcj6ZrSYYGNu5Q4t"
+  },
+  "ཁྱུང་པོའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "vfGBdC8gvxgMqyTrm5IBs",
+    "text_id": "lClckJmQa2iJccsCaKmZx"
+  },
   "ཁྱུང་པོའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "NlbBjxFiFFklpeWDFTLbQ",
@@ -21,6 +41,26 @@
     "aligned": true,
     "edition_id": "FtBh12rmnjcvAWgLzgztZ",
     "text_id": "cviVZsIUkumOHdsbQHpEO"
+  },
+  "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "C2GWuKQR4HcHW8XtLg2wh",
+    "text_id": "DZ20SyymrnaQKOEzf6SSQ"
+  },
+  "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "v4T9uYu9Vw5ehjXkQReg0",
+    "text_id": "234H2FzlMWFseCNGDFCBy"
+  },
+  "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "xnj9dixTom1JkZoafPJel",
+    "text_id": "cm5d8UBTXtibrNOK4feXd"
+  },
+  "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "2D0iUBY4UyVY917mOA6nz",
+    "text_id": "o4ReflZxTqblhF7AJrIor"
   },
   "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -36,6 +76,26 @@
     "edition_id": "Kym4H0wtGpteFJzm62PDN",
     "text_id": "KFTPLMSLbUHhnpkMOWw2c"
   },
+  "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།-hi": {
+    "aligned": true,
+    "edition_id": "L4D7KC8pmEkWqucdjW1b1",
+    "text_id": "CLgPWqP2XP7T4geezCZjl"
+  },
+  "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།-mn": {
+    "aligned": true,
+    "edition_id": "Xtxo2N3dtrqG6MJc628Dq",
+    "text_id": "8E5NG7Q3CQjZdfXVCG2rW"
+  },
+  "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།-ne": {
+    "aligned": true,
+    "edition_id": "NCx44JABmUglBpSbG8JbT",
+    "text_id": "bBjIkc2jCZBsqtP3vSgP5"
+  },
+  "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།-vi": {
+    "aligned": true,
+    "edition_id": "51iaG2eLrDU0wpFoRBhiZ",
+    "text_id": "heOZGsJbEENtpLT64fkG5"
+  },
   "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།-zh": {
     "aligned": true,
     "edition_id": "p96orlpdnlzagHYd9WwOh",
@@ -49,6 +109,26 @@
     "aligned": true,
     "edition_id": "TBurH7JeiDSqLG67OQtU8",
     "text_id": "1xJv2NZqz0LgX5sjcqGaJ"
+  },
+  "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།-hi": {
+    "aligned": true,
+    "edition_id": "gJg1h3gT9cbo0h0xFOQtm",
+    "text_id": "HPN9qjKsUT1wpoWgqaghj"
+  },
+  "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།-mn": {
+    "aligned": true,
+    "edition_id": "yumcvnSGSF0gziJBIQNRC",
+    "text_id": "TKHMgQ4bt0wb2nv5CpZmn"
+  },
+  "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།-ne": {
+    "aligned": true,
+    "edition_id": "3SPlMoBASHjQ19V1JIS33",
+    "text_id": "K4MXuYDxhO3gBxsjjkYvt"
+  },
+  "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།-vi": {
+    "aligned": true,
+    "edition_id": "fFJlFkiz1NXEX2p0iBHUS",
+    "text_id": "vP8EQ3Xneab1cLxCf5ZVO"
   },
   "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།-zh": {
     "aligned": true,
@@ -64,6 +144,26 @@
     "edition_id": "5FJzYufwbapBFyvuEm3zM",
     "text_id": "IgvWJ4PM8aYLX2GvreuBN"
   },
+  "གསོལ་འདེབས་ལེའུ་བདུན་མ།-hi": {
+    "aligned": true,
+    "edition_id": "nRhUu0uXz5Z7wdrebBswn",
+    "text_id": "19PQu6SpRdMyvjDJaxrab"
+  },
+  "གསོལ་འདེབས་ལེའུ་བདུན་མ།-mn": {
+    "aligned": true,
+    "edition_id": "jcNYGC9qOMiF2WMz3bHE9",
+    "text_id": "Ll2UbpF1Rh01nvaHf4Ck2"
+  },
+  "གསོལ་འདེབས་ལེའུ་བདུན་མ།-ne": {
+    "aligned": true,
+    "edition_id": "jb4KttbYgZY3dtrZ6ViWg",
+    "text_id": "nFoLh8qmZKS5H3bdOJi4I"
+  },
+  "གསོལ་འདེབས་ལེའུ་བདུན་མ།-vi": {
+    "aligned": true,
+    "edition_id": "lVzKJ0oFRxzoHjANsvmbu",
+    "text_id": "ibkYRdQQzzS7elGnLSa48"
+  },
   "གསོལ་འདེབས་ལེའུ་བདུན་མ།-zh": {
     "aligned": true,
     "edition_id": "2ijvPasvRPYlDxaIrw7Kf",
@@ -77,6 +177,26 @@
     "aligned": true,
     "edition_id": "mWuZiYlVI1feeCa7rxbig",
     "text_id": "twqKqywRnnGWgpbPkBPHL"
+  },
+  "ཆགས་མེད་བདེ་སྨོན།-hi": {
+    "aligned": true,
+    "edition_id": "8jbsxccUW2m0jabNWW4Jy",
+    "text_id": "BOL2cxg7ojJqgFXOpYifD"
+  },
+  "ཆགས་མེད་བདེ་སྨོན།-mn": {
+    "aligned": true,
+    "edition_id": "MCOFXazObHVW9SNFopqH6",
+    "text_id": "Lcxt4aryeXEa0kREWS4Oq"
+  },
+  "ཆགས་མེད་བདེ་སྨོན།-ne": {
+    "aligned": true,
+    "edition_id": "3fPyAr1okPvyrmwMlXDqR",
+    "text_id": "wAy5eCOOu865FBjJQHD8H"
+  },
+  "ཆགས་མེད་བདེ་སྨོན།-vi": {
+    "aligned": true,
+    "edition_id": "G3e786eKT5s6HDyKlYkmV",
+    "text_id": "SXsg6QCCEeH8JVRzFUpXn"
   },
   "ཆགས་མེད་བདེ་སྨོན།-zh": {
     "aligned": true,
@@ -92,6 +212,26 @@
     "edition_id": "5WzyIpga3f6YcyJvqlyNB",
     "text_id": "SK35pfxiqQRAmpKIz6pRX"
   },
+  "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "m3WLCvFTCLfLCc230iI9A",
+    "text_id": "hVMiFpFNyO7zStHB2oedB"
+  },
+  "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "vaRu5ZuOUKXQECKEqewdF",
+    "text_id": "VD8L9mutpI4ZuLvWEOqaN"
+  },
+  "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "6T413Nz63H0hHKXIz746U",
+    "text_id": "wq6jekKfUw4wLz6g48WVy"
+  },
+  "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "1x0SoZWvfmDigHZLw7YYU",
+    "text_id": "cXickFBzrkXsKmKeRgrbm"
+  },
   "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།-zh": {
     "aligned": true,
     "edition_id": "THvXmJNnjjJ9CCP1efoXj",
@@ -105,6 +245,26 @@
     "aligned": true,
     "edition_id": "HK3Ipmu93j28oCdLAcVZY",
     "text_id": "eqL8jFZxzrx713TIa1pgH"
+  },
+  "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "wVy6tGr7aN4qSgOBpUIGr",
+    "text_id": "ZlIb3uMiIOyS5TWj5ZRu8"
+  },
+  "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "zZDV5NCIAPFuhEMve4GQD",
+    "text_id": "dnRhIYitgvYpFjlSiY7yD"
+  },
+  "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "WifKTpkt0uuhV4D7pgyLF",
+    "text_id": "Tdx7sEHuZ8CvMpQ1mWHyC"
+  },
+  "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "Fo4LqLIb5VPKsAICEHizB",
+    "text_id": "7OvWIXuF3fJrUaTciONOO"
   },
   "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །-zh": {
     "aligned": true,
@@ -120,6 +280,26 @@
     "edition_id": "4n78GPZ2mts6ogLfmN03A",
     "text_id": "DWgOiXfd2TYC9YeOShLt9"
   },
+  "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "qMSIFhvxjYwW4Gp3thPE2",
+    "text_id": "UcfCuCzZMMPKpvdnXzhqV"
+  },
+  "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "qVrmbwXHTFBQeXHnna7PF",
+    "text_id": "RzTncEImTSQSbfqHDYFtO"
+  },
+  "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "RgfYQLlrJK2phVNQpHQG5",
+    "text_id": "bd5WcAX8iknkjdoT8xi4k"
+  },
+  "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "OxdtFMEMqMW8o7OytxBTw",
+    "text_id": "UH1GMsJseL3mCCgLip4sW"
+  },
   "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "kejZtWRM2XLdmKEBk7QuN",
@@ -133,6 +313,26 @@
     "aligned": true,
     "edition_id": "zKz02HURGaZoWScCsHADE",
     "text_id": "mKmCyOUFWXoQu9viJRDvw"
+  },
+  "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "H09AzX2muTG6Ad9MUq4iF",
+    "text_id": "Ef71xUKRsl2s6cunK1YX2"
+  },
+  "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "4HymJxK1ha3Qg4niX1Lud",
+    "text_id": "GgKVBQeIngfYKGlfwgOwM"
+  },
+  "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "Kc8UQ7VHl1wF50BnSnnUO",
+    "text_id": "fJIT6IcIvhPV9dQxaS3tz"
+  },
+  "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "swF1K5GcTPKmOJFWMrz8s",
+    "text_id": "BmRh9dXgOIZif8e08rSOO"
   },
   "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -148,6 +348,26 @@
     "edition_id": "cjz2fvs1rV24Uq5M6rTIp",
     "text_id": "AwSSyg8DBKo3NomoGQjuN"
   },
+  "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།-hi": {
+    "aligned": true,
+    "edition_id": "OCiOtDod7fakSpU1tQjQ0",
+    "text_id": "E9imH3qCztkiFvzs8GTgP"
+  },
+  "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།-mn": {
+    "aligned": true,
+    "edition_id": "PNQHBERzn2J3oNQ2g1E8v",
+    "text_id": "leDMc6Jm0VUBPOrEb7VYe"
+  },
+  "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།-ne": {
+    "aligned": true,
+    "edition_id": "iuox6ALz5KkFdkZYrzClK",
+    "text_id": "MR7CXqEYsjMfeWJuyaDCd"
+  },
+  "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།-vi": {
+    "aligned": true,
+    "edition_id": "RCe1oNa9g4hEMp4xkkiNO",
+    "text_id": "74tDZzp5pJAb0WiAl2gQQ"
+  },
   "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།-zh": {
     "aligned": true,
     "edition_id": "xqpDqRNgGXtOqrTd777Tx",
@@ -161,6 +381,26 @@
     "aligned": true,
     "edition_id": "bwMWumskDnUnBN6vYo8sE",
     "text_id": "wh96h7P5f11nMQnj3ziap"
+  },
+  "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "25v97yBwg5FaumVOfUCl6",
+    "text_id": "WFuQN6qhKjTx93ChFP9WI"
+  },
+  "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "HmTgP4ODKpB0e0y2PEVbf",
+    "text_id": "HwwxU3Jv7Spnzjxhk2pBD"
+  },
+  "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "ydCvwcxe6Ei1hzgji2rLw",
+    "text_id": "KeeqVkeykCtRPhgUuXo68"
+  },
+  "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "NrW6DQg4EfJJU4VPZIBju",
+    "text_id": "o3Z2RurKDPOKGqka3oEi0"
   },
   "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -176,6 +416,26 @@
     "edition_id": "jr1oSejLl17g3UlkGJl3c",
     "text_id": "xs44NzxeKwgw2PrtBDwbX"
   },
+  "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "dPpvIFN2F5giJqrbOrBj8",
+    "text_id": "PhOZj502vtMa2m9qa3exD"
+  },
+  "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "fJY4nIn6KAHwjUw8f8DW1",
+    "text_id": "L2ULXa4fMJQWxVbPdravC"
+  },
+  "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "q7J9qvkpRmgkyaTeTcsBD",
+    "text_id": "NLqCnxgN0507cEYUPuiXz"
+  },
+  "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "7MHXsFeoVPypOJHxo9NcA",
+    "text_id": "2CjJnTTxGL9KITqgcAxNz"
+  },
   "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །-zh": {
     "aligned": true,
     "edition_id": "sbFVQSfvfrWliY799hfLE",
@@ -189,6 +449,26 @@
     "aligned": true,
     "edition_id": "y1U7skPXgC8g8YcWn99EL",
     "text_id": "5gV2FmZgROvj7riq6JOc0"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།-hi": {
+    "aligned": true,
+    "edition_id": "uvFwmjJ2C0uCDYxG0LXQl",
+    "text_id": "9etwWLtS1EqOtJ1FTkLtp"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།-mn": {
+    "aligned": true,
+    "edition_id": "DR9Da4WAjDIUi6k5XDdYH",
+    "text_id": "unFSkiZIBerFlAejwxhaX"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།-ne": {
+    "aligned": true,
+    "edition_id": "hLofkcTzR1x9YX80mFPAi",
+    "text_id": "odVDf38PWuGYpHDnxI0AU"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།-vi": {
+    "aligned": true,
+    "edition_id": "bIRhd5Ckbo3yniUEUn6ON",
+    "text_id": "38lHUJPmeAUnOSutTylrH"
   },
   "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།-zh": {
     "aligned": true,
@@ -204,6 +484,26 @@
     "edition_id": "AywCCrJcDHrdSYlYDWSMM",
     "text_id": "FaFE5tEpOeGvwgv8yftNw"
   },
+  "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།-hi": {
+    "aligned": true,
+    "edition_id": "VZnOquICbiylcbFV2AflD",
+    "text_id": "ivsuM61gjrfapV43WrVQN"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།-mn": {
+    "aligned": true,
+    "edition_id": "4O7o4x4v1DHtx6pQA6fua",
+    "text_id": "hgE3f1uvDCOY4t0IZwoEy"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།-ne": {
+    "aligned": true,
+    "edition_id": "7tVXNqRBSY2bF5L7sfOtV",
+    "text_id": "2I5DD4aQr5TrhPbiYPBnC"
+  },
+  "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།-vi": {
+    "aligned": true,
+    "edition_id": "BMXBDWdUt3T4xmok1q860",
+    "text_id": "DfeAdGzK4BCwPJ6oAtSix"
+  },
   "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།-zh": {
     "aligned": true,
     "edition_id": "0ZKoZGgX6NwbOspuSU8DY",
@@ -217,6 +517,26 @@
     "aligned": true,
     "edition_id": "txp95d87TEZV2n2z4JhQ9",
     "text_id": "aKyr8n6mINLggaeUp138v"
+  },
+  "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།-hi": {
+    "aligned": true,
+    "edition_id": "kE8Z9YHX73MvxlaYyuaoZ",
+    "text_id": "bgUy7JRio3rRdKwHmxQls"
+  },
+  "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།-mn": {
+    "aligned": true,
+    "edition_id": "CmkKfxS4SWMFyJTfNMdy5",
+    "text_id": "poL9qSMUDnPxMMeW9S30S"
+  },
+  "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།-ne": {
+    "aligned": true,
+    "edition_id": "WlmBG9GMsj0HRApL6pc3e",
+    "text_id": "j9TFqe167HFBTHkc6Y2q9"
+  },
+  "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།-vi": {
+    "aligned": true,
+    "edition_id": "2sARZme1MQrYxAHVRuLVn",
+    "text_id": "sbAvLowXTlyo9f3DUOiuG"
   },
   "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།-zh": {
     "aligned": true,
@@ -232,6 +552,26 @@
     "edition_id": "BR13nhrZPxSVSZGdGPyky",
     "text_id": "gjKVNUxeypa2OoMTlVOip"
   },
+  "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "2ZxVSsL6fI6pOHy8LDaYM",
+    "text_id": "hYsFYtLwq7hPdIAtuZmQW"
+  },
+  "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "PkDXtHprMjo1LMeLIQwzd",
+    "text_id": "sbpmLzGrl7PJW4vQ8Sfix"
+  },
+  "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "XXtZtnIPwwEWEtS5MzXS4",
+    "text_id": "QbdI28UHpcs2cbf5KXnWU"
+  },
+  "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "aIloG6O8vRXqdv5zINgAZ",
+    "text_id": "Zm4qq3Bb6uENKM4Wr82YR"
+  },
   "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "75MbmgIB4mwqI3wfiUyc8",
@@ -245,6 +585,26 @@
     "aligned": true,
     "edition_id": "G1Muoh86dhTmW3AkqtlyL",
     "text_id": "4oUN6zVJ4CEVQPAcaqBlE"
+  },
+  "ཐོག་མཐའ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "fZiXl3RoV803B0vySM3j4",
+    "text_id": "nUwFmFndk9luXFN1NtH8F"
+  },
+  "ཐོག་མཐའ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "SBTQhjNVviOxl6L18GhYz",
+    "text_id": "9upyjGqP2DhOiGVMnqz41"
+  },
+  "ཐོག་མཐའ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "MCs0mI23O2XI3xVM5oaB1",
+    "text_id": "mxEYQY51xJqszvdcsaCH9"
+  },
+  "ཐོག་མཐའ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "QfqYlEZHUDelDtAlzKTSk",
+    "text_id": "DTWexMUobBA9BhUXW1shI"
   },
   "ཐོག་མཐའ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -260,6 +620,26 @@
     "edition_id": "AtldQhvQfed4mYIP6CzQN",
     "text_id": "RFVDGaisyrN0l92vsrN3j"
   },
+  "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།-hi": {
+    "aligned": true,
+    "edition_id": "x9X48FfpJx7HHMcqFaEd5",
+    "text_id": "whvx9bQXTHmjFvOHe3dPN"
+  },
+  "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།-mn": {
+    "aligned": true,
+    "edition_id": "O7KbRHVfBGIR5pd5zv61H",
+    "text_id": "SkpWwFIVZY2qYylvbMNqu"
+  },
+  "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།-ne": {
+    "aligned": true,
+    "edition_id": "5EKOBeWJEZabQUaIvFiQT",
+    "text_id": "0xOIyAzATVeuoeTAmIJSL"
+  },
+  "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།-vi": {
+    "aligned": true,
+    "edition_id": "NZp1o603Mq9fOqoaxODuz",
+    "text_id": "9mwJHsIcip9ZxTCZ6I9AQ"
+  },
   "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།-zh": {
     "aligned": true,
     "edition_id": "T2LLUOvV8acZ90gQAfnKB",
@@ -273,6 +653,26 @@
     "aligned": true,
     "edition_id": "0c6gMoRH8U6uhxkecc8XE",
     "text_id": "iMVJLOcKS9yCY55HHbAaj"
+  },
+  "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "M43QKcqzt5cTLFaGHbI9L",
+    "text_id": "Opm358Y5n9am7cGhrtUBM"
+  },
+  "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "RwP1bx2MJbOqY9Yagj2ni",
+    "text_id": "2UZf2ucEuiW0x2dYoI6pM"
+  },
+  "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "rwLUlQ9Ayh5c8zQ1JngeI",
+    "text_id": "EDjcOZHx0pkVV7VFlVPI1"
+  },
+  "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "KaQpqyDIaNIPKb96HRtS8",
+    "text_id": "Xf97MdC4dsE3OgdiuLiOR"
   },
   "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།-zh": {
     "aligned": true,
@@ -288,6 +688,26 @@
     "edition_id": "0cCJKBtN8Bpj4GsjMrXnU",
     "text_id": "Uw3v8xTtH4leFquqyR0zG"
   },
+  "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "ciEv2eKwrkjzyHJ72PpWG",
+    "text_id": "qKhjzmm70BeHUWYuuEmqH"
+  },
+  "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "q9VpXtlWIQionrJzm5Gwz",
+    "text_id": "1OgAj1XEFpT9nInvzQVWn"
+  },
+  "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "KPFCQlBLDY6MnKJ0r0rep",
+    "text_id": "t9Equdb8nVbYQawR9jLcv"
+  },
+  "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "iVLM1Ly3MhaSmYMUc1VzJ",
+    "text_id": "ttQM4PI2phioLN5cdnTun"
+  },
   "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "ZlBZYqWC5lleau64NGeoC",
@@ -301,6 +721,26 @@
     "aligned": true,
     "edition_id": "b8LgJIDqbg1ivHvQQGS36",
     "text_id": "XPRBjxEeE0s7HLrTjhlOk"
+  },
+  "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།-hi": {
+    "aligned": true,
+    "edition_id": "SbR8hx0Ft8ugYJLYTUuOC",
+    "text_id": "tV2y6xPExWMmE8QxZheXQ"
+  },
+  "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།-mn": {
+    "aligned": true,
+    "edition_id": "ZFHwOmpijjzgBLTccXyLZ",
+    "text_id": "VuNsD2o0ewA4VZYSP8R8I"
+  },
+  "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།-ne": {
+    "aligned": true,
+    "edition_id": "VmAq17HJWFX329Y3sJ6dk",
+    "text_id": "2asoTXSrMRfckKasdNxbi"
+  },
+  "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།-vi": {
+    "aligned": true,
+    "edition_id": "fEyOtGTIPENtjVOEcEB4C",
+    "text_id": "ZxyAG8zwG2QcN7k3EfPHZ"
   },
   "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།-zh": {
     "aligned": true,
@@ -316,6 +756,26 @@
     "edition_id": "ISNXjdxDVk7Bj75I1DJ1k",
     "text_id": "GVuGvz1NJCUHRVCUAam2d"
   },
+  "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "5YleucPaamJoXSPV66vvj",
+    "text_id": "ADDtkvupHXqmF2c6DgrbE"
+  },
+  "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "vI5UECAenD81nDp4bt8HJ",
+    "text_id": "s7FRYS23E7FKX148XOqt8"
+  },
+  "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "Munf3GhBU8R20khaSObqG",
+    "text_id": "PSbKxqp2pyt0yyLFm1bKL"
+  },
+  "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "TSY0MBPdHB8OYY17oI7GL",
+    "text_id": "eKLFoa8d74LmWdXPkGu37"
+  },
   "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །-zh": {
     "aligned": true,
     "edition_id": "mnqTInGkmpWqXKjdqBhg0",
@@ -329,6 +789,26 @@
     "aligned": true,
     "edition_id": "nSzLh1qN118GNjrHZ35vX",
     "text_id": "O8WeSRxJTGeFM3P8Ye43K"
+  },
+  "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།-hi": {
+    "aligned": true,
+    "edition_id": "AOOJZIfDYocOsNsCjlHGV",
+    "text_id": "XwnjmGPtDLFbC9gYUbiM5"
+  },
+  "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།-mn": {
+    "aligned": true,
+    "edition_id": "tW7IqZBw7gUdAyPG3eXQX",
+    "text_id": "zEHj16eXJopCMObSO7Fnu"
+  },
+  "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།-ne": {
+    "aligned": true,
+    "edition_id": "sfKvOjahb6mIg78Ioz0Ru",
+    "text_id": "Oqcu0oDZ4Cl5x64wqAxb7"
+  },
+  "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།-vi": {
+    "aligned": true,
+    "edition_id": "Ef5wOCBtUEp7LOH6I9AAY",
+    "text_id": "QmKxPaLYmPx1c8cniYglf"
   },
   "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།-zh": {
     "aligned": true,
@@ -344,6 +824,26 @@
     "edition_id": "G1WiMxoLvMyYlCSES9rP8",
     "text_id": "Q5qb7vNiZFRY2ESFQCy4r"
   },
+  "དཔལ་ལྡན་ས་གསུམ་མ།-hi": {
+    "aligned": true,
+    "edition_id": "hrguNe3NikfzlIppEmKtC",
+    "text_id": "IoqcVmPkwqVTPvKTZOxJz"
+  },
+  "དཔལ་ལྡན་ས་གསུམ་མ།-mn": {
+    "aligned": true,
+    "edition_id": "21t3T8Zom48tZRFUdldFk",
+    "text_id": "0odivwwKzAWKE2TnYNjge"
+  },
+  "དཔལ་ལྡན་ས་གསུམ་མ།-ne": {
+    "aligned": true,
+    "edition_id": "LhUAksuQvj6gF8OH0U2qp",
+    "text_id": "TY7eT2MRvNrRhAs8NqNT3"
+  },
+  "དཔལ་ལྡན་ས་གསུམ་མ།-vi": {
+    "aligned": true,
+    "edition_id": "90cQke8pMNtUwLoqUSIFu",
+    "text_id": "Ws0oXhWRVHyCJlej9ZoBu"
+  },
   "དཔལ་ལྡན་ས་གསུམ་མ།-zh": {
     "aligned": true,
     "edition_id": "Q89DlOn4Sv4v7c7v9AkGc",
@@ -357,6 +857,26 @@
     "aligned": true,
     "edition_id": "rcuVRshN1mzpVdVXVjTcA",
     "text_id": "XS3TjDihGT2LPfrmZZi1J"
+  },
+  "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "SmQQoNlk7O9odoIJG26UF",
+    "text_id": "EOfGrJ7dQMpxVRpiWKq9K"
+  },
+  "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "4xbSyO4e963Qf7FQp72FF",
+    "text_id": "xCRP25tdGiVFulQsirHEb"
+  },
+  "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "6mP1cDIXsHRCd6Z4x5Rk5",
+    "text_id": "iKYkMIuP9R0driCaX7evG"
+  },
+  "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "ikBgPIg1jz13tsk2Lgr37",
+    "text_id": "LuUgoPesG5DMlTmBWrApl"
   },
   "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །-zh": {
     "aligned": true,
@@ -372,6 +892,26 @@
     "edition_id": "9tIrgO9aW3tv3MS1VKxwQ",
     "text_id": "4tlLufguEkaMQyiLWRDR9"
   },
+  "དབང་སྡུད་གསོལ་འདེབས།-hi": {
+    "aligned": true,
+    "edition_id": "YLtkG5PWGFWwG1fB6lPeh",
+    "text_id": "3bR5J0M4WKnzfLbPktO6p"
+  },
+  "དབང་སྡུད་གསོལ་འདེབས།-mn": {
+    "aligned": true,
+    "edition_id": "HxywBr1lCFM6qngoqv2jJ",
+    "text_id": "EKvDc5aNuscUdIgywASy9"
+  },
+  "དབང་སྡུད་གསོལ་འདེབས།-ne": {
+    "aligned": true,
+    "edition_id": "XWV8ALsbizvpbmcDf0ORz",
+    "text_id": "v3wL1Rf7dQ4Y0VmLDjNiA"
+  },
+  "དབང་སྡུད་གསོལ་འདེབས།-vi": {
+    "aligned": true,
+    "edition_id": "tJcrlB1MXWxru7w3BTpPZ",
+    "text_id": "VFL5KKf5lBy0nuVbWmheK"
+  },
   "དབང་སྡུད་གསོལ་འདེབས།-zh": {
     "aligned": true,
     "edition_id": "9xfYdzxBUM5DllipxJX5i",
@@ -385,6 +925,26 @@
     "aligned": true,
     "edition_id": "99ua4VvFvyGbPCnwTwbr6",
     "text_id": "sRD3TyvJnbM3YgYOtq2Nt"
+  },
+  "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "fVyWTm1w5qWq4RcRc5P9w",
+    "text_id": "LA117sQ1d7jc7CGnqtght"
+  },
+  "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "ieLdZBOGPkM9PAI9ZxP50",
+    "text_id": "xPtFb5MR5sGrlUNpPAE2O"
+  },
+  "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "ZNB9SuiqjVRwdUp1ACxcS",
+    "text_id": "8ZJZPghmxe11bXcLgWQvu"
+  },
+  "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "VVmhd0tNLfD3GdkdXUJYh",
+    "text_id": "bLyC76SLNshmA1A0Cr5A6"
   },
   "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -400,6 +960,26 @@
     "edition_id": "gYAqej8ch5gMLEbjob54W",
     "text_id": "aKSXq3JbvYqTmkV9I4OTe"
   },
+  "དམིགས་བརྩེ་མ།-hi": {
+    "aligned": true,
+    "edition_id": "zSmVp0F4IGa4P3rW9PRrt",
+    "text_id": "C2V3AfZ4R8JqzfLWUjUZk"
+  },
+  "དམིགས་བརྩེ་མ།-mn": {
+    "aligned": true,
+    "edition_id": "RIXcTFZpLAO77A4SLfCFt",
+    "text_id": "H3vSqNOBQQZSeC3uCENeH"
+  },
+  "དམིགས་བརྩེ་མ།-ne": {
+    "aligned": true,
+    "edition_id": "B4n6S2CUmp45bh47Yh3uu",
+    "text_id": "XMJKN1C4rTCEIYZ2bk01n"
+  },
+  "དམིགས་བརྩེ་མ།-vi": {
+    "aligned": true,
+    "edition_id": "nlxhGQx4E0jRIJjBYTOiL",
+    "text_id": "mXQeXCUB5VQ1RcwXrZuoe"
+  },
   "དམིགས་བརྩེ་མ།-zh": {
     "aligned": true,
     "edition_id": "HgPYZTGx4POO1gZbSxSoO",
@@ -413,6 +993,26 @@
     "aligned": true,
     "edition_id": "7YZ851mR3yYhKqAA2xA1O",
     "text_id": "VZUHL7FEudIfUuWjFsylA"
+  },
+  "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "lsnsQsfUytDns29TrxieP",
+    "text_id": "6YZFn5lWfIRQXCAcvW6VM"
+  },
+  "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "crRMj1mEkJYHp7EXWzCU9",
+    "text_id": "XQYoVig59X1mGqhNNsBKc"
+  },
+  "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "tGmLDE2hdZCStPTNc41sp",
+    "text_id": "vtft2pbpHAsYcsVsBs6yk"
+  },
+  "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "rIrEGCQnBW8vLJmTPh8d0",
+    "text_id": "ZCUs4b9X9VNasIuPEfe5d"
   },
   "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།-zh": {
     "aligned": true,
@@ -428,6 +1028,26 @@
     "edition_id": "lMegdOZorjhWEFDeEhjJl",
     "text_id": "zaeC75FBoCwwQa3CW8LKF"
   },
+  "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "Qcmo0f95MChA9XyWRJNZx",
+    "text_id": "xZLZ4bbbjVefB2hFWUewM"
+  },
+  "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "wTl9h0p4XRYoEyKt5gp9h",
+    "text_id": "AaE4eI0XMYmWHRb4Alwvl"
+  },
+  "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "7kxJLFXyMfqhjVmgD1e53",
+    "text_id": "ABiu1gr7mzl0FDPraNbCT"
+  },
+  "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "ecEPyWcGymTKNtggRINui",
+    "text_id": "JUoXn1XBwAvWIaBOFpbAY"
+  },
   "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "236tRqhy3WeYYmsVexZ4d",
@@ -441,6 +1061,26 @@
     "aligned": true,
     "edition_id": "QUikmPyCunNdZuHZrxJoq",
     "text_id": "f7ZiTwBRuO671eBlJJnkP"
+  },
+  "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "kIBLisYhjyIOw2NUno2Ul",
+    "text_id": "8Jpn2rUAZDjRTUvV1sIOi"
+  },
+  "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "ohA5nkkTjmdIf5ZzKv3R8",
+    "text_id": "LboyCvu9qJQBv6GIsEpUP"
+  },
+  "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "8dmRb44AtXPHJesbcAEwh",
+    "text_id": "NvFOPkBqHhvMiewgoe6uG"
+  },
+  "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "8a1yQ28ItGMgkK8v4wMRP",
+    "text_id": "7AuLcBeytgoiA5VhhX9aE"
   },
   "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -456,6 +1096,26 @@
     "edition_id": "UrLZ9zv6IxUKNhKLY2aGd",
     "text_id": "FDDrUGURVSquPTQ3sJCf7"
   },
+  "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།-hi": {
+    "aligned": true,
+    "edition_id": "vGQ0AeOHeEg9gYBK5T8Rc",
+    "text_id": "bIOyj0fBrxa33kP5z3VPU"
+  },
+  "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།-mn": {
+    "aligned": true,
+    "edition_id": "IcJ3sQHmYaaXHdf95rAIU",
+    "text_id": "7vFqC9zVFacVO3O36doNB"
+  },
+  "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།-ne": {
+    "aligned": true,
+    "edition_id": "zeHUi76t38LeR6VfLkJtf",
+    "text_id": "nTPIQmLhCXGxGUqcB1Le7"
+  },
+  "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།-vi": {
+    "aligned": true,
+    "edition_id": "pvE63NmjbqYP0UCSMdR9v",
+    "text_id": "6EH6ddgPV7qNO9yaDHnIR"
+  },
   "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།-zh": {
     "aligned": true,
     "edition_id": "7oGyk4d0Tw30fQzS4trzH",
@@ -469,6 +1129,26 @@
     "aligned": true,
     "edition_id": "txnZynQMGg2qVjsWok4ty",
     "text_id": "nypWnrqJXfHu5i0j4a5oo"
+  },
+  "བཀའ་ཐང་བསྡུས་པ།-hi": {
+    "aligned": true,
+    "edition_id": "epjypaU0elFqeVDcErwSk",
+    "text_id": "tRNLtZz5bXHnhIDeHKeNv"
+  },
+  "བཀའ་ཐང་བསྡུས་པ།-mn": {
+    "aligned": true,
+    "edition_id": "QcG8xd0pMhIHrBOsSaQSt",
+    "text_id": "z4KBHrC7wlJKxUNg2Lr0t"
+  },
+  "བཀའ་ཐང་བསྡུས་པ།-ne": {
+    "aligned": true,
+    "edition_id": "QkM3kYYhzxYZH0kcbheY8",
+    "text_id": "gxE2aaORDTdQ23KpgCmiI"
+  },
+  "བཀའ་ཐང་བསྡུས་པ།-vi": {
+    "aligned": true,
+    "edition_id": "BIpUrntrM3oVhYB6eMtKt",
+    "text_id": "4OnsPrVTYdaK6fJkfxa6P"
   },
   "བཀའ་ཐང་བསྡུས་པ།-zh": {
     "aligned": true,
@@ -484,6 +1164,26 @@
     "edition_id": "iuuOWgniKxrNadzfsMwYz",
     "text_id": "fIcFijxGWHZXnoGxAmpnp"
   },
+  "བདུད་བཟློག་གསང་བའི་མན་ངག-hi": {
+    "aligned": true,
+    "edition_id": "lAbw49KT0CPVtIy4vz2nD",
+    "text_id": "hzPPFIurY4IjksDDqWSIy"
+  },
+  "བདུད་བཟློག་གསང་བའི་མན་ངག-mn": {
+    "aligned": true,
+    "edition_id": "q6pryawgN4i8wcsIeuP4R",
+    "text_id": "TkjHHDyMo8naKg8qHO2NJ"
+  },
+  "བདུད་བཟློག་གསང་བའི་མན་ངག-ne": {
+    "aligned": true,
+    "edition_id": "Yz2rINp3W6VGDzKICBHDO",
+    "text_id": "K0nulBYZG7x1lvPmDlwI8"
+  },
+  "བདུད་བཟློག་གསང་བའི་མན་ངག-vi": {
+    "aligned": true,
+    "edition_id": "DMjgOzPy4SZNhi1Ot2kzo",
+    "text_id": "J5GS75vhrG1b7hm3Ed3uj"
+  },
   "བདུད་བཟློག་གསང་བའི་མན་ངག-zh": {
     "aligned": true,
     "edition_id": "PzUpWID6X9PFhlfeglSnT",
@@ -497,6 +1197,26 @@
     "aligned": true,
     "edition_id": "OPXdpUZVXqsSaQiiAZlIE",
     "text_id": "JTWZllZfZYKuNeGDD6ilh"
+  },
+  "བདེ་སྨོན་བསྡུས་པ།-hi": {
+    "aligned": true,
+    "edition_id": "tQBwRcQ0ZKRORuWASrg2x",
+    "text_id": "GMe4GDhXdyfoLuvoeCz8A"
+  },
+  "བདེ་སྨོན་བསྡུས་པ།-mn": {
+    "aligned": true,
+    "edition_id": "ELuLT0CezCzysoERbX0iq",
+    "text_id": "wdCTcjGSNsKNaP6qLb0K1"
+  },
+  "བདེ་སྨོན་བསྡུས་པ།-ne": {
+    "aligned": true,
+    "edition_id": "rgbDQmY1S2qDeCkSFXIVd",
+    "text_id": "Hkve9hkccn27JM4GGR0ZF"
+  },
+  "བདེ་སྨོན་བསྡུས་པ།-vi": {
+    "aligned": true,
+    "edition_id": "rAUyxYLwDJvwBOG5844Eo",
+    "text_id": "rm9VkRUbUgdSCd7KMfnbh"
   },
   "བདེ་སྨོན་བསྡུས་པ།-zh": {
     "aligned": true,
@@ -512,6 +1232,26 @@
     "edition_id": "VsKJfdnpCCgO7uDT98x70",
     "text_id": "NPa9sFcxgAS4auph5lgUO"
   },
+  "བདེན་ཚིག་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "DjdcWGCb3qv2ofFZNIkFE",
+    "text_id": "KUbxdt3tMiCHyQGbF1Sw8"
+  },
+  "བདེན་ཚིག་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "YCTHILTfNPqd4T2f7kPPT",
+    "text_id": "GMOqjMkGVg5D94orHi5DX"
+  },
+  "བདེན་ཚིག་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "FTmfkAcVQUQaCF978AKzU",
+    "text_id": "LZAQKB2w7kruYWkABAlYg"
+  },
+  "བདེན་ཚིག་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "aEvM23G0cqKkZ1PqXE3yw",
+    "text_id": "pMGG0DxwwkETrGwnGWsfq"
+  },
   "བདེན་ཚིག་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "EiePr8aUVRMYPFKtM3o6Z",
@@ -525,6 +1265,26 @@
     "aligned": true,
     "edition_id": "ddOjSwo0a8yemJUa4PQGy",
     "text_id": "BhZPxDi8e3hN8ZJpxXiAF"
+  },
+  "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "5I3Boa0O0V8qPN1QX5K9k",
+    "text_id": "k6EMmbjSUMTPVLu6is7ZU"
+  },
+  "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "DwrTti4XekRFN9ZNXjIJz",
+    "text_id": "lQxSjGvkyRLeAaUpOiZZ4"
+  },
+  "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "1WdbPGNn2QNQysv6uirv7",
+    "text_id": "R1NYzPlfXHafMT3MbpJfa"
+  },
+  "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "UIl4ulFtIWvXiT968r32o",
+    "text_id": "ndAuavgmX6Dv6TFhjOQju"
   },
   "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -540,6 +1300,26 @@
     "edition_id": "VbhJDkdaqRCcIeZkZFrmx",
     "text_id": "EQL1BXY7ujGM46m7qyfA3"
   },
+  "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "gAvuyXz4F1rzvm5wsWYj4",
+    "text_id": "EhS0AaAKkeTTahBOkH54A"
+  },
+  "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "P5nhGmcjmJdxXUiaZkXQ0",
+    "text_id": "JhWYidTbx5zSAnJjoN95F"
+  },
+  "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "3h286kD5jjRBXetYmsBcn",
+    "text_id": "YESFSPd21ekUJQumLfBq0"
+  },
+  "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "959KCDB2gZgvCpOGTAz2d",
+    "text_id": "MAItuBWJBsMNT6e8XXSKn"
+  },
   "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "R0DHFhasWH6WSkyrQTIuN",
@@ -553,6 +1333,26 @@
     "aligned": true,
     "edition_id": "ZgcOwjZIwWNcISe28NJkp",
     "text_id": "afgXrSYjYkDRdi0yyC7Am"
+  },
+  "བསྟན་འབར་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "wkqqzfpw5IWxVB0n10qOG",
+    "text_id": "YjyZibq58ib8mw3oQjnfu"
+  },
+  "བསྟན་འབར་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "kgDfhS2DJklKFyFPqj62W",
+    "text_id": "Aml2a95Lqa3Gqs9aC4dhC"
+  },
+  "བསྟན་འབར་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "RKY0ou2ZZPn6HU0n1C5BU",
+    "text_id": "bxaX6bgeoXiSxEn5hOYpQ"
+  },
+  "བསྟན་འབར་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "CJs3kLKXQBEdDVzWYFAEY",
+    "text_id": "61gV4VfaW3Q0ohdkl39Kb"
   },
   "བསྟན་འབར་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -568,6 +1368,26 @@
     "edition_id": "Ps0WsGy7YsREyMOq3OoaX",
     "text_id": "8FKH5MYYEX54wF4jAfQef"
   },
+  "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "CjntUOV1QV24nG3WtuC5f",
+    "text_id": "h20jUDlmbkzkXxFISHfsj"
+  },
+  "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "K4Ru1iTKQMn8BFJ4csGap",
+    "text_id": "blPSKUVIOGcnVc5QWOY0z"
+  },
+  "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "e53U8jHENvlZEtLfMVfzt",
+    "text_id": "AfW7n8ZZiJcGOPvd4LlM5"
+  },
+  "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "sRRyJEX8fyZrZLTcHCo9Y",
+    "text_id": "wKA22Gc0S01OTHUYFrkIy"
+  },
   "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "WmySmhZaPx6qgEymfWs2b",
@@ -581,6 +1401,26 @@
     "aligned": true,
     "edition_id": "OtuWZmaC6eAN4IIfui2yk",
     "text_id": "hQSO7zXv4pyLm8tHk6CZU"
+  },
+  "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།-hi": {
+    "aligned": true,
+    "edition_id": "eGotTWOHofk7sL9FfRZYH",
+    "text_id": "F7NQqKky8OoacCwYzOWoh"
+  },
+  "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།-mn": {
+    "aligned": true,
+    "edition_id": "PDf2oWGwIqE5CGHKLS2xC",
+    "text_id": "GRdqzJakMHLcPCjILPekJ"
+  },
+  "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།-ne": {
+    "aligned": true,
+    "edition_id": "Jtkpb8RO36AzRbgudEt1p",
+    "text_id": "D32EfjyTzPm7znjMGtlHA"
+  },
+  "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།-vi": {
+    "aligned": true,
+    "edition_id": "IyS50dsK0qkAoXxnVzi28",
+    "text_id": "VGSImRfLNcHS71D6GkeU7"
   },
   "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།-zh": {
     "aligned": true,
@@ -596,6 +1436,26 @@
     "edition_id": "ilinuFytqNCN77aok14Iw",
     "text_id": "gkuok3APEwp3CQoLamC5S"
   },
+  "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།-hi": {
+    "aligned": true,
+    "edition_id": "O3y8K0q9O5jkNjRdaKGzG",
+    "text_id": "XdNiMa0bt71KxRp79L5Fe"
+  },
+  "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།-mn": {
+    "aligned": true,
+    "edition_id": "nr3wlrvnko8iSm7UuCcQF",
+    "text_id": "2IoWl9miX1lx6NP9PNEbe"
+  },
+  "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།-ne": {
+    "aligned": true,
+    "edition_id": "3fcgB0aGLnvON28SPp4Oe",
+    "text_id": "irpq5fGoLvdRSyvdb1FIU"
+  },
+  "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།-vi": {
+    "aligned": true,
+    "edition_id": "kQglXry35Vb6q8kAw0DUQ",
+    "text_id": "kcxnn9oFO74dKrovJfDUo"
+  },
   "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།-zh": {
     "aligned": true,
     "edition_id": "CkBJQHJZr4f1iNYTv9crx",
@@ -609,6 +1469,26 @@
     "aligned": true,
     "edition_id": "envl09hzFmPDl01sdjypq",
     "text_id": "LD42fM6WSJIf2ztdHIuhS"
+  },
+  "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།-hi": {
+    "aligned": true,
+    "edition_id": "3Dm7NZPf7TY3zIUWyvbTh",
+    "text_id": "6xPSZoIAgjHsNJMISiAl3"
+  },
+  "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།-mn": {
+    "aligned": true,
+    "edition_id": "VjnzJtm47W5MINFofRc2X",
+    "text_id": "ZbBMrd5NbLaz0limAl3Nk"
+  },
+  "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།-ne": {
+    "aligned": true,
+    "edition_id": "iPQ6I7C9Y8sGDX4oqGNp4",
+    "text_id": "ZrbW1wm9dZwizyDtbDKMf"
+  },
+  "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།-vi": {
+    "aligned": true,
+    "edition_id": "c5Ak9UvkDAY58PBbOOgWW",
+    "text_id": "1oBa4KI5GBfOISlUDFQkg"
   },
   "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།-zh": {
     "aligned": true,
@@ -624,6 +1504,26 @@
     "edition_id": "l2PsWWCjYm5BIwiuhCg91",
     "text_id": "x6FoB8DWtkReXETX2DNXo"
   },
+  "བྱམས་པའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "0Z0jmn9TKNJqOy4RKSWnu",
+    "text_id": "OjI9fWWSvvyJfwLOgjKkN"
+  },
+  "བྱམས་པའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "nHwrqNYcYLJLMybfsjOMQ",
+    "text_id": "zFVkkf2psw9CANrBnf0Lr"
+  },
+  "བྱམས་པའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "1iXMwLAc7Bc89dWV688Zn",
+    "text_id": "2ezQ3Zd6bLr0xQn81rxQu"
+  },
+  "བྱམས་པའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "JqX1L44GquaYpyjCEvM5Z",
+    "text_id": "ALKDMMA0AmeqntlXge5Lp"
+  },
   "བྱམས་པའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "NcOXpx66qk3juannjIM4F",
@@ -637,6 +1537,26 @@
     "aligned": true,
     "edition_id": "QMTMrwFkt7GZf0abXVtqo",
     "text_id": "arri4fQPWQeFXqKJ1TjKI"
+  },
+  "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "HqaUUyL4Lsv1EJtJWCwjy",
+    "text_id": "nx9Hv2SIAA6L9IdByqmzL"
+  },
+  "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "dSNFo4CUSCFuJ2gq8Wr08",
+    "text_id": "poKnTUKJNSeeRBt56OuiC"
+  },
+  "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "uORUbEjKtoiluYpTAiBP8",
+    "text_id": "9GbYKXzUR4aa6ycA5EjtH"
+  },
+  "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "aFkifvSmMne2DWpVog2iP",
+    "text_id": "8jugqW0iD98ImylXgqf6C"
   },
   "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -652,6 +1572,26 @@
     "edition_id": "M6tlALaOhyyLBMpb9Ft7b",
     "text_id": "XIsDjAkqFqtf5lI00TeNC"
   },
+  "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།-hi": {
+    "aligned": true,
+    "edition_id": "2AsNSmDnYWeGvyDHV1Os1",
+    "text_id": "ZTNmkGhG13pxuIDYZgULn"
+  },
+  "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།-mn": {
+    "aligned": true,
+    "edition_id": "H4g01H2DJNuFWATImdbAv",
+    "text_id": "CVjbyRX2zxkhWZyZeVrvJ"
+  },
+  "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།-ne": {
+    "aligned": true,
+    "edition_id": "TWZ0PQNheeKFKC6OJPF48",
+    "text_id": "vT2h04F9um5q76fblcaHK"
+  },
+  "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།-vi": {
+    "aligned": true,
+    "edition_id": "wuHeqMGfp7xgdAnBvVCe6",
+    "text_id": "l7W1NTkh3Z3hkiX6xsFEl"
+  },
   "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།-zh": {
     "aligned": true,
     "edition_id": "CIEm7dE1CqQkYBYmWtTtu",
@@ -665,6 +1605,26 @@
     "aligned": true,
     "edition_id": "e1qBWmKsfnV2c96aYYTIf",
     "text_id": "calXJwNnwaPA4pU9NiArq"
+  },
+  "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "zqedgPwT2O3dIbG9aycGa",
+    "text_id": "9La2UMQzxLrlAqorZcNVh"
+  },
+  "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "mzzBNalNyMooZOtgegmCV",
+    "text_id": "ULXGtE1p7N0QvyR6ahQTZ"
+  },
+  "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "KlM0DaIKg2OEIOE9Du0lP",
+    "text_id": "au1fO8B77LHTv4lEJhZes"
+  },
+  "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "WqSxpPqyaSpHni48iAnt9",
+    "text_id": "mVJrt0DoblsV0BEp7ncBW"
   },
   "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -680,6 +1640,26 @@
     "edition_id": "W4cNtXJrB9L1YArylC2Y1",
     "text_id": "ZqjnSxyR1a7VyCVnvfkDI"
   },
+  "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།-hi": {
+    "aligned": true,
+    "edition_id": "7csHydQmPrzJXKpfGmZEh",
+    "text_id": "LQ4bvh6TEV000Bikw2eJB"
+  },
+  "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།-mn": {
+    "aligned": true,
+    "edition_id": "tpJ9YTCYshH1Bofq706tN",
+    "text_id": "xDxBe3EGrd8myDGvsfoKW"
+  },
+  "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།-ne": {
+    "aligned": true,
+    "edition_id": "pqxwifMFBlZTCUaObqAaX",
+    "text_id": "p5zqcZKLbtN2OgaCkT5vp"
+  },
+  "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།-vi": {
+    "aligned": true,
+    "edition_id": "Rbc2100U6FmY6k7vxKnsF",
+    "text_id": "XjX16YETRSiSxAubhrQTI"
+  },
   "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།-zh": {
     "aligned": true,
     "edition_id": "EMvSGEDXf3PMdZF2wkNlt",
@@ -693,6 +1673,26 @@
     "aligned": true,
     "edition_id": "Ej1JKNL0FbhuYdkrtvkN2",
     "text_id": "ocvXP5CgN7BbLo6j45PRM"
+  },
+  "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "6jL8qh16GlcvP8173rz8M",
+    "text_id": "qgyeIEnBzzdBGHPaCDB1d"
+  },
+  "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "1UhYcO5UDWrkL9ZdK5qaF",
+    "text_id": "ZTr6SCsGOTk5NFHij64ob"
+  },
+  "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "xDui4ppLsY8XqO95geaoZ",
+    "text_id": "85izkZ60tchphTNJ5zh5n"
+  },
+  "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "EAU3japETNeRlH65hTFRU",
+    "text_id": "mBySOBbRGgkWxDh6lb5kP"
   },
   "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།-zh": {
     "aligned": true,
@@ -708,6 +1708,26 @@
     "edition_id": "55tzl2h3r5IVI02ggQH8W",
     "text_id": "VRIVk00YKZwt7YZCOjcvk"
   },
+  "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།-hi": {
+    "aligned": true,
+    "edition_id": "J6PX1xo0VtNhBTjsJFwZP",
+    "text_id": "mN0qk1Nb5nx323rYliU0v"
+  },
+  "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།-mn": {
+    "aligned": true,
+    "edition_id": "KyCnOCYwBGHXH17u1o9af",
+    "text_id": "QJHTWlcjM3l3NFtjy6yDS"
+  },
+  "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།-ne": {
+    "aligned": true,
+    "edition_id": "5sZd7EEpOCqh1fiXUy5gL",
+    "text_id": "OjBero7SiM5da61bXKl3K"
+  },
+  "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།-vi": {
+    "aligned": true,
+    "edition_id": "jcxdV5kpj2ZzA122FHmxT",
+    "text_id": "Mcu0EK2pQxme9nQ8BsAsu"
+  },
   "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།-zh": {
     "aligned": true,
     "edition_id": "XLKoXNRVpDNVOwiSGSQhc",
@@ -721,6 +1741,26 @@
     "aligned": true,
     "edition_id": "QG8mtHoY4sreUA8j2H5cE",
     "text_id": "jJOw8pKxfcvExI71iy23e"
+  },
+  "མཎྜལ།-hi": {
+    "aligned": true,
+    "edition_id": "3XPFXTvNSC1z9yhBlfN9o",
+    "text_id": "3r8QdYPh5Hzq5NEtaBxOY"
+  },
+  "མཎྜལ།-mn": {
+    "aligned": true,
+    "edition_id": "027NBHspjHBnJMhkVNEsy",
+    "text_id": "XqjJfD9HXy4sBiiA1rvXC"
+  },
+  "མཎྜལ།-ne": {
+    "aligned": true,
+    "edition_id": "Cky7KqZZ2T8qyHnMVQWws",
+    "text_id": "TKK2nqn7gYpT4nY82ov0o"
+  },
+  "མཎྜལ།-vi": {
+    "aligned": true,
+    "edition_id": "cDyhKFdGiugfQMjVjT0oV",
+    "text_id": "QLEKSx2CLm4TYYJtPZB19"
   },
   "མཎྜལ།-zh": {
     "aligned": true,
@@ -736,6 +1776,26 @@
     "edition_id": "MwnVrKkiYGsGxZbsb3RjP",
     "text_id": "jF2m2YdHE8JsksZl1UaLh"
   },
+  "མར་མེའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "f7PLg5VpnpNU5pblzNCPM",
+    "text_id": "dJqm5dTn8Z8KVShYkeo62"
+  },
+  "མར་མེའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "5Jo9pcargJcxH2Wt4ah5K",
+    "text_id": "Uidx5XbWgNRMe9UT0Fmit"
+  },
+  "མར་མེའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "qbf63w7NFKzeH9e1ueeWm",
+    "text_id": "dJIKM8BKEdCGYhnaSaM2X"
+  },
+  "མར་མེའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "vyrmnDrlUYqVY4X9p7YQt",
+    "text_id": "kHXIrnnqm1c4PLQGCNfZ7"
+  },
   "མར་མེའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "VDB71kGxxNGSOTB4G9ZQc",
@@ -749,6 +1809,26 @@
     "aligned": true,
     "edition_id": "aZd0SzPuHDTUUipam8Ra2",
     "text_id": "dBnIDjfpjmGbiuvIfUsk9"
+  },
+  "མི་ཁའི་བཟློག་བསྒྱུར།-hi": {
+    "aligned": true,
+    "edition_id": "2LmqK6YsrvmRcESpSaQQV",
+    "text_id": "gD1jtmLcYWc36w9WNaVSu"
+  },
+  "མི་ཁའི་བཟློག་བསྒྱུར།-mn": {
+    "aligned": true,
+    "edition_id": "0TwXgero66FCM3CbIrfmu",
+    "text_id": "WyFFhctWNXKUBIOju7Eg3"
+  },
+  "མི་ཁའི་བཟློག་བསྒྱུར།-ne": {
+    "aligned": true,
+    "edition_id": "mRsQc6rRLRUg8i3ie9fOp",
+    "text_id": "VBRWh5MHo4YR0hmioeH6n"
+  },
+  "མི་ཁའི་བཟློག་བསྒྱུར།-vi": {
+    "aligned": true,
+    "edition_id": "0QYsekXAMrh4zFVq6UXk1",
+    "text_id": "jsAq2DgdjEcIBJyd9LhJV"
   },
   "མི་ཁའི་བཟློག་བསྒྱུར།-zh": {
     "aligned": true,
@@ -764,6 +1844,26 @@
     "edition_id": "I1OhFP8ANTm1andMYEhsA",
     "text_id": "imRxUjkqevoPwjc98pFcX"
   },
+  "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "EkeyxJa3IKaMs2UGKgHPa",
+    "text_id": "eDlccm5Osj5xj5PFWQMdw"
+  },
+  "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "7XrbHCHPgS04p48RE624T",
+    "text_id": "G3VgIRXhkJjm3qcAvpd8m"
+  },
+  "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "2mBU625bsMkIVFK48nJuN",
+    "text_id": "uZpc0XN0g6q1HHpHxR6dP"
+  },
+  "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "dwwwu1QfPwu71rMwWsDkT",
+    "text_id": "n6tFdIvOLFhLiqlSh4JMm"
+  },
   "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "zs9biitnHQCN8iyz0rqYD",
@@ -777,6 +1877,26 @@
     "aligned": true,
     "edition_id": "kWefxpwVCc2OY8bv3VDn1",
     "text_id": "60r53lKKk9qGYscXAttp0"
+  },
+  "ཚད་མེད་བཞི།-hi": {
+    "aligned": true,
+    "edition_id": "eA1xAODn8Z9cz7ApKC1F4",
+    "text_id": "aj5acL3ldjBDR2V8GdMDl"
+  },
+  "ཚད་མེད་བཞི།-mn": {
+    "aligned": true,
+    "edition_id": "eA5srIzol48NmSviImOiI",
+    "text_id": "mYusvgxXL1edikHXCYfCx"
+  },
+  "ཚད་མེད་བཞི།-ne": {
+    "aligned": true,
+    "edition_id": "t74Eee7QYGwtJyzgiVieE",
+    "text_id": "5CihRUiBMWngy83qhr4vH"
+  },
+  "ཚད་མེད་བཞི།-vi": {
+    "aligned": true,
+    "edition_id": "bMUEkuorRaznGdIFKmLru",
+    "text_id": "zRo7KtInDZw92TnkhwpbJ"
   },
   "ཚད་མེད་བཞི།-zh": {
     "aligned": true,
@@ -792,6 +1912,26 @@
     "edition_id": "lg3qUlW8kGHnHViqulCJj",
     "text_id": "SyRX93U7NDctNkTjQxIoW"
   },
+  "ཚིག་བདུན་གསོལ་འདེབས།-hi": {
+    "aligned": true,
+    "edition_id": "vBFWw2BkPrqSdNsilkR6V",
+    "text_id": "C2Rzj0Ma5Lry9gDBwMaoT"
+  },
+  "ཚིག་བདུན་གསོལ་འདེབས།-mn": {
+    "aligned": true,
+    "edition_id": "ogcXu2icQH1lOtj2l9KK0",
+    "text_id": "WAXrOgqQCiA4gtrQEzUtH"
+  },
+  "ཚིག་བདུན་གསོལ་འདེབས།-ne": {
+    "aligned": true,
+    "edition_id": "KJMGcgSLG7NMo05763BQ5",
+    "text_id": "Q6oJUKKcuQalq6VUhdmUR"
+  },
+  "ཚིག་བདུན་གསོལ་འདེབས།-vi": {
+    "aligned": true,
+    "edition_id": "tlsy509Zg3tX4Db9wsMDu",
+    "text_id": "LZ4s5hIBgiLrZe1NJctWJ"
+  },
   "ཚིག་བདུན་གསོལ་འདེབས།-zh": {
     "aligned": true,
     "edition_id": "mVa2ZNq93bOIxKCca8R93",
@@ -805,6 +1945,26 @@
     "aligned": true,
     "edition_id": "R1l6T4YaVhPSwcROdPwum",
     "text_id": "FunuaoQhNOaePwOHQ39Kf"
+  },
+  "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "SmQBP3KLF8WtvYDGi56qD",
+    "text_id": "bdh3jm46qaAEoiGc9glhM"
+  },
+  "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "GUlahEQU9XgtUIvvbtULO",
+    "text_id": "ZjavG9AD5XubCusfE7PAa"
+  },
+  "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "LHRpw6K7ftSfybQ62cauK",
+    "text_id": "unSlnsEk5PNQ58Yow4ZIc"
+  },
+  "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "KOkwXWYVPLJIO0p3PTdPZ",
+    "text_id": "zMinv8reOslsvk03kBBnC"
   },
   "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -820,6 +1980,26 @@
     "edition_id": "AdZ45K0XOaeZ1otVll44i",
     "text_id": "T7AWILdvKRv8V2m4EkocS"
   },
+  "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།-hi": {
+    "aligned": true,
+    "edition_id": "42DA5ePI3KLAfc5sgYxhu",
+    "text_id": "iz9nU8owin38bEB6Uy7Jg"
+  },
+  "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།-mn": {
+    "aligned": true,
+    "edition_id": "qzrFO1cBChL0tA2efQBk3",
+    "text_id": "I4Zbihar36jw43iU8IbwS"
+  },
+  "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།-ne": {
+    "aligned": true,
+    "edition_id": "o48dT9hbkhwxHFJ7WtVSS",
+    "text_id": "hjC5zYgu70vnExAWn7JVr"
+  },
+  "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།-vi": {
+    "aligned": true,
+    "edition_id": "kZPXFLdKeVuXDfcYYXcwQ",
+    "text_id": "YLInjM2s94bX7HIbpheYT"
+  },
   "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།-zh": {
     "aligned": true,
     "edition_id": "6CfEowHjCLBC1oBOIGS5e",
@@ -833,6 +2013,26 @@
     "aligned": true,
     "edition_id": "lrUgjDnVIw77ojq3LPkXU",
     "text_id": "fVnMFInU5bB7XV7LkB1Sh"
+  },
+  "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "nCwLRDs4MB0QpRHVn0nP7",
+    "text_id": "m98yVeK3FPNnQL8PCXTO9"
+  },
+  "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "DfA9sf26edugfRZ67AqzL",
+    "text_id": "GruSc2B0u3ZGFvIgMnviw"
+  },
+  "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "ySiNyOy0qaoVvasPkOYXQ",
+    "text_id": "PuPjXYoCZRt3ha0fnN3aI"
+  },
+  "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "inlBV3UHabHO3E5uC0u1U",
+    "text_id": "1XBBVE3esCIRL5tB28nzf"
   },
   "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -848,6 +2048,26 @@
     "edition_id": "j9cshS3lvTHSa3kdxJSfe",
     "text_id": "RbBwe4SCSC6xmULWwPfuV"
   },
+  "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།-hi": {
+    "aligned": true,
+    "edition_id": "bOfmhYddiJnT9HqWpAF7M",
+    "text_id": "LbS1SRpEhVuDyGb5xodzn"
+  },
+  "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།-mn": {
+    "aligned": true,
+    "edition_id": "0JSKyNTWj5Xeumau4Sji6",
+    "text_id": "YDJhTkJqJXDPUmJeOmf0r"
+  },
+  "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།-ne": {
+    "aligned": true,
+    "edition_id": "4Czju1exxC81TqUlxSb89",
+    "text_id": "drzq72KUQSTuTX8ElDKpH"
+  },
+  "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།-vi": {
+    "aligned": true,
+    "edition_id": "AHhJoB2fXf31Tk6Xvs1tV",
+    "text_id": "SuCxYXdyJjASruZ7vSgvd"
+  },
   "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།-zh": {
     "aligned": true,
     "edition_id": "Jl111Cy6CUSnb7nd36JqG",
@@ -861,6 +2081,26 @@
     "aligned": true,
     "edition_id": "7rGalNdBnXvPyNBRqVVxj",
     "text_id": "CAVL68p2eM7G8YbNtoOKA"
+  },
+  "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།-hi": {
+    "aligned": true,
+    "edition_id": "Lx5G4k90vDGp9n3fUSamW",
+    "text_id": "F3lQXKlGoS2elzI5GZbJN"
+  },
+  "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།-mn": {
+    "aligned": true,
+    "edition_id": "aEZE08Y0dycyDSTwBAeKM",
+    "text_id": "cXdpU8PvetvoO7TbExTeo"
+  },
+  "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།-ne": {
+    "aligned": true,
+    "edition_id": "wzr9z5EdOf3s4pN9f5UD3",
+    "text_id": "e3gUuhIqD3ctSX5JMXLfr"
+  },
+  "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།-vi": {
+    "aligned": true,
+    "edition_id": "Xel5rGfcbBP2U8pBXrIW5",
+    "text_id": "ZuVpwkLErdLUciUXWc6NF"
   },
   "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།-zh": {
     "aligned": true,
@@ -876,6 +2116,26 @@
     "edition_id": "Q9UCSwQWoonTsYKqi7cdp",
     "text_id": "RKsonDwXWRnQ6W20FydJI"
   },
+  "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "kt5zXlfQ0JksCJqCUtYuU",
+    "text_id": "ola3uYYRqUVMk9ji9Y6CG"
+  },
+  "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "c142LFYjknAOoHfUAwPFE",
+    "text_id": "9iCCTKC3mPXfcmTfioNP5"
+  },
+  "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "LdXIef7d56FURlxHGGxYq",
+    "text_id": "vPIimdgauXcPexNBluzfZ"
+  },
+  "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "2iixpb55aHOmLw8NepegS",
+    "text_id": "0XW2is3zRwMfH9oEjEbHN"
+  },
   "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།-zh": {
     "aligned": true,
     "edition_id": "mDMcTwAD49btFNQXtLzad",
@@ -889,6 +2149,26 @@
     "aligned": true,
     "edition_id": "Jx5gNAUQVOzJ2y4xEtKOO",
     "text_id": "w6cQKyjj1vQPnTFztuhXF"
+  },
+  "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "sl4xnwckufqhPM1Jf1OV5",
+    "text_id": "TbqiE1uAUhNm4bjpdeJEw"
+  },
+  "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "76pSjNcMvedyBUxLeKepr",
+    "text_id": "axNwnhPk6NCPqfEsDZo5q"
+  },
+  "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "xPzgcRJffOgloVunyqkZl",
+    "text_id": "LHe8X2TFAgH6iBkXQExaf"
+  },
+  "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "MMTUHe4CiiAuiHSa2Sd53",
+    "text_id": "U2cVEHwAz6LxQFqEer3VT"
   },
   "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -904,6 +2184,26 @@
     "edition_id": "HfkpSbMWj8SotbyohguUB",
     "text_id": "EmXt7OE5uoMt4206XlRCh"
   },
+  "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "T7igWVQTSbPx18kLxyjO5",
+    "text_id": "4G9FisEMqCeeeo1N3khWn"
+  },
+  "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "6bME1xYKlBtCqrpD8bF7z",
+    "text_id": "ucxfiPj9IHTpJyAGKaOtg"
+  },
+  "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "jWzK7FzoYg93OSfrEsfA3",
+    "text_id": "OgcluXSZzJmka5tuoVS4l"
+  },
+  "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "VUWXEeU28lOTFfds3yIxv",
+    "text_id": "HLcAotUTn8VU1SkM6QGD5"
+  },
   "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "MQzcdglCsNbErT4KUGm5H",
@@ -917,6 +2217,26 @@
     "aligned": true,
     "edition_id": "3pHWQw1ld7zcUgfTRL7AO",
     "text_id": "Aw77Q6cMY5ORbpmdVqkEx"
+  },
+  "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "luAm92NbIDuVR0YZhtTdX",
+    "text_id": "FonvAyH9drn0G943bIkte"
+  },
+  "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "GjM3GTvXFHW2sSQnOEZSb",
+    "text_id": "25xCGSshqHEiCPUkFKX8s"
+  },
+  "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "2NLrF4XcHy6UCh2STzemD",
+    "text_id": "UZGZe4YHodFVzz0FBOMEf"
+  },
+  "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "r6NIfn66T3d8B6JMX5gUo",
+    "text_id": "MPZaSwKwoBA7YFrtgbdLQ"
   },
   "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -932,6 +2252,26 @@
     "edition_id": "n3VouA8kK7dn0jXsLkb1g",
     "text_id": "q0q6diHoLP6Dmr44TS5LA"
   },
+  "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།-hi": {
+    "aligned": true,
+    "edition_id": "HJQYeSqag3dBKAnck6HqK",
+    "text_id": "ixZsFLPtX7f6Q8VQIGKAC"
+  },
+  "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།-mn": {
+    "aligned": true,
+    "edition_id": "ZdgjFNdVNQAdK7Ht3mfTr",
+    "text_id": "zwClX2t8Fgc2Tw0z08Zbv"
+  },
+  "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།-ne": {
+    "aligned": true,
+    "edition_id": "JgyXKu7fKXL8zceAyP4If",
+    "text_id": "dciLpzSOw6gIdiBJr0lZl"
+  },
+  "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།-vi": {
+    "aligned": true,
+    "edition_id": "xQHaxbjENZ87T8eFHlQ6Z",
+    "text_id": "yXNPLLDJKbD6WT6P2NYZU"
+  },
   "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།-zh": {
     "aligned": true,
     "edition_id": "iM41qAMYRMJj55VUmgaxi",
@@ -945,6 +2285,26 @@
     "aligned": true,
     "edition_id": "LlCMbvpAnPoRju1fhmcjU",
     "text_id": "TtdsP6DTfV7iPbu4Z78vA"
+  },
+  "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "pWT0sxnNr6b43IDYrSdXN",
+    "text_id": "WU1h1CW2v3douvV2pxIjX"
+  },
+  "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "Df0GLyggKF5CeK4Mx2O7R",
+    "text_id": "ra7htnT0LKB1gUz60J9hA"
+  },
+  "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "fHSsLUtDSbQt2MfFKjyTV",
+    "text_id": "lkQL2c4RABHZlqDikYBlh"
+  },
+  "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "7GN2A8CMQY1atkJg1hDbZ",
+    "text_id": "EEeSk73IW6tkpWMhP3qqw"
   },
   "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།-zh": {
     "aligned": true,
@@ -960,6 +2320,26 @@
     "edition_id": "rnepFs1T4AvX5PCQ0rcFK",
     "text_id": "UAc5Z4FkE00SETCgY3EXF"
   },
+  "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།-hi": {
+    "aligned": true,
+    "edition_id": "wyN69qsOQ5DiZJ2inYayl",
+    "text_id": "7VWrJsKgA6CfyzkIOmhUS"
+  },
+  "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།-mn": {
+    "aligned": true,
+    "edition_id": "3I2Xnj37q0wlBmj3wj2G6",
+    "text_id": "1uO6LluRIjt0yqea5QfYF"
+  },
+  "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།-ne": {
+    "aligned": true,
+    "edition_id": "Uatlyx3wo9OUprxMK5CSk",
+    "text_id": "elgBZj1iWzfNfJbDg5gTo"
+  },
+  "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།-vi": {
+    "aligned": true,
+    "edition_id": "VHnkI77pZo1KWDk4CTpWa",
+    "text_id": "K863CWR0SkoHv0P3jnf58"
+  },
   "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།-zh": {
     "aligned": true,
     "edition_id": "fXFgtaeuoUX6lLxwojGAi",
@@ -973,6 +2353,26 @@
     "aligned": true,
     "edition_id": "d0GkaUGI77bwqNdy4zqqS",
     "text_id": "AyLVXNRgHF2ji5Hm9vvp7"
+  },
+  "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།-hi": {
+    "aligned": true,
+    "edition_id": "vRc89tQ27gUBWewAYkWL8",
+    "text_id": "8gPmSWuWmaDeGlICJLfnD"
+  },
+  "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།-mn": {
+    "aligned": true,
+    "edition_id": "TimRyJdjhsV9ubloANxOm",
+    "text_id": "Rbd1x9PgopH3JqryX2Oxn"
+  },
+  "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།-ne": {
+    "aligned": true,
+    "edition_id": "aYJ2yyCIZAivASvypL2AU",
+    "text_id": "qY6eFCZQdCTtHG4eMswHf"
+  },
+  "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།-vi": {
+    "aligned": true,
+    "edition_id": "R14S1qowEKQGMtl4MFBHA",
+    "text_id": "1IIJ0WPSBX0IiKMc2yq5Z"
   },
   "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།-zh": {
     "aligned": true,
@@ -988,6 +2388,26 @@
     "edition_id": "8acLhVb9DNdjdXbOvPqpg",
     "text_id": "5VfPK3FKqBkjNDridZE9x"
   },
+  "ཡན་ལག་བདུན་པ།-hi": {
+    "aligned": true,
+    "edition_id": "TOJWsAdL4JMC1L1Mb2cZ8",
+    "text_id": "v4i8C6Hn3h3Lv1BDx4mGl"
+  },
+  "ཡན་ལག་བདུན་པ།-mn": {
+    "aligned": true,
+    "edition_id": "XOn0Xa88LwyhzWcwIhdev",
+    "text_id": "dnVWJ2RF4w1WaSPvzoyHs"
+  },
+  "ཡན་ལག་བདུན་པ།-ne": {
+    "aligned": true,
+    "edition_id": "apqJg5jpcC760O8o4MvT3",
+    "text_id": "p5ypzmOPo7OnMLlE96sEz"
+  },
+  "ཡན་ལག་བདུན་པ།-vi": {
+    "aligned": true,
+    "edition_id": "YEcnxWJTweCUwOS9Hv7WU",
+    "text_id": "0znCL1WZDXBecXC4fRCLV"
+  },
   "ཡན་ལག་བདུན་པ།-zh": {
     "aligned": true,
     "edition_id": "oWrorEXk6Rj9ms0pTyKID",
@@ -1001,6 +2421,26 @@
     "aligned": true,
     "edition_id": "a6Qs7TZ0kZBIiDaCoN1BJ",
     "text_id": "am1xCRS13HUclK6DDVcKS"
+  },
+  "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "GUuP5YdRZtrIJWBS2UHGm",
+    "text_id": "l5f4Icoe4pDApwftT7Knm"
+  },
+  "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "KB9Dw3XcdsI4Zce22oigO",
+    "text_id": "p3DroZl0gHbQjORbvGG3O"
+  },
+  "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "Gvrdb7TZZcCi3womvOtz0",
+    "text_id": "BscxCURdPQOaojwWdlcmD"
+  },
+  "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "SywbmgQ0Ag62x9TYhqoGb",
+    "text_id": "4vwAVUQ4QaT2pFb03PWRD"
   },
   "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -1016,6 +2456,26 @@
     "edition_id": "PJl6BR2ogtIGeeGUdELAO",
     "text_id": "gQSXGDDZ2JyZu9tmCzvC5"
   },
+  "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔-hi": {
+    "aligned": true,
+    "edition_id": "WR4OxOn06Z5RLBCi9M1M3",
+    "text_id": "q963STnrfVU3Jz4ZvBQyg"
+  },
+  "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔-mn": {
+    "aligned": true,
+    "edition_id": "tGo1hC2IprBuHbs4F8K4g",
+    "text_id": "3zVmTZhymFm6RXPG4SvHk"
+  },
+  "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔-ne": {
+    "aligned": true,
+    "edition_id": "RciX5kLAfEhkvM43cfLok",
+    "text_id": "XV7QOSF7KeA6rEK9EF47a"
+  },
+  "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔-vi": {
+    "aligned": true,
+    "edition_id": "Ez8PpkGPXw1cjQDklApFO",
+    "text_id": "UtJbVtcjePbDnmSI2s22L"
+  },
   "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔-zh": {
     "aligned": true,
     "edition_id": "Qz2EKTY1htMqFbODjeqsU",
@@ -1029,6 +2489,26 @@
     "aligned": true,
     "edition_id": "PQYkqSeLNvF7Ezw1t6tOy",
     "text_id": "CN3Mjk59C8tx7JlVd1lPV"
+  },
+  "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།-hi": {
+    "aligned": true,
+    "edition_id": "6HtPp6XSNq3tWJWzcbfoQ",
+    "text_id": "h9i5J13b78sUo27iWnAi7"
+  },
+  "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།-mn": {
+    "aligned": true,
+    "edition_id": "ImdkMJtgCHc1I0wUiU7eT",
+    "text_id": "czjCNshklcKTC6utxopZT"
+  },
+  "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།-ne": {
+    "aligned": true,
+    "edition_id": "BbZu46xsc8WZNoz6YK4i2",
+    "text_id": "LDQwYTacrGMAExpCDN3ai"
+  },
+  "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།-vi": {
+    "aligned": true,
+    "edition_id": "KMOBMU9zrl2xGWD5hwp8c",
+    "text_id": "e1TBAN82wQyVsFFhioGOU"
   },
   "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།-zh": {
     "aligned": true,
@@ -1044,6 +2524,26 @@
     "edition_id": "2kTxDEkgwiTAphrqn8tCw",
     "text_id": "FSYXsFUuSaqZLoNUq7kn5"
   },
+  "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།-hi": {
+    "aligned": true,
+    "edition_id": "GV7BL7ftD8H2IwUNpSItC",
+    "text_id": "fl8KnjmbnxkoRc0jqXKWf"
+  },
+  "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།-mn": {
+    "aligned": true,
+    "edition_id": "MwI2eD8oit6unk5Nd2Mqb",
+    "text_id": "YtdqFuMJv2E6jfr07RdEz"
+  },
+  "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།-ne": {
+    "aligned": true,
+    "edition_id": "ARLIx7Tf9U3EXAeHaJSfj",
+    "text_id": "Y7ri9Ze6DmJ1q46nvHIa0"
+  },
+  "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།-vi": {
+    "aligned": true,
+    "edition_id": "OANw7PVuyReUApwj2XqpC",
+    "text_id": "fa3aM6ktQP4LguUnwwJd6"
+  },
   "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།-zh": {
     "aligned": true,
     "edition_id": "b9NWLcxOs29sWlrJemGRg",
@@ -1057,6 +2557,26 @@
     "aligned": true,
     "edition_id": "DV2VBP7OrSPtAbBwPaiht",
     "text_id": "M9QB34GnTzWcy1vUNPEFC"
+  },
+  "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།-hi": {
+    "aligned": true,
+    "edition_id": "dpoFmakjdQbkxRaZmUAIb",
+    "text_id": "IudM3lcCfJXfjLDNLzD4f"
+  },
+  "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།-mn": {
+    "aligned": true,
+    "edition_id": "I9jz7mXdI3DISxmtCLGb0",
+    "text_id": "DSHRMTxI0fTcSahrOtJcQ"
+  },
+  "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།-ne": {
+    "aligned": true,
+    "edition_id": "AMNAtYrlUUNq4yVCYaMNN",
+    "text_id": "rygaNuZnaly386CzGQrVC"
+  },
+  "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།-vi": {
+    "aligned": true,
+    "edition_id": "goldKILC4smGQY9G4NuTd",
+    "text_id": "WBLiVkgrGG53taRSnCCvO"
   },
   "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།-zh": {
     "aligned": true,
@@ -1072,6 +2592,26 @@
     "edition_id": "0cRLnbva3ZMJw3HAmZP7K",
     "text_id": "mWjeoWpUL6HDmZ8eENsqA"
   },
+  "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།-hi": {
+    "aligned": true,
+    "edition_id": "T9mGmUeqAUD15sDX9HKTT",
+    "text_id": "8FlDFb3bqrg95jr1mWe0r"
+  },
+  "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།-mn": {
+    "aligned": true,
+    "edition_id": "uoaNpOJ5T1DRL4rcnFbal",
+    "text_id": "c9fF9MOTPDCmoM6HBlVNO"
+  },
+  "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།-ne": {
+    "aligned": true,
+    "edition_id": "m6uWhfHeXB1kjBArX2jfA",
+    "text_id": "LotQTMzHWQ7vm3Si4oygt"
+  },
+  "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།-vi": {
+    "aligned": true,
+    "edition_id": "lZezgFs9ML0TPpq6k8SFR",
+    "text_id": "BKeWVSitNol4OKkiH9xTm"
+  },
   "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།-zh": {
     "aligned": true,
     "edition_id": "OPPTahkpHd3oA8L35q9zH",
@@ -1086,6 +2626,26 @@
     "edition_id": "JgBoVkHUzr6rqG3TYNQDn",
     "text_id": "D7XW5yL7JemWt1rr7mNEp"
   },
+  "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "9iiwmC8fUeBBVwPtQEDqp",
+    "text_id": "NqLfdjYWpzOE5I4s2D6co"
+  },
+  "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "cI55QkTUxJyicDee7u4px",
+    "text_id": "IcM0xgXFM3f4y4VgbF11V"
+  },
+  "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "piEMjtbIGDhY36XbEpfVr",
+    "text_id": "ehP8FRkCGdEhb3bZhQA4b"
+  },
+  "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "Sy82AgmXiBhJAYlfAegzn",
+    "text_id": "vfdUpYgn8hdryKfCiZgVG"
+  },
   "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།-zh": {
     "aligned": true,
     "edition_id": "VabpHZWK3YvkWEZlQNF4N",
@@ -1099,6 +2659,26 @@
     "aligned": true,
     "edition_id": "CSNZuYEa6eIQmWrh1MyW8",
     "text_id": "5z3qg96Q5KjWAdUpMyA0U"
+  },
+  "རྗེ་གསང་བའི་རྣམ་ཐར།-hi": {
+    "aligned": true,
+    "edition_id": "78DHS6fp1GVBVcygJP26F",
+    "text_id": "BJkceKzwRtM8yCsWQnf91"
+  },
+  "རྗེ་གསང་བའི་རྣམ་ཐར།-mn": {
+    "aligned": true,
+    "edition_id": "OVWRJksWPCHg7YrjEaQGq",
+    "text_id": "iW2XLBOCnjjeL6Nk4R3Lv"
+  },
+  "རྗེ་གསང་བའི་རྣམ་ཐར།-ne": {
+    "aligned": true,
+    "edition_id": "s1PjX2AbkZ1LK0dZBJrhT",
+    "text_id": "dRf0jSj9UYDVJgxnomOqA"
+  },
+  "རྗེ་གསང་བའི་རྣམ་ཐར།-vi": {
+    "aligned": true,
+    "edition_id": "Qeptfj79MWa5zEkdQyuYj",
+    "text_id": "htPwjExqDBJPoYUZ6ykTG"
   },
   "རྗེ་གསང་བའི་རྣམ་ཐར།-zh": {
     "aligned": true,
@@ -1122,6 +2702,26 @@
     "edition_id": "2sMbTgLvkO7qxvJ7bsqqm",
     "text_id": "ScJtVIhJcqamNdCxXemrk"
   },
+  "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "CxhLQFzzPxdR740QOx6B7",
+    "text_id": "6NbNNSNL2HQHiiQmo1HuG"
+  },
+  "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "35raew0qYcGjgvHk326I2",
+    "text_id": "s0uy57NxghIGUf29tsQv4"
+  },
+  "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "rYTjuuUVvpar8FI0ezGer",
+    "text_id": "4ErwgcOtKdLaI2TaUCfRg"
+  },
+  "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "D5kjftccLOphnLR7kSkx6",
+    "text_id": "t9BXthfLn6pbvO6XSySM6"
+  },
   "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "uy3ivaMQ6gsREiqhTBW4l",
@@ -1135,6 +2735,26 @@
     "aligned": true,
     "edition_id": "JG60ujVIchq2llrtO4pXQ",
     "text_id": "dFjazs1zOygCFWMiTTPKn"
+  },
+  "ལམ་གཙོ་རྣམ་གསུམ།-hi": {
+    "aligned": true,
+    "edition_id": "5QtYauhzxOxFqEVtZglwu",
+    "text_id": "f4WmYhaUW65IqVBntcolZ"
+  },
+  "ལམ་གཙོ་རྣམ་གསུམ།-mn": {
+    "aligned": true,
+    "edition_id": "8QE40fSqjFztEXkYvb3aM",
+    "text_id": "xftTgqGlNdzDx3b98lQlp"
+  },
+  "ལམ་གཙོ་རྣམ་གསུམ།-ne": {
+    "aligned": true,
+    "edition_id": "nQpXr0uxG1JplxBnyz87f",
+    "text_id": "4UFaihJwpb6veGt4lcPNo"
+  },
+  "ལམ་གཙོ་རྣམ་གསུམ།-vi": {
+    "aligned": true,
+    "edition_id": "zmXhG5QcNF7u72nPvvGZM",
+    "text_id": "xAmCsGn6chb1bgdRgO70K"
   },
   "ལམ་གཙོ་རྣམ་གསུམ།-zh": {
     "aligned": true,
@@ -1150,6 +2770,26 @@
     "edition_id": "J05kPbHo6oKmj8jXGeDDU",
     "text_id": "Z4Fv6FjJdr67EFSE1ODnT"
   },
+  "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "xRfSHzESglNZPY1GhNyDh",
+    "text_id": "A8FdcSYmR9qCZW3lGMRvM"
+  },
+  "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "FhmdFb66QkmVzWUUha5RH",
+    "text_id": "wy29qSFRXHCa8kPrUmYPR"
+  },
+  "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "nxOyCFoNPEC0HPAXPzsfY",
+    "text_id": "jk56qb7eLjiPz2sdTSj1E"
+  },
+  "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "34vPn8vnqKvvKPTriE0sZ",
+    "text_id": "hPlrz3hGB1dyAXwHiYgjs"
+  },
   "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།-zh": {
     "aligned": true,
     "edition_id": "1JbwDs9WpFcgI2PcwD4wp",
@@ -1163,6 +2803,26 @@
     "aligned": true,
     "edition_id": "kT4xD41S2PZC9yG55If3z",
     "text_id": "8W1fKRsOBYUAXs292L6U1"
+  },
+  "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།-hi": {
+    "aligned": true,
+    "edition_id": "YIHVpVaPyuqx1icZuZGpk",
+    "text_id": "mCuYUsbWGTCbqu0SsPWSy"
+  },
+  "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།-mn": {
+    "aligned": true,
+    "edition_id": "Ny2vDtsNkO0WOzdnu6Xxp",
+    "text_id": "hZhJTK22IsohvqDLk4WT1"
+  },
+  "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།-ne": {
+    "aligned": true,
+    "edition_id": "jIG0NifQQ7SNa6N7BSzBB",
+    "text_id": "jMK4GinHxSvGay3AWJVml"
+  },
+  "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།-vi": {
+    "aligned": true,
+    "edition_id": "ht4TDvgwTehRhbIUVAi6s",
+    "text_id": "lLtcbioLNNjXFHeAepLaf"
   },
   "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།-zh": {
     "aligned": true,
@@ -1178,6 +2838,26 @@
     "edition_id": "9qBUOcbTbOn5ENIGZXEO2",
     "text_id": "bcqnXq7jzXcwDiwjgLL7l"
   },
+  "སངས་རྒྱས་ཆོས་ཚོགས་མ།-hi": {
+    "aligned": true,
+    "edition_id": "tYm8PczTniTUDiPxv8YJH",
+    "text_id": "MVf93qf0XKkhG8hMJGaZX"
+  },
+  "སངས་རྒྱས་ཆོས་ཚོགས་མ།-mn": {
+    "aligned": true,
+    "edition_id": "XYcDFxsfCMKeYoQhUrDZY",
+    "text_id": "nACu1ydz8hp2x8blfiDsS"
+  },
+  "སངས་རྒྱས་ཆོས་ཚོགས་མ།-ne": {
+    "aligned": true,
+    "edition_id": "9smFq57pCtgntPVvuETGZ",
+    "text_id": "2YpFV7gnZC5NEOII51gtH"
+  },
+  "སངས་རྒྱས་ཆོས་ཚོགས་མ།-vi": {
+    "aligned": true,
+    "edition_id": "IteB9BF9lpCppvgxp11mz",
+    "text_id": "NJwIhIEafHYKSJR4FdkZ0"
+  },
   "སངས་རྒྱས་ཆོས་ཚོགས་མ།-zh": {
     "aligned": true,
     "edition_id": "KyaWXQG9NpDdBPnBMroGD",
@@ -1191,6 +2871,26 @@
     "aligned": true,
     "edition_id": "N2imzQOgCRG0Mf0wkr9CQ",
     "text_id": "9nEBgEpDKBMRAXN14OPHF"
+  },
+  "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།-hi": {
+    "aligned": true,
+    "edition_id": "gzbqisZQDQhZ7tSDmnAvb",
+    "text_id": "g49ln0X0qTBVIk0h2xqoi"
+  },
+  "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།-mn": {
+    "aligned": true,
+    "edition_id": "0coH9Ouf7ZWTVMGjl96PK",
+    "text_id": "5b9ZvCYp4dt6Z2MRAT0Xd"
+  },
+  "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།-ne": {
+    "aligned": true,
+    "edition_id": "BB88sLMBggCRH7QyiTFfs",
+    "text_id": "R772ZBLMlhT3QUkfBGXO2"
+  },
+  "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།-vi": {
+    "aligned": true,
+    "edition_id": "6gjzw4FwLGJxeSfjsVc6x",
+    "text_id": "eTP8RoUTxjIxw4Zyprmk5"
   },
   "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།-zh": {
     "aligned": true,
@@ -1206,6 +2906,26 @@
     "edition_id": "e9YaE4tRs6nI6BU1GeUAE",
     "text_id": "W5o6Tyq3hhQDxhmvdoS7B"
   },
+  "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "TdhnVTFd3LPTVwRKIkDAC",
+    "text_id": "4NECafzLDkznK7jBxfmHU"
+  },
+  "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "utJelSsTLEzpZemZYfJaB",
+    "text_id": "7n1BhMN4FNkyaThaBtn3g"
+  },
+  "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "cGZFmk4GaMBQQvcGzSZbC",
+    "text_id": "QGjmqg2hVtIjqJdifTVUV"
+  },
+  "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "7tOp99UHXoCuVI7raglBw",
+    "text_id": "vROdFp8qvU9rNYMEwhdjl"
+  },
   "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh": {
     "aligned": true,
     "edition_id": "1PHcxVLm39uAPyIVNX6mt",
@@ -1219,6 +2939,26 @@
     "aligned": true,
     "edition_id": "QYJzdwpPbWv7wpRdkkFmy",
     "text_id": "C6q3MFUSTOgDw0lMLy4mI"
+  },
+  "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "Bg13QACYNBds2gKNi4siW",
+    "text_id": "vDQwP7yjYzcRuhRSlmmIg"
+  },
+  "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "5nR0SI7ExDpIpDvgRAGHG",
+    "text_id": "qni1m3x09fgqLFcxlNe81"
+  },
+  "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "si3fdPE8QmyPaF2JcEP7H",
+    "text_id": "i1BcHNtJ3crNDBMCtgarq"
+  },
+  "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "Jt4AeZRsiOzYUxd6jrrwg",
+    "text_id": "iIfUUwfV9xrXLhOcRIcPn"
   },
   "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །-zh": {
     "aligned": true,
@@ -1234,6 +2974,26 @@
     "edition_id": "PKFCxFVKKcDtcYHwfmEK7",
     "text_id": "EPCpRjgPlbofWDbNwaCQg"
   },
+  "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།-hi": {
+    "aligned": true,
+    "edition_id": "ujSPVNvyjzO35pwA3C77z",
+    "text_id": "YQx6xmmzkev1zbAmRpVpb"
+  },
+  "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།-mn": {
+    "aligned": true,
+    "edition_id": "O8PnPtdJ9ig9yB8zPM8hn",
+    "text_id": "QVREJZwLPZrdn89mK2siC"
+  },
+  "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།-ne": {
+    "aligned": true,
+    "edition_id": "9qHExC1FGU4FyYFZSkV6i",
+    "text_id": "AoRYcIfugoKsGtP9x3AMS"
+  },
+  "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།-vi": {
+    "aligned": true,
+    "edition_id": "bRgPwxPLfVIZeiyo5lU5v",
+    "text_id": "MFYcDlxTJbMqzWNYWw0Xw"
+  },
   "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།-zh": {
     "aligned": true,
     "edition_id": "yC7dNBhOR1ND04cpc3osE",
@@ -1247,6 +3007,26 @@
     "aligned": true,
     "edition_id": "9AcmJNU0rKeRKbBjSmDhf",
     "text_id": "1JV8GzsC9Q938KzIMd5ul"
+  },
+  "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།-hi": {
+    "aligned": true,
+    "edition_id": "ZKvAovhkur5znEYrauFoS",
+    "text_id": "LHVz1Mlp9J4jfwcLjx1Pf"
+  },
+  "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།-mn": {
+    "aligned": true,
+    "edition_id": "DbobuK42VBl1FmveY93Ot",
+    "text_id": "HvDo4L1s1V3wpywvoHVm9"
+  },
+  "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།-ne": {
+    "aligned": true,
+    "edition_id": "dnevr4yRB6AMp69I47nyK",
+    "text_id": "6CyiBLTlEbMobIHeoNRwm"
+  },
+  "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།-vi": {
+    "aligned": true,
+    "edition_id": "JJSViNYKN6MNGA2ZQFiP8",
+    "text_id": "rquAB2PCvk3ZYzzMaND4r"
   },
   "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།-zh": {
     "aligned": true,
@@ -1262,6 +3042,26 @@
     "edition_id": "jOuvA1l09Ob4EhHuIx9vl",
     "text_id": "uEriBH0jXj8p9byvVR3Sd"
   },
+  "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།-hi": {
+    "aligned": true,
+    "edition_id": "WMwYn8oXccHIaHzxsEX56",
+    "text_id": "W0ZSGivdnxb5ybj4DtPty"
+  },
+  "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།-mn": {
+    "aligned": true,
+    "edition_id": "vs8ICMNKufYKFOmnMsdpG",
+    "text_id": "Pd7WJvX2BuLSgEggtzlbx"
+  },
+  "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།-ne": {
+    "aligned": true,
+    "edition_id": "fEaYyswaXrcA4HvQD5Mnb",
+    "text_id": "MHYKm0g9T7ZfTSp6jOmn6"
+  },
+  "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།-vi": {
+    "aligned": true,
+    "edition_id": "l0TQJqApvK4frNWmrOb5V",
+    "text_id": "s1QiWbj2y699NDC9mWNhO"
+  },
   "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།-zh": {
     "aligned": true,
     "edition_id": "c8iKiuvhcnyHYF6gdIQ58",
@@ -1275,6 +3075,26 @@
     "aligned": true,
     "edition_id": "eeygTsr5YrJSNLQtoi5Qe",
     "text_id": "XUmaBKeYnFbbDUi2uHeKJ"
+  },
+  "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །-hi": {
+    "aligned": true,
+    "edition_id": "COHXpOL4yUbMocuSoEYAq",
+    "text_id": "juGKbl0Z0FeZvYQewoNPY"
+  },
+  "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །-mn": {
+    "aligned": true,
+    "edition_id": "GgqaFnEZAkpx4Me99FzrG",
+    "text_id": "fNAKcXjClAPvQGdFbViXJ"
+  },
+  "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །-ne": {
+    "aligned": true,
+    "edition_id": "NSOKAQ5RcnNjeklEhQKNX",
+    "text_id": "e6KyzqoqfV45JehcIf763"
+  },
+  "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །-vi": {
+    "aligned": true,
+    "edition_id": "2QaPTuItnNZ95VdDi4uAy",
+    "text_id": "smlV7FR6h0jESlJgW8bUf"
   },
   "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །-zh": {
     "aligned": true,
@@ -1290,6 +3110,26 @@
     "edition_id": "y8yZzc2ceimD0cpCP9wAm",
     "text_id": "YZa4T4pejE1Hqf0KUoJNV"
   },
+  "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།-hi": {
+    "aligned": true,
+    "edition_id": "TgeOkkzmpypx3wxRfB8cc",
+    "text_id": "XVlJMLjhbny5Y6TsuixkK"
+  },
+  "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།-mn": {
+    "aligned": true,
+    "edition_id": "NpAc8BZ538CVE9i1JUBRN",
+    "text_id": "JBq26yLMz8tAHmSRzLv0w"
+  },
+  "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།-ne": {
+    "aligned": true,
+    "edition_id": "rlfXPrCv0eFJxrwntP9hF",
+    "text_id": "VvnMJQMiI6ZwmCBubO2RC"
+  },
+  "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།-vi": {
+    "aligned": true,
+    "edition_id": "q2hB5SMQ6pORs27evIspb",
+    "text_id": "hT5n89r9EQ7ZsXf45rug9"
+  },
   "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།-zh": {
     "aligned": true,
     "edition_id": "rv8JX3ebOh0prIglRfeme",
@@ -1303,6 +3143,26 @@
     "aligned": true,
     "edition_id": "utr82OriTXRzQJOjnZuX3",
     "text_id": "V2rK1bLQCya3alIS99FIL"
+  },
+  "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔-hi": {
+    "aligned": true,
+    "edition_id": "0shmW1nwg8znYjY3gI9l4",
+    "text_id": "4Aws7S6M3A3r3G41FKIQv"
+  },
+  "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔-mn": {
+    "aligned": true,
+    "edition_id": "SzRVRYWJcPm5bq23Pid0I",
+    "text_id": "vGTt3jncPGhFWpbeSNUK6"
+  },
+  "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔-ne": {
+    "aligned": true,
+    "edition_id": "HZcXBqaTWfr750wGdwzCW",
+    "text_id": "6JDgWcnURE5L5SMFuxwmU"
+  },
+  "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔-vi": {
+    "aligned": true,
+    "edition_id": "DrytrZfa3rvqq88v5jRpu",
+    "text_id": "lgb0Kho0cC1l3kyK6OPTz"
   },
   "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔-zh": {
     "aligned": true,

@@ -1,6 +1,6 @@
 ---
-title: बुद्धका बाह्र लिलाहरूको स्तुति — Gemini zero-shot (nepali)
-title_translated: बुद्धका बाह्र लिलाहरूको स्तुति
+title: भगवान बुद्धको स्तुति — Gemini zero-shot (nepali)
+title_translated: भगवान बुद्धको स्तुति
 title_original: ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།
 title_attested: false
 title_source:
@@ -40,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# बुद्धका बाह्र लिलाहरूको स्तुति ^0
+# भगवान बुद्धको स्तुति ^0
+
+> बुद्धका बाह्र लिलाहरूको स्तुति
 
 > ༄༅། །ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།
 

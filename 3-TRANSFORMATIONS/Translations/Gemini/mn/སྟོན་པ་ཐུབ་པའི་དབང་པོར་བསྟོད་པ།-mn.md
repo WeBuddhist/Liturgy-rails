@@ -1,6 +1,6 @@
 ---
-title: Бурхан багшийн магтаал — Gemini zero-shot (mongolian)
-title_translated: Бурхан багшийн магтаал
+title: Багш Чадагчийн эрхтийн магтаал — Gemini zero-shot (mongolian)
+title_translated: Багш Чадагчийн эрхтийн магтаал
 title_original: ༄༅། །སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།
 title_attested: false
 title_source:
@@ -40,7 +40,9 @@ status: draft
 > [!warning] Machine baseline — not a rails-governed translation.
 > Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
 
-# Бурхан багшийн магтаал ^0
+# Багш Чадагчийн эрхтийн магтаал ^0
+
+> Бурхан багшийн магтаал
 
 > ༄༅། །སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།
 

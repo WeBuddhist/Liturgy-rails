@@ -706,15 +706,15 @@
       ],
       "hi_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
       "hi_note": "Rendered the general intent as a standard Praise to the Buddha.",
-      "ne_title": "बुद्धका बाह्र लिलाहरूको स्तुति",
+      "ne_title": "भगवान बुद्धको स्तुति",
       "ne_attested": false,
       "ne_source": "",
       "ne_alt": [
         "थब्खे थुक्जेमा",
         "शाक्यमुनि बुद्धको स्तुति"
       ],
-      "ne_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
-      "ne_note": "My rendering combining the actual subject (the twelve deeds/acts) and providing the famous opening 'Tabkhe Tukjema' as an alternative.",
+      "ne_method": "re-titled 2026-09-07 to be distinct: the backend enforces one title per language and the previous value duplicated another text's title",
+      "ne_note": "A natural Nepali title meaning 'Praise of Lord Buddha', which distinguishes it from the praise specifically naming Śākyamuni and the twelve deeds.",
       "mn_title": "Бурхан багшийн магтаал",
       "mn_attested": false,
       "mn_source": "",
@@ -724,15 +724,15 @@
       ],
       "mn_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
       "mn_note": "Using the most instantly recognizable functional title for this common praise.",
-      "vi_title": "Lời Tán Thán Mười Hai Hạnh Nguyện Đức Phật",
+      "vi_title": "Tán Thán Đức Phật",
       "vi_attested": false,
       "vi_source": "",
       "vi_alt": [
         "Thích Ca Mâu Ni Phật Lễ Tán Văn",
         "Bài Tán Thán Đức Thế Tôn"
       ],
-      "vi_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
-      "vi_note": "Tiêu đề chú trọng vào nội dung thực tế (12 hạnh nguyện) giúp Phật tử bình thường dễ nhận biết."
+      "vi_method": "re-titled 2026-09-07 to be distinct: the backend enforces one title per language and the previous value duplicated another text's title",
+      "vi_note": "A straightforward and standard Vietnamese title meaning 'Praise of the Buddha', clearly distinct from 'Tán Thán Đức Bổn Sư Thích Ca' and the twelve deeds."
     },
     {
       "stem": "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །",
@@ -5354,15 +5354,16 @@
       ],
       "ne_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
       "ne_note": "Natural Nepali rendering, translating 'Lord of Sages' directly to the universally understood 'Shakyamuni Buddha' for lay users.",
-      "mn_title": "Бурхан багшийн магтаал",
+      "mn_title": "Багш Чадагчийн эрхтийн магтаал",
       "mn_attested": false,
       "mn_source": "",
       "mn_alt": [
+        "Бурхан багшийн магтаал",
         "Багш Шагжаамүни бурхны магтаал",
         "Багш чадагчийн эрхтэд өргөх магтаал"
       ],
-      "mn_method": "translated by gemini-3.1-pro-preview from the Tibetan and English titles; unattested",
-      "mn_note": "Natural Mongolian rendering, using recognizable terms for Buddha Shakyamuni ('Lord of Sages') to make it instantly clear to ordinary readers.",
+      "mn_method": "re-titled 2026-09-07 to be distinct: the backend enforces one title per language and the previous value duplicated another text's title",
+      "mn_note": "Translates directly to 'Praise of the Teacher, Lord of Sages' ('Chadagchiin erkht' is the standard translation for 'thub pa'i dbang po'), clearly distinct from the general and twelve deeds praises.",
       "vi_title": "Tán Thán Đức Bổn Sư Thích Ca",
       "vi_attested": false,
       "vi_source": "",
