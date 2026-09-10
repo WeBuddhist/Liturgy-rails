@@ -1,4 +1,6 @@
 {
   "textFontFamily": "Monlam Uni OuChan2",
-  "baseFontSize": 20
+  "baseFontSize": 24,
+  "interfaceFontFamily": "Monlam Uni OuChan3",
+  "baseFontSizeAction": true
 }
