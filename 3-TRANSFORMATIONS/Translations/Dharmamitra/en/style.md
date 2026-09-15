@@ -1,0 +1,1 @@
+Translate this Tibetan verse of praise line by line: render each Tibetan line as one line of the target language, in the same order, and keep the same number of lines as the source. Devotional but clear register. Keep mantra syllables and proper names in transliteration rather than translating them. Do not add commentary, notes, or explanation.
