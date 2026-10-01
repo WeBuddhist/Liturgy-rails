@@ -76,6 +76,14 @@ python3 4-SYSTEM/scripts/build_payloads.py --category-id <CATEGORY_ID>
 > `4-SYSTEM/scripts/payloads/`, POSTed by `upload_liturgy.py` to `/v2/texts`
 > and `/v2/texts/{text_id}/editions`. Re-trace before relying on this section.
 
+> **Updating texts that are already uploaded (2026-09-15):** the experts edit
+> `0-INBOX/`; the uploaded state is `1-SOURCES/Text/`. Run
+> `python3 4-SYSTEM/scripts/inbox_diff.py --report 4-SYSTEM/inbox-diff-report.md`
+> (skill `inbox-diff`) to see what changed and what it costs to push, and read
+> `4-SYSTEM/backend-update-plan.md` for which v2 endpoints exist for an
+> in-place update and which are missing. Never delete and re-create a text:
+> its `text_id` is referenced everywhere.
+
 `build_payloads.py` emits, per note, `text.json` (`POST /v2/texts`),
 `instance.json` (`POST /v2/texts/{text_id}/instances` — content plus span
 annotations) and `toc.json` (`POST /v2/annotations/{instance_id}/annotation`,

@@ -1,0 +1,105 @@
+{
+  "stem": "གསོལ་འདེབས་ལེའུ་བདུན་མ།",
+  "text_id": "fKlCfal3gQNiPwEQ3qmgW",
+  "edition_id": "ekv4YsfghJab1lrxoHEy0",
+  "endpoint": "PATCH /v2/editions/ekv4YsfghJab1lrxoHEy0/content",
+  "body": "the operation object itself; ContentOperation is a RootModel",
+  "note": "one request per operation, sent in this order. Offsets are stated against the content as it is on the backend now; the order is descending by position so no offset is invalidated by an earlier op and no re-GET is needed between calls.",
+  "expected_content_length_before": 21565,
+  "expected_content_length_after": 21733,
+  "segments": 132,
+  "segments_unchanged": true,
+  "alignments_preserved": 6,
+  "verified": {
+    "replayed_content_equals_fresh_build": true,
+    "replayed_spans_equal_fresh_build": true,
+    "live_content_matches": true,
+    "live_segment_shape_matches": true,
+    "live_line_spans_match": true
+  },
+  "operations": [
+    {
+      "type": "replace",
+      "start": 956,
+      "end": 957,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 934,
+      "end": 935,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 907,
+      "end": 908,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 885,
+      "end": 886,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 861,
+      "end": 862,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 834,
+      "end": 835,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 811,
+      "end": 812,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 784,
+      "end": 785,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 757,
+      "end": 758,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 729,
+      "end": 730,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 701,
+      "end": 703,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 676,
+      "end": 678,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "replace",
+      "start": 645,
+      "end": 647,
+      "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+      "type": "insert",
+      "position": 27,
+      "text": "། "
+    }
+  ]
+}
