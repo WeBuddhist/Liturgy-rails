@@ -1,0 +1,27 @@
+{
+  "stem": "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།",
+  "text_id": "TtpBWMEiGd8e0XNserPGI",
+  "edition_id": "jMZ74sGpazU4CDbLhGoOQ",
+  "endpoint": "PATCH /v2/editions/jMZ74sGpazU4CDbLhGoOQ/content",
+  "body": "the operation object itself; ContentOperation is a RootModel",
+  "note": "one request per operation, sent in this order. Offsets are stated against the content as it is on the backend now; the order is descending by position so no offset is invalidated by an earlier op and no re-GET is needed between calls.",
+  "expected_content_length_before": 3692,
+  "expected_content_length_after": 3694,
+  "segments": 24,
+  "segments_unchanged": true,
+  "alignments_preserved": 6,
+  "verified": {
+    "replayed_content_equals_fresh_build": true,
+    "replayed_spans_equal_fresh_build": true,
+    "live_content_matches": true,
+    "live_segment_shape_matches": true,
+    "live_line_spans_match": true
+  },
+  "operations": [
+    {
+      "type": "insert",
+      "position": 38,
+      "text": "། "
+    }
+  ]
+}
