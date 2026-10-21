@@ -1,0 +1,1524 @@
+{
+ "generated": "2026-09-16T12:37:44",
+ "results": [
+  {
+   "stem": "ཁྱུང་པོའི་སྨོན་ལམ།",
+   "inbox": "ཁྱུང་པོའི་སྨོན་ལམ། །.md",
+   "text_id": "kFAiHmr7Bh3EXEFfmabz4",
+   "edition_id": "0c1XHW3suAPaH4KSpmq0E",
+   "old_len": 1279,
+   "new_len": 1281,
+   "segments_old": 8,
+   "segments_new": 8,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 22,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 22,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…པོའི་སྨོན་ལམ«»།སྐུ་གསུམ་མཁ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 1279,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ།",
+   "inbox": "གཏོར་མ་ཆ་གསུམ་བཞུགས་སོ། །.md",
+   "text_id": "IhgltFJ2N4Uy4fl4625tD",
+   "edition_id": "jHLSXvhxCCmXt69JeMyRf",
+   "verdict": "blocked",
+   "reason": "H3 appears before any H2"
+  },
+  {
+   "stem": "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།",
+   "inbox": "གསོལ་འདེབས་བར་ཆད་ལམ་སེལ། །.md",
+   "text_id": "RFrWYbzc6astpajQj2lcp",
+   "edition_id": "yMfZgziZceyB18W6it1Qh",
+   "old_len": 6345,
+   "new_len": 6346,
+   "segments_old": 25,
+   "segments_new": 25,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 29,
+     "text": " "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 29,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": " ",
+     "context": "…ར་ཆད་ལམ་སེལ།«»།ཨོཾ་ཨཱཿཧཱུྃ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 6345,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།",
+   "inbox": "གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ། །.md",
+   "text_id": "OCZXgqlF9sQCHmY2LZhYa",
+   "edition_id": "3Oub45BTdTJaLUyBCZcNS",
+   "old_len": 1057,
+   "new_len": 1059,
+   "segments_old": 6,
+   "segments_new": 6,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 34,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 34,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…མྱུར་འགྲུབ་མ«»།ཨེ་མ་ཧོ།མཚོ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 1057,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "གསོལ་འདེབས་ལེའུ་བདུན་མ།",
+   "inbox": "གསོལ་འདེབས་ལེའུ་བདུན་མ། །.md",
+   "text_id": "fKlCfal3gQNiPwEQ3qmgW",
+   "edition_id": "ekv4YsfghJab1lrxoHEy0",
+   "old_len": 21565,
+   "new_len": 21733,
+   "segments_old": 132,
+   "segments_new": 132,
+   "ops": [
+    {
+     "type": "replace",
+     "start": 956,
+     "end": 957,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 934,
+     "end": 935,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 907,
+     "end": 908,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 885,
+     "end": 886,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 861,
+     "end": 862,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 834,
+     "end": 835,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 811,
+     "end": 812,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 784,
+     "end": 785,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 757,
+     "end": 758,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 729,
+     "end": 730,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 701,
+     "end": 703,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 676,
+     "end": 678,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "replace",
+     "start": 645,
+     "end": 647,
+     "text": "་གསོལ་བ་འདེབས༔"
+    },
+    {
+     "type": "insert",
+     "position": 27,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "replace",
+     "at": 956,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ྩ་བའི་བླ་མ་ལ«༴»མཆོག་དང་ཐུན་…"
+    },
+    {
+     "op": "replace",
+     "at": 934,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ང་རྣམ་རྒྱལ་ལ«༴»དྲིན་ཅན་རྩ་བ…"
+    },
+    {
+     "op": "replace",
+     "at": 907,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ན་པའི་ཉི་མ་ལ«༴»རྒྱལ་སྲས་ངག་…"
+    },
+    {
+     "op": "replace",
+     "at": 885,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ྱི་རྒྱལ་པོ་ལ«༴»མི་ཕམ་བསྟན་པ…"
+    },
+    {
+     "op": "replace",
+     "at": 861,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ི་དབང་ཕྱུག་ལ«༴»མི་ཕམ་ཆོས་ཀྱ…"
+    },
+    {
+     "op": "replace",
+     "at": 834,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ཁྲི་བཙན་པོ་ལ«༴»རིག་འཛིན་གར་…"
+    },
+    {
+     "op": "replace",
+     "at": 811,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…བདུད་འཇོམས་ལ«༴»ལྷ་སྲས་མུ་ཁྲ…"
+    },
+    {
+     "op": "replace",
+     "at": 784,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ས་མཚོ་རྒྱལ་ལ«༴»སྣ་ནམ་རྡོ་རྗ…"
+    },
+    {
+     "op": "replace",
+     "at": 757,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ོང་ལྡེ་བཙན་ལ«༴»མཁའ་འགྲོ་ཡེ་…"
+    },
+    {
+     "op": "replace",
+     "at": 729,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…འི་སྙིང་པོ་ལ«༴»ཆོས་རྒྱལ་ཁྲི…"
+    },
+    {
+     "op": "replace",
+     "at": 701,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴།",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…་འབྱུང་གནས་ལ«༴།»དགེ་སློང་ནམ་…"
+    },
+    {
+     "op": "replace",
+     "at": 676,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴།",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…ུམ་མགོན་པོ་ལ«༴།»ཨུ་རྒྱན་པདྨ་…"
+    },
+    {
+     "op": "replace",
+     "at": 645,
+     "segment": "^4",
+     "segment_type": "verse",
+     "was": "༴།",
+     "now": "་གསོལ་བ་འདེབས༔",
+     "context": "…་བ་རིགས་ལྔ་ལ«༴།»སྤྲུལ་སྐུ་རི…"
+    },
+    {
+     "op": "insert",
+     "at": 27,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…་ལེའུ་བདུན་མ«»།ཨེ་མ་ཧོ༔སྤྲ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 21565,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "ཆགས་མེད་བདེ་སྨོན།",
+   "inbox": "ཆགས་མེད་བདེ་སྨོན། །.md",
+   "text_id": "sL6b2RAdLRFJ0HuP5HqZc",
+   "edition_id": "sW7mkFguTtULQxTHYlruD",
+   "old_len": 13743,
+   "new_len": 13763,
+   "segments_old": 86,
+   "segments_new": 88,
+   "verdict": "rebuild",
+   "reason": "segment count 86 -> 88"
+  },
+  {
+   "stem": "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ།",
+   "inbox": "ཆོ་འཕྲུལ་གྱི་བསྟོད་པ། །.md",
+   "text_id": "mz0cRgPEfKW0CyD2P014J",
+   "edition_id": "DGxWOpofXAotErLZvTfDv",
+   "old_len": 2939,
+   "new_len": 2961,
+   "segments_old": 21,
+   "segments_new": 23,
+   "verdict": "rebuild",
+   "reason": "segment count 21 -> 23"
+  },
+  {
+   "stem": "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །",
+   "inbox": "ཇ་མཆོད་གཙུག་གི་ནོར་བུ་བཞུགས་སོ། །.md",
+   "text_id": "man8rYtwD1MZHsrXom8jK",
+   "edition_id": "DhUFSsdCD1QpSFiBYw9nv",
+   "old_len": 2030,
+   "new_len": 2049,
+   "segments_old": 13,
+   "segments_new": 15,
+   "verdict": "rebuild",
+   "reason": "segment count 13 -> 15"
+  },
+  {
+   "stem": "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ།",
+   "inbox": "ཇ་མཆོད་བདེ་ཆེན་ཀུན་བཟང་མ་བཞུགས་སོ། །.md",
+   "text_id": "vYhrtHA7mVE4oRhFNphPu",
+   "edition_id": "yqU91NSKMdzDEyMtJb9Kj",
+   "old_len": 1194,
+   "new_len": 1196,
+   "segments_old": 9,
+   "segments_new": 9,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 38,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 38,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…ང་མ་བཞུགས་སོ«»།རང་ལྷར་གསལ་…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 1194,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ།",
+   "inbox": "ཇོ་བོ་རྗེའི་བསྟོད་པ་ཕུན་སུམ་ཚོགས་པ་མ་བཞུགས་སོ། །.md",
+   "text_id": "5yVLOg0Vna5MtaXlf6KaY",
+   "edition_id": "u4GrFTrXLKLkBp0mqYbZp",
+   "old_len": 5237,
+   "new_len": 5237,
+   "segments_old": 37,
+   "segments_new": 37,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས།",
+   "inbox": "ཏཱ་ཡི་སི་ཏུ་རིམ་པར་བྱོན་པ་རྣམས་ཀྱི་གསོལ་འདེབས། །.md",
+   "text_id": "ewoK5ZmjGVoNHm6bt9nIq",
+   "edition_id": "hAKJqlvPvvi097gGJl05W",
+   "old_len": 1839,
+   "new_len": 1860,
+   "segments_old": 12,
+   "segments_new": 14,
+   "verdict": "rebuild",
+   "reason": "segment count 12 -> 14"
+  },
+  {
+   "stem": "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།",
+   "inbox": "ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ། །.md",
+   "text_id": "nhXxS7zxf9rzbmIKyK1L2",
+   "edition_id": "RU2DH2HFFdyWufgnplS1e",
+   "old_len": 2758,
+   "new_len": 2779,
+   "segments_old": 20,
+   "segments_new": 22,
+   "verdict": "rebuild",
+   "reason": "segment count 20 -> 22"
+  },
+  {
+   "stem": "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །",
+   "inbox": "ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །.md",
+   "text_id": "Yl5RHmW9kCpdLEDk03uWD",
+   "edition_id": "5mWvYW9GSFAJm1tzj2dFd",
+   "old_len": 4003,
+   "new_len": 4003,
+   "segments_old": 26,
+   "segments_new": 26,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།",
+   "inbox": "ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ། །.md",
+   "text_id": "iY2qfLWwXnAm3VInJeVNj",
+   "edition_id": "Sj01DlRKsLt6xxDGmS1c9",
+   "old_len": 1091,
+   "new_len": 1112,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།",
+   "inbox": "ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས། །.md",
+   "text_id": "SXt5dA2lylzKvysOTHiMR",
+   "edition_id": "UK8gUdNDFPn21Idvkk0f2",
+   "old_len": 3546,
+   "new_len": 3567,
+   "segments_old": 19,
+   "segments_new": 21,
+   "verdict": "rebuild",
+   "reason": "segment count 19 -> 21"
+  },
+  {
+   "stem": "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།",
+   "inbox": "ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ། །.md",
+   "text_id": "kIENaFHbq4vF6Q5inHMDq",
+   "edition_id": "fUYHHM6trQkY7J74YidiU",
+   "old_len": 2244,
+   "new_len": 2265,
+   "segments_old": 17,
+   "segments_new": 19,
+   "verdict": "rebuild",
+   "reason": "segment count 17 -> 19"
+  },
+  {
+   "stem": "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།",
+   "inbox": "ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ། །.md",
+   "text_id": "TtpBWMEiGd8e0XNserPGI",
+   "edition_id": "jMZ74sGpazU4CDbLhGoOQ",
+   "old_len": 3692,
+   "new_len": 3694,
+   "segments_old": 24,
+   "segments_new": 24,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 38,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 38,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…་པའི་སྨོན་ལམ«»།སྐུ་བཞིའི་བ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 3692,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "ཐོག་མཐའ་མ་བཞུགས་སོ།",
+   "inbox": "ཐོག་མཐའ་མ་བཞུགས་སོ། །.md",
+   "text_id": "0onG3Aezvmsx9xlbKGfdZ",
+   "edition_id": "dt3OzTIe4ILAul9IEuvqW",
+   "old_len": 4678,
+   "new_len": 4699,
+   "segments_old": 33,
+   "segments_new": 35,
+   "verdict": "rebuild",
+   "reason": "segment count 33 -> 35"
+  },
+  {
+   "stem": "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།",
+   "inbox": "དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ། །.md",
+   "text_id": "ewzxYYcM5UF1oCDtMDxNl",
+   "edition_id": "9HPXahDQ9ptYjc0QmmxjJ",
+   "old_len": 3509,
+   "new_len": 3511,
+   "segments_old": 23,
+   "segments_new": 23,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 50,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 50,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…་ལམ་དང་བཅས་པ«»།ན་མོ་གུ་རུ་…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 3509,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།",
+   "inbox": "དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ། །.md",
+   "text_id": "2wxqIwT27sFU6Sb5wKpZj",
+   "edition_id": "VfsjlMbI79VL5bTOtaNzV",
+   "old_len": 1902,
+   "new_len": 1904,
+   "segments_old": 12,
+   "segments_new": 12,
+   "ops": [
+    {
+     "type": "insert",
+     "position": 67,
+     "text": "། "
+    }
+   ],
+   "content_ok": true,
+   "spans_ok": true,
+   "verdict": "patch",
+   "detail": [
+    {
+     "op": "insert",
+     "at": 67,
+     "segment": "^0",
+     "segment_type": "title",
+     "was": "",
+     "now": "། ",
+     "context": "…ག་གི་བསྟོད་པ«»།པོ་བསྟོད་བཞ…"
+    }
+   ],
+   "metadata": [],
+   "live_len": 1902,
+   "live_content_matches": true,
+   "live_shape_matches": true,
+   "live_spans_matches": true,
+   "alignments": 6
+  },
+  {
+   "stem": "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།",
+   "inbox": "དགོངས་གཅིག་ལྷན་ཐབས་བཞུགས་སོ།.md",
+   "text_id": "Z1l486nzDXMxAjz4G5uQ9",
+   "edition_id": "o3duCXQPI3ZmzAUVMsoUZ",
+   "old_len": 2598,
+   "new_len": 2618,
+   "segments_old": 18,
+   "segments_new": 20,
+   "verdict": "rebuild",
+   "reason": "segment count 18 -> 20"
+  },
+  {
+   "stem": "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།",
+   "inbox": "དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ།.md",
+   "text_id": "6f0mSpOJSMIp3uDrlwOuq",
+   "edition_id": "UjvmCbmxRfEIoSz0k4n0m",
+   "old_len": 6782,
+   "new_len": 6782,
+   "segments_old": 50,
+   "segments_new": 50,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །",
+   "inbox": "དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །.md",
+   "text_id": "9aEhOMQoNH2AbQcyaPfhI",
+   "edition_id": "lb3SgF7wQg1V0nDvTmM4Q",
+   "old_len": 6179,
+   "new_len": 6198,
+   "segments_old": 24,
+   "segments_new": 26,
+   "verdict": "rebuild",
+   "reason": "segment count 24 -> 26"
+  },
+  {
+   "stem": "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།",
+   "inbox": "དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།.md",
+   "text_id": "bJQO0cXgxbQf6fWZibjfR",
+   "edition_id": "szUUVUMo583ADrswwzNnP",
+   "old_len": 5729,
+   "new_len": 5750,
+   "segments_old": 27,
+   "segments_new": 29,
+   "verdict": "rebuild",
+   "reason": "segment count 27 -> 29"
+  },
+  {
+   "stem": "དཔལ་ལྡན་ས་གསུམ་མ།",
+   "inbox": "དཔལ་ལྡན་ས་གསུམ་མ།.md",
+   "text_id": "rdnoZAE3O4iTy4ds73dA9",
+   "edition_id": "y0tyghuqxtziSrVMobkNe",
+   "old_len": 6537,
+   "new_len": 6558,
+   "segments_old": 40,
+   "segments_new": 42,
+   "verdict": "rebuild",
+   "reason": "segment count 40 -> 42"
+  },
+  {
+   "stem": "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །",
+   "inbox": "དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། །.md",
+   "text_id": "FV07WWNcANPjOClKeZLha",
+   "edition_id": "MiqdeVaELmyZGDoSvM1BR",
+   "old_len": 4652,
+   "new_len": 4672,
+   "segments_old": 29,
+   "segments_new": 31,
+   "verdict": "rebuild",
+   "reason": "segment count 29 -> 31"
+  },
+  {
+   "stem": "དབང་སྡུད་གསོལ་འདེབས།",
+   "inbox": "དབང་སྡུད་གསོལ་འདེབས།.md",
+   "text_id": "F6uq5RqCtMAPyqOmoa3cT",
+   "edition_id": "bNDUylO5w169ah6pDrScr",
+   "old_len": 1327,
+   "new_len": 1348,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།",
+   "inbox": "དབྱངས་ཅན་མའི་བསྟོད་པ་བཞུགས་སོ།.md",
+   "text_id": "X0Y6wI7pvA3tPvZXJh79o",
+   "edition_id": "kGVsGhXdvGwRw9uaJnPvQ",
+   "old_len": 673,
+   "new_len": 694,
+   "segments_old": 6,
+   "segments_new": 8,
+   "verdict": "rebuild",
+   "reason": "segment count 6 -> 8"
+  },
+  {
+   "stem": "དམིགས་བརྩེ་མ།",
+   "inbox": "དམིགས་བརྩེ་མ།.md",
+   "text_id": "AwYvO8bGBlH7RXNlZ8zeN",
+   "edition_id": "XxAjCLLcBt9tk6VIV7gIJ",
+   "old_len": 211,
+   "new_len": 211,
+   "segments_old": 2,
+   "segments_new": 2,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།",
+   "inbox": "དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།.md",
+   "text_id": "F7KBeBVvid7qAkxBENZtn",
+   "edition_id": "CN4gsDPwNevEtu03WCmoI",
+   "old_len": 2483,
+   "new_len": 2502,
+   "segments_old": 19,
+   "segments_new": 21,
+   "verdict": "rebuild",
+   "reason": "segment count 19 -> 21"
+  },
+  {
+   "stem": "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།",
+   "inbox": "པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།.md",
+   "text_id": "A64nfIOh1Epv7E818lisV",
+   "edition_id": "BkFN0wLaf813VpxMdw4wI",
+   "old_len": 2516,
+   "new_len": 2535,
+   "segments_old": 17,
+   "segments_new": 19,
+   "verdict": "rebuild",
+   "reason": "segment count 17 -> 19"
+  },
+  {
+   "stem": "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།",
+   "inbox": "ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།.md",
+   "text_id": "qpT3wj7EMv1H5hwpQh4Mi",
+   "edition_id": "qVr7nKoygjtKp40OYMFgB",
+   "old_len": 7757,
+   "new_len": 7776,
+   "segments_old": 54,
+   "segments_new": 56,
+   "verdict": "rebuild",
+   "reason": "segment count 54 -> 56"
+  },
+  {
+   "stem": "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།",
+   "inbox": "ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།.md",
+   "text_id": "B1zbnjVEryMSke3oOCGbn",
+   "edition_id": "z0cxHK1foSpxDpq8sjwfp",
+   "old_len": 2612,
+   "new_len": 2631,
+   "segments_old": 21,
+   "segments_new": 23,
+   "verdict": "rebuild",
+   "reason": "segment count 21 -> 23"
+  },
+  {
+   "stem": "བཀའ་ཐང་བསྡུས་པ།",
+   "inbox": "བཀའ་ཐང་བསྡུས་པ།.md",
+   "text_id": "m8kpgFXb7t5Osl15i0zG3",
+   "edition_id": "MmmIPtqPu3eq9j5wr3swv",
+   "old_len": 12312,
+   "new_len": 12322,
+   "segments_old": 26,
+   "segments_new": 27,
+   "verdict": "rebuild",
+   "reason": "segment count 26 -> 27"
+  },
+  {
+   "stem": "བདུད་བཟློག་གསང་བའི་མན་ངག",
+   "inbox": "བདུད་བཟློག་གསང་བའི་མན་ངག.md",
+   "text_id": "RnPsDsYnEQOwClp1Gwy9f",
+   "edition_id": "8Q6eQYe6boULb5wNYBfhB",
+   "old_len": 865,
+   "new_len": 875,
+   "segments_old": 9,
+   "segments_new": 10,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 10"
+  },
+  {
+   "stem": "བདེ་སྨོན་བསྡུས་པ།",
+   "inbox": "བདེ་སྨོན་བསྡུས་པ།.md",
+   "text_id": "Ccw1LG5ctLxUUMWUWIioz",
+   "edition_id": "x5TggGANKtlldG7SXYhYb",
+   "old_len": 670,
+   "new_len": 680,
+   "segments_old": 6,
+   "segments_new": 7,
+   "verdict": "rebuild",
+   "reason": "segment count 6 -> 7"
+  },
+  {
+   "stem": "བདེན་ཚིག་སྨོན་ལམ།",
+   "inbox": "བདེན་ཚིག་སྨོན་ལམ།.md",
+   "text_id": "4TPH0FFP76OyOXxhFpUks",
+   "edition_id": "mJkFYFn30t20Et4xVKBqN",
+   "old_len": 1506,
+   "new_len": 1506,
+   "segments_old": 10,
+   "segments_new": 10,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།",
+   "inbox": "བསམ་པ་ལྷུན་གྲུབ་མ་བཞུགས་སོ།.md",
+   "text_id": "TuNVC457TWcD6ZqX9p7d7",
+   "edition_id": "nq57Ii1BgzmF8g7UFe1Gd",
+   "old_len": 4685,
+   "new_len": 4685,
+   "segments_old": 19,
+   "segments_new": 19,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།",
+   "inbox": "བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།.md",
+   "text_id": "TE5SXyjsys7RpldmxJ0o7",
+   "edition_id": "7KZ7KpAfALQIfOVMlnt6h",
+   "old_len": 1855,
+   "new_len": 1874,
+   "segments_old": 13,
+   "segments_new": 15,
+   "verdict": "rebuild",
+   "reason": "segment count 13 -> 15"
+  },
+  {
+   "stem": "བསྟན་འབར་མ་བཞུགས་སོ།",
+   "inbox": "བསྟན་འབར་མ་བཞུགས་སོ།.md",
+   "text_id": "JzdTksx02HFu7AJcrZoca",
+   "edition_id": "D1SKehgiivid8Q9LJmqmU",
+   "old_len": 2328,
+   "new_len": 2328,
+   "segments_old": 20,
+   "segments_new": 20,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།",
+   "inbox": "བོད་ཡུལ་བདེ་བའི་སྨོན་ལམ།.md",
+   "text_id": "QlABWRJ1Buppn13fO4MFP",
+   "edition_id": "busmPWQ4sdx77Ey5oBQTa",
+   "old_len": 1302,
+   "new_len": 1322,
+   "segments_old": 7,
+   "segments_new": 9,
+   "verdict": "rebuild",
+   "reason": "segment count 7 -> 9"
+  },
+  {
+   "stem": "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།",
+   "inbox": "བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།.md",
+   "text_id": "llBasykPVfq9n30e54BnS",
+   "edition_id": "0odejweAH3Us0LYOR5C3h",
+   "old_len": 1544,
+   "new_len": 1563,
+   "segments_old": 7,
+   "segments_new": 9,
+   "verdict": "rebuild",
+   "reason": "segment count 7 -> 9"
+  },
+  {
+   "stem": "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།",
+   "inbox": "བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།.md",
+   "text_id": "xwxtVIpGmMP8EySCorQLp",
+   "edition_id": "exSrreS5O6MSHU0694Ykv",
+   "old_len": 4700,
+   "new_len": 4710,
+   "segments_old": 10,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 10 -> 11"
+  },
+  {
+   "stem": "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།",
+   "inbox": "བྱམས་པའི་སྐུ་གཟུགས་མ་བཞུགས་སོ།།.md",
+   "text_id": "nJxeYFncHeRwT7KJRThuU",
+   "edition_id": "Hv9Y21TgOGrFf36jAXCeG",
+   "old_len": 1177,
+   "new_len": 1196,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "བྱམས་པའི་སྨོན་ལམ།",
+   "inbox": "བྱམས་པའི་སྨོན་ལམ།.md",
+   "text_id": "SClA1JiIroXSx5MnwSsuz",
+   "edition_id": "nI0G0IFn7Dtot3x3JQIkT",
+   "old_len": 3408,
+   "new_len": 3408,
+   "segments_old": 28,
+   "segments_new": 28,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།",
+   "inbox": "བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།.md",
+   "text_id": "cf37ueUMBKoDYm3Ez1YFt",
+   "edition_id": "36NY3B0vOoajMk3JrGcUT",
+   "old_len": 5289,
+   "new_len": 5299,
+   "segments_old": 44,
+   "segments_new": 45,
+   "verdict": "rebuild",
+   "reason": "segment count 44 -> 45"
+  },
+  {
+   "stem": "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།",
+   "inbox": "བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།.md",
+   "text_id": "ZUYKSNhId4fkM8GExRjIv",
+   "edition_id": "efZc9xHWDmi5VqdhMPNI2",
+   "old_len": 6471,
+   "new_len": 6481,
+   "segments_old": 10,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 10 -> 11"
+  },
+  {
+   "stem": "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།",
+   "inbox": "བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།.md",
+   "text_id": "EY2k27QEXVvK8teitNQjg",
+   "edition_id": "H89B7i9l40fbzBU8aISNZ",
+   "old_len": 10199,
+   "new_len": 10218,
+   "segments_old": 55,
+   "segments_new": 57,
+   "verdict": "rebuild",
+   "reason": "segment count 55 -> 57"
+  },
+  {
+   "stem": "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།",
+   "inbox": "བློ་སྦྱོང་ཚིག་བརྒྱད་མ།.md",
+   "text_id": "NL1AsKIJ6PBvhiFBEkykb",
+   "edition_id": "Y9Fvp302hCVf1ZJXXB5vc",
+   "old_len": 1024,
+   "new_len": 1043,
+   "segments_old": 11,
+   "segments_new": 13,
+   "verdict": "rebuild",
+   "reason": "segment count 11 -> 13"
+  },
+  {
+   "stem": "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།",
+   "inbox": "མཁས་གྲུབ་རྗེའི་བསྟོད་པ།.md",
+   "text_id": "FaRWIJ7RaVOwSIphsDs9W",
+   "edition_id": "dj2taElDUmuoxtur1eEnD",
+   "old_len": 1220,
+   "new_len": 1239,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།",
+   "inbox": "མགོན་པོ་ཕྱག་དྲུག་པའི་བསྟོད་པ་མྱུར་མཛད་མ།.md",
+   "text_id": "UU6C79yAY1LkJ5L70THwj",
+   "edition_id": "jrjEYiCjERhjmh9eG83NZ",
+   "old_len": 872,
+   "new_len": 891,
+   "segments_old": 7,
+   "segments_new": 9,
+   "verdict": "rebuild",
+   "reason": "segment count 7 -> 9"
+  },
+  {
+   "stem": "མཎྜལ།",
+   "inbox": "མཎྜལ།.md",
+   "text_id": "G0UYiG7hH0FPd47jfgGYE",
+   "edition_id": "KZ51nhXWaMJw1OqEPQQoo",
+   "old_len": 2273,
+   "new_len": 2273,
+   "segments_old": 8,
+   "segments_new": 8,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "མར་མེའི་སྨོན་ལམ།",
+   "inbox": "མར་མེའི་སྨོན་ལམ།.md",
+   "text_id": "yQJB9DQxa1aArwuoSKwlg",
+   "edition_id": "4sO9O1jmGL4htEtYKGrdN",
+   "old_len": 468,
+   "new_len": 468,
+   "segments_old": 4,
+   "segments_new": 4,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "མི་ཁའི་བཟློག་བསྒྱུར།",
+   "inbox": "མི་ཁའི་བཟློག་བསྒྱུར།.md",
+   "text_id": "ah72PYssW0OH9034vKXr1",
+   "edition_id": "HTZuV4cqg8kCEH21xUCmK",
+   "old_len": 8820,
+   "new_len": 8820,
+   "segments_old": 76,
+   "segments_new": 76,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།",
+   "inbox": "མྱུར་མཛད་རྣམ་གསུམ་བཞུགས་སོ།.md",
+   "text_id": "OOxJSuMsb9WXWTf05o1WM",
+   "edition_id": "d7f3kWwnvwSwkYnjXfLkb",
+   "old_len": 1322,
+   "new_len": 1322,
+   "segments_old": 10,
+   "segments_new": 10,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཚད་མེད་བཞི།",
+   "inbox": "ཚད་མེད་བཞི།.md",
+   "text_id": "QHZBDsYF0orhBAUJDPqMR",
+   "edition_id": "q8MIDeOdfo0V2q5bWsI87",
+   "old_len": 272,
+   "new_len": 272,
+   "segments_old": 2,
+   "segments_new": 2,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཚིག་བདུན་གསོལ་འདེབས།",
+   "inbox": "ཚིག་བདུན་གསོལ་འདེབས།.md",
+   "text_id": "xy9aPmhAKPXkjP8aTd6pH",
+   "edition_id": "gWb8KjlGhGsEXwq2LUOmL",
+   "old_len": 253,
+   "new_len": 253,
+   "segments_old": 2,
+   "segments_new": 2,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།",
+   "inbox": "ཚེ་རབས་རྗེས་འཛིན་བཞུགས་སོ།.md",
+   "text_id": "NYi0bLKLZewqJSJq0Bmq5",
+   "edition_id": "oPDcRBAc1r939AqjdyKeJ",
+   "old_len": 1257,
+   "new_len": 1276,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།",
+   "inbox": "ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས།.md",
+   "text_id": "wgVcY3J5MTfM6YGUxOvxW",
+   "edition_id": "8Z62BCXhB2NPPRcd8LbPr",
+   "old_len": 2796,
+   "new_len": 2815,
+   "segments_old": 15,
+   "segments_new": 17,
+   "verdict": "rebuild",
+   "reason": "segment count 15 -> 17"
+  },
+  {
+   "stem": "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།",
+   "inbox": "ཞབས་བརྟན་གསོལ་འདེབས་འཆི་མེད་གྲུབ་པ་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+   "text_id": "O7zQBVvLwRkklmls7T0rI",
+   "edition_id": "NfgYMEkF3ssxasV10arhm",
+   "old_len": 2782,
+   "new_len": 2801,
+   "segments_old": 16,
+   "segments_new": 18,
+   "verdict": "rebuild",
+   "reason": "segment count 16 -> 18"
+  },
+  {
+   "stem": "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།",
+   "inbox": "ཞབས་བརྟན་ནུབ་ཕྱོགས་བདེ་ལྡན་མ་བཞུགས་སོ།།.md",
+   "text_id": "fqNOVGNxalNzYtRDHOUG8",
+   "edition_id": "GXB15YTNewESx45CIh0oE",
+   "old_len": 1085,
+   "new_len": 1104,
+   "segments_old": 7,
+   "segments_new": 9,
+   "verdict": "rebuild",
+   "reason": "segment count 7 -> 9"
+  },
+  {
+   "stem": "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།",
+   "inbox": "འཆི་ཁར་ཕན་པའི་གདམས་ངག་ཉམས་ལེན་གྱི་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།།.md",
+   "text_id": "4EHTjydnuy2wS0gTebywS",
+   "edition_id": "gMd4OTPBwhwEWfDjGxdBp",
+   "old_len": 1511,
+   "new_len": 1530,
+   "segments_old": 10,
+   "segments_new": 12,
+   "verdict": "rebuild",
+   "reason": "segment count 10 -> 12"
+  },
+  {
+   "stem": "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།",
+   "inbox": "འཇམ་དཔལ་རྫོགས་པ་ཆེན་པོའི་སྨོན་ལམ།.md",
+   "text_id": "eMiZqknYL6KvN1qavNnc6",
+   "edition_id": "h3Ua5YsPEyPdkmeCXxHkL",
+   "old_len": 3866,
+   "new_len": 3885,
+   "segments_old": 22,
+   "segments_new": 24,
+   "verdict": "rebuild",
+   "reason": "segment count 22 -> 24"
+  },
+  {
+   "stem": "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།",
+   "inbox": "འཇམ་དབྱངས་ཀྱི་བསྟོད་པ་གང་བློ་མ་བཞུགས་སོ།.md",
+   "text_id": "UaBLIMnKb9uUTd5XOiFeZ",
+   "edition_id": "W3J9N11rkDZFuTMHFUBDl",
+   "old_len": 816,
+   "new_len": 816,
+   "segments_old": 6,
+   "segments_new": 6,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།",
+   "inbox": "འཇམ་མགོན་བླ་མ་ཙོང་ཁ་པ་ཆེན་པོས་མཛད་པའི་བློ་སྦྱོང་སྙན་ངག་སྒྲ་རྒྱན་བཞུགས་སོ།.md",
+   "text_id": "hBX9CNrdF2C1ieSaXnyVH",
+   "edition_id": "3FQn1Eukbg6yY3hHIum40",
+   "old_len": 4177,
+   "new_len": 4177,
+   "segments_old": 28,
+   "segments_new": 28,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།",
+   "inbox": "འཕགས་པ་ཐུགས་རྗེ་ཆེན་པོ་ལ་བསྟོད་ཅིང་གསོལ་བ་འདེབས་པ་ཕན་བདེའི་ཆར་འབེབས་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+   "text_id": "Cx2i3PIpnoJPNdWR5LX5w",
+   "edition_id": "IjbEBWjEhVnEhJMcxuBqv",
+   "old_len": 6704,
+   "new_len": 6704,
+   "segments_old": 28,
+   "segments_new": 28,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།",
+   "inbox": "འཕགས་པ་དཀོན་མཆོག་གསུམ་རྗེས་སུ་དྲན་པའི་གྱི་མདོ།.md",
+   "text_id": "N4loXiCK144VPVHVSJaUG",
+   "edition_id": "xdOKmSRBcOgrEBDPaVBRk",
+   "old_len": 2240,
+   "new_len": 2240,
+   "segments_old": 5,
+   "segments_new": 5,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།",
+   "inbox": "འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།.md",
+   "text_id": "xC0WW7fOoqcdmEGWzhXnQ",
+   "edition_id": "wGkNgIX5V2AqAqnU8wHZe",
+   "old_len": 1543,
+   "new_len": 1543,
+   "segments_old": 11,
+   "segments_new": 11,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།",
+   "inbox": "འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་རྒྱལ་པོ།.md",
+   "text_id": "HfTEGGmFOf7N5AMd05vq4",
+   "edition_id": "MRWJADM7XHzkWre7muf0q",
+   "old_len": 9429,
+   "new_len": 9439,
+   "segments_old": 67,
+   "segments_new": 68,
+   "verdict": "rebuild",
+   "reason": "segment count 67 -> 68"
+  },
+  {
+   "stem": "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།",
+   "inbox": "འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་མཚན་སྔགས།.md",
+   "text_id": "gD6l5DOAFrdYAsarBFUZU",
+   "edition_id": "TANXO82qBBta20TzUjBip",
+   "old_len": 324,
+   "new_len": 324,
+   "segments_old": 4,
+   "segments_new": 4,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཡན་ལག་བདུན་པ།",
+   "inbox": "ཡན་ལག་བདུན་པ།.md",
+   "text_id": "Tqh7WbzjdF9mxrIx9qGGT",
+   "edition_id": "BEviNp2GVbhwTAYVDoB1z",
+   "old_len": 1742,
+   "new_len": 1742,
+   "segments_old": 13,
+   "segments_new": 13,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།",
+   "inbox": "ཡོན་ཏན་གཞིར་གྱུར་མ་བཞུགས་སོ།.md",
+   "text_id": "48q7hw4yg2R9PUS5J8CNH",
+   "edition_id": "umHFVHWtijcQXeI3iKz5T",
+   "old_len": 2155,
+   "new_len": 2155,
+   "segments_old": 15,
+   "segments_new": 15,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔",
+   "inbox": "རི་བོ་བསངས་མཆོད་བཞུགས་སོ༔.md",
+   "text_id": "n5eiqIyerGkMQmOTYeIkM",
+   "edition_id": "1lvdqkJHXQp2bQWYrih6t",
+   "old_len": 2581,
+   "new_len": 2591,
+   "segments_old": 18,
+   "segments_new": 19,
+   "verdict": "rebuild",
+   "reason": "segment count 18 -> 19"
+  },
+  {
+   "stem": "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།",
+   "inbox": "རྒྱ་ནག་པོའི་སྐག་ཟློག་ཅེས་བྱ་བ་བཞུགས་སོ།།.md",
+   "text_id": "Fm2iGjdufDtuFzNzQn4k2",
+   "edition_id": "2Vu7pa6WV6bQAmGSrgM9b",
+   "old_len": 8803,
+   "new_len": 8813,
+   "segments_old": 50,
+   "segments_new": 51,
+   "verdict": "rebuild",
+   "reason": "segment count 50 -> 51"
+  },
+  {
+   "stem": "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།",
+   "inbox": "རྒྱན་དྲུག་མཆོག་གཉིས་ཀྱི་བསྟོད་པ་མཁའ་མཉམ་མ།.md",
+   "text_id": "E1YX2Wf0EUTpO9t0FClyC",
+   "edition_id": "KPnocmcCZlZ251vr9T6uG",
+   "old_len": 1600,
+   "new_len": 1600,
+   "segments_old": 11,
+   "segments_new": 11,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།",
+   "inbox": "རྒྱལ་ཁམས་བདེ་བའི་སྨོན་ལམ།.md",
+   "text_id": "vB32VL9Pymp6WlOOZJa3r",
+   "edition_id": "YW34dIELkqsK2440H48vt",
+   "old_len": 694,
+   "new_len": 713,
+   "segments_old": 5,
+   "segments_new": 7,
+   "verdict": "rebuild",
+   "reason": "segment count 5 -> 7"
+  },
+  {
+   "stem": "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།",
+   "inbox": "རྒྱལ་བ་ཚེ་དཔག་མེད་ཀྱི་མཚན་སྔགས།.md",
+   "text_id": "dpKoQk4ixjNFq1f7vQVEf",
+   "edition_id": "cV4yXtdrXIN2PblCMKgyt",
+   "old_len": 363,
+   "new_len": 363,
+   "segments_old": 4,
+   "segments_new": 4,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།",
+   "inbox": "རྒྱལ་བའི་དབང་པོ་ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།.md",
+   "text_id": "KZ1bKKD4sI6I6wvFtmDku",
+   "edition_id": "xMCh9GvJTCCj2BcHZ80j8",
+   "old_len": 2867,
+   "new_len": 2886,
+   "segments_old": 16,
+   "segments_new": 18,
+   "verdict": "rebuild",
+   "reason": "segment count 16 -> 18"
+  },
+  {
+   "stem": "རྗེ་གསང་བའི་རྣམ་ཐར།",
+   "inbox": "རྗེ་གསང་བའི་རྣམ་ཐར།.md",
+   "text_id": "xvMseI1k2T2XmoQ44LfK0",
+   "edition_id": "mnvLuXNYtmeWQYmIiMBcw",
+   "old_len": 7661,
+   "new_len": 7661,
+   "segments_old": 52,
+   "segments_new": 52,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "རྟེན་འབྲེལ་བསྟོད་པ།",
+   "inbox": "རྟེན་འབྲེལ་བསྟོད་པ།.md",
+   "text_id": "Xkc1mMeTE2DDxnMl9soTA",
+   "edition_id": "wjJ5a3Ay2TIeiaAyVww6c",
+   "old_len": 6974,
+   "new_len": 6974,
+   "segments_old": 60,
+   "segments_new": 60,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།",
+   "inbox": "རླུང་རྟ་ཡར་བསྐྱེད་བསངས་མཆོད་བཞུགས་སོ།.md",
+   "text_id": "AjHdjattoK0fqbz0d2sn3",
+   "edition_id": "dRvCnOEGrZe3A0ltC7vpd",
+   "old_len": 2452,
+   "new_len": 2462,
+   "segments_old": 16,
+   "segments_new": 17,
+   "verdict": "rebuild",
+   "reason": "segment count 16 -> 17"
+  },
+  {
+   "stem": "ལམ་གཙོ་རྣམ་གསུམ།",
+   "inbox": "ལམ་གཙོ་རྣམ་གསུམ།.md",
+   "text_id": "6LNEfKQuYRkVjRnDTuvsy",
+   "edition_id": "RNYmYChxCvjbCz9ZwBxSY",
+   "old_len": 2276,
+   "new_len": 2295,
+   "segments_old": 17,
+   "segments_new": 19,
+   "verdict": "rebuild",
+   "reason": "segment count 17 -> 19"
+  },
+  {
+   "stem": "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།",
+   "inbox": "ལམ་རིམ་སྨོན་ལམ་བཞུགས་སོ།.md",
+   "text_id": "8lzsQrOi1YkdHPbkfaxa1",
+   "edition_id": "r1gz73KD54GEXk1HLE62S",
+   "old_len": 1149,
+   "new_len": 1168,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།",
+   "inbox": "ལྷ་མོར་བསྟོད་པ་ཡན་ལག་བདུན་པ།.md",
+   "text_id": "N3FFr4aBycwWNns1xnlAj",
+   "edition_id": "1jito0teYs1nCgu4PEehq",
+   "old_len": 1084,
+   "new_len": 1084,
+   "segments_old": 8,
+   "segments_new": 8,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "སངས་རྒྱས་ཆོས་ཚོགས་མ།",
+   "inbox": "སངས་རྒྱས་ཆོས་ཚོགས་མ།.md",
+   "text_id": "lkZrPg9nW1Tq1HDYpk0Nn",
+   "edition_id": "FnTM7nxmGHyjcSrm9Pk8b",
+   "old_len": 184,
+   "new_len": 184,
+   "segments_old": 2,
+   "segments_new": 2,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།",
+   "inbox": "སྒྲོལ་བསྟོད་སྐྱབས་བདུན་མ།.md",
+   "text_id": "GNaFsT0ZUBpCmGy61FXvw",
+   "edition_id": "LaQL9SI0YFgKm94SNDWu7",
+   "old_len": 1133,
+   "new_len": 1152,
+   "segments_old": 9,
+   "segments_new": 11,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 11"
+  },
+  {
+   "stem": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།",
+   "inbox": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md",
+   "text_id": "HyUbHGlzS9LsSrgiFQNYE",
+   "edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+   "old_len": 3788,
+   "new_len": 3807,
+   "segments_old": 30,
+   "segments_new": 32,
+   "verdict": "rebuild",
+   "reason": "segment count 30 -> 32"
+  },
+  {
+   "stem": "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །",
+   "inbox": "སྒྲོལ་མ་ཙིཏྟཱ་མ་ཎི་ལ་བརྟེན་པའི་ཐུན་མོང་མ་ཡིན་པའི་བླ་མའི་རྣལ་འབྱོར་ཐར་པར་བགྲོད་པའི་ཐེམ་སྐས་ཞེས་བྱ་བ་བཞུགས་སོ། །.md",
+   "text_id": "eTmzkTGQAP1kUP2cAyjT7",
+   "edition_id": "gK6PnhBsPdvR4iYw4sFUH",
+   "old_len": 2036,
+   "new_len": 2046,
+   "segments_old": 12,
+   "segments_new": 13,
+   "verdict": "rebuild",
+   "reason": "segment count 12 -> 13"
+  },
+  {
+   "stem": "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།",
+   "inbox": "སྟོན་པ་ཐུབ་པའི་དབང་པོར་བསྟོད་པ།.md",
+   "text_id": "HsEb0SsTZy4PirhQ8NgaM",
+   "edition_id": "x6yllaEumaXBuYlL7IcVG",
+   "old_len": 2649,
+   "new_len": 2649,
+   "segments_old": 23,
+   "segments_new": 23,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།",
+   "inbox": "སྤྱོད་འཇུག་སྨོན་ལམ་བཞུགས་སོ།.md",
+   "text_id": "17Ui1qnL3NJCnEowPZ2ZQ",
+   "edition_id": "f7qs8kKZMFZ30ynqq7cif",
+   "old_len": 7364,
+   "new_len": 7374,
+   "segments_old": 57,
+   "segments_new": 58,
+   "verdict": "rebuild",
+   "reason": "segment count 57 -> 58"
+  },
+  {
+   "stem": "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།",
+   "inbox": "སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད་ནི།.md",
+   "text_id": "ZEggQpnRdNyGUaocUZLXy",
+   "edition_id": "qu5nwRaH41iTbKCJE8W2w",
+   "old_len": 1473,
+   "new_len": 1492,
+   "segments_old": 11,
+   "segments_new": 13,
+   "verdict": "rebuild",
+   "reason": "segment count 11 -> 13"
+  },
+  {
+   "stem": "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །",
+   "inbox": "སློབ་དཔོན་ཐུགས་རྗེ་ཅན་གྱི་ཐུགས་དམ་གནད་ནས་སྐུལ་བའི་གདུང་དབྱངས་གསོལ་འདེབས་བཞུགས་སོ། །.md",
+   "text_id": "izKLWpVHbh8DJwALK0bgv",
+   "edition_id": "lSWztGH4FFb8Ue8nnxchb",
+   "old_len": 1392,
+   "new_len": 1392,
+   "segments_old": 9,
+   "segments_new": 9,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།",
+   "inbox": "སློབ་དཔོན་རིན་པོ་ཆེའི་མཚན་སྔགས།.md",
+   "text_id": "Ur3xbvgxjOFOLjBYNrMSz",
+   "edition_id": "oFa1C0JT5VbOYjENkuT5D",
+   "old_len": 424,
+   "new_len": 424,
+   "segments_old": 4,
+   "segments_new": 4,
+   "verdict": "unchanged",
+   "ops": []
+  },
+  {
+   "stem": "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔",
+   "inbox": "ཨོ་རྒྱན་རིན་པོ་ཆེའི་ཞལ་ཆེམས་གསོལ་འདེབས་བཞུགས༔.md",
+   "text_id": "UUbYLrWhXhDBLSXnmDBLe",
+   "edition_id": "CdSPtE4Qu9j5vmr1vSvqZ",
+   "old_len": 1261,
+   "new_len": 1271,
+   "segments_old": 9,
+   "segments_new": 10,
+   "verdict": "rebuild",
+   "reason": "segment count 9 -> 10"
+  }
+ ]
+}

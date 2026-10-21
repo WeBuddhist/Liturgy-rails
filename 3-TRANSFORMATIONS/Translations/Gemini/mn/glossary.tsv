@@ -1,0 +1,64 @@
+# Mongolian track glossary — `Tibetan term<TAB>Mongolian rendering`.
+# Read automatically by gm_translate.py; entries whose Tibetan term occurs in
+# a batch are added to that call's context as fixed terminology. Each line
+# below answers a recurring error found in the 2026-09-06 pilot review
+# (pilot-review.md §3 and §6). Keep entries to terms whose rendering is
+# settled; this is not a place for style.
+#
+# མ་ལུས་ "without exception / without remainder" — the model rendered it
+# мадаггүй ("flawless"), which is a different word.
+མ་ལུས	үлдэлгүйгээр (without exception, all without remainder)
+མ་ལུས་པ	үлдэлгүйгээр (without exception, all without remainder)
+# Seed syllables of the Tārā mantra (oṃ tāre tuttāre ture svāhā), which this
+# corpus scatters through verse lines rather than giving as one mantra line.
+# Attested Mongolian recitation form: Ум дарэ дүдарэ дүрэ суха.
+ཏུཏྟཱ་ར	дүдарэ
+ཏུཏྟཱ་རེ	дүдарэ
+ཏུ་རེ	дүрэ
+ཏཱ་རེ	дарэ
+ཏཱ་ར	дарэ
+སྭཱ་ཧཱ	суха
+ཕཊ	пад
+ཕཊ྄	пад
+ཨོཾ་ཏཱ་རེ	Ум дарэ
+# Proper names pinned by gm_names.py --propose (gemini-3.1-pro-preview); one spelling each.
+ཨོ་རྒྱན	Үржин
+ཨུ་རྒྱན	Үржин
+པདྨ་འབྱུང་གནས	Ловон Бадамжунай
+གུ་རུ་རིན་པོ་ཆེ	Гүрү Ринбүүчи
+ཐོད་ཕྲེང་རྩལ	Төдрэнгцэл
+ཚེ་དཔག་མེད	Аюуш
+འོད་དཔག་མེད	Авид
+སྤྱན་རས་གཟིགས	Жанрайсиг
+འཇམ་དཔལ་དབྱངས	Манзушир
+འཇམ་དཔལ	Манзушир
+སྒྲོལ་མ	Дарь эх
+ཕྱག་ན་རྡོ་རྗེ	Очирваань
+ཤཱཀྱ་ཐུབ་པ	Шагжамуни
+རྡོ་རྗེ་འཆང	Очирдара
+རྡོ་རྗེ་སེམས་དཔའ	Базарсад
+ཀུན་ཏུ་བཟང་པོ	Самантабадра
+བྱམས་པ	Майдар
+རྟ་མགྲིན	Дамдин
+ཙོང་ཁ་པ	Зонхов
+བློ་བཟང་གྲགས་པ	Лувсандагва
+མི་ལ་རས་པ	Миларайба
+ཡེ་ཤེས་མཚོ་རྒྱལ	Ешэцожил
+ཆེ་མཆོག	Чэмчог
+དགའ་རབ་རྡོ་རྗེ	Гарабдорж
+ཤཱནྟ་རཀྵི་ཏ	Шантаракшид
+ཞི་བ་འཚོ	Шантаракшид
+ཁྲི་སྲོང་ལྡེའུ་བཙན	Трисон Дэцэн
+ཁྲི་སྲོང་ལྡེ་བཙན	Трисон Дэцэн
+བི་མ་ལ་མི་ཏྲ	Вималамитра
+ཀློང་ཆེན	Лончэн
+ཨ་ཏི་ཤ	Атиша
+བསམ་ཡས	Самъяа
+ཟངས་མདོག་དཔལ་རི	Зандогбалри
+ཛམྦུ་གླིང	Замбуулин
+བོད་ཡུལ	Төвөд
+བོད	Төвөд
+# Added 2026-09-07 after the corpus spot-reads: a source spelling variant, the ཨེ་མ་ཧོ interjection, the Vajra Guru mantra.
+ཐོད་འཕྲེང་རྩལ	Төдрэнгцэл
+ཨེ་མ་ཧོ	Эмахо
+བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ	базар гуру бадмэ сидди хум

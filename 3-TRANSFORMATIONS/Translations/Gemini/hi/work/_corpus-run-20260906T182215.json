@@ -1,0 +1,32 @@
+{
+ "lang": "hindi",
+ "lang_tag": "hi",
+ "track": "3-TRANSFORMATIONS/Translations/Gemini/hi",
+ "model": "gemini-3.1-pro-preview",
+ "thinking": "default",
+ "reference_track": null,
+ "started": "2026-09-06T18:22:15",
+ "finished": "2026-09-06T18:24:46",
+ "texts_attempted": 1,
+ "texts_planned": 1,
+ "blocks_done": 29,
+ "blocks_total": 29,
+ "calls": 4,
+ "parity_failures": [],
+ "failed_blocks": [],
+ "stopped": null,
+ "texts": [
+  {
+   "text": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།",
+   "lang_tag": "hi",
+   "blocks_total": 29,
+   "blocks_done": 29,
+   "new": 29,
+   "calls": 4,
+   "fallbacks": 0,
+   "parity_failures": [],
+   "failed": [],
+   "stopped_at": null
+  }
+ ]
+}
