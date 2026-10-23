@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a4a0753e3ba9154b",
+        "id": "4d5a1fd53ac00e92",
         "type": "tabs",
         "children": [
           {
-            "id": "eebaaad6720448d0",
+            "id": "d2fa4c8939c84d9a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,8 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ec047b4d4b36409",
+  "active": "d2fa4c8939c84d9a",
   "lastOpenFiles": [
+    "1-SOURCES/Audio/གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས་བཞུགས་སོ།.WAV",
+    "Untitled.base",
+    "1-SOURCES/Audio",
+    "Untitled 1.base",
     "1-SOURCES/ll",
     "1-SOURCES/About Sources.md",
     "1-SOURCES/Audio",
@@ -226,7 +230,6 @@
     "0-INBOX/Text 2/སྨོན་ལམ་སྟོབས་པོ་ཆེ།.md",
     "0-INBOX/Text 2/སྨོན་ལམ་རྡོ་རྗེའི་རྒྱ་མདུད།.md",
     "0-INBOX/Text 2",
-    "0-INBOX/Text 1",
-    "0-INBOX"
+    "0-INBOX/Text 1"
   ]
 }
