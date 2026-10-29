@@ -11,7 +11,7 @@ root_text: "[[1-SOURCES/Text/ཐུབ་པའི་བསྟོད་པ་ཐ
 root_text_title: ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།
 recording_date: 2024-01-23
 production_software: ZOOM H1essential (field recorder)
-source_description: 'Single recording of the recitation of the Praise of the Buddha "Thub rnams spangs rtogs" by Jamyang Lodoe. Recorded on a ZOOM H1essential on 2024-01-23 (from the BWF tags embedded in the file).'
+source_description: 'Single recording of the recitation of the Praise of the Buddha by Jamyang Lodoe. Recorded on a ZOOM H1essential on 2024-01-23 (from the BWF tags embedded in the file).'
 recordings:
   - id: recitation
     file: 1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།.WAV

@@ -1,7 +1,7 @@
 ---
 title: དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ། — Recitation by Jamyang Lodoe
 alt_titles:
-  - en: The Hundred Deities of Tushita (Ganden Lhagyama) with Aspiration — recitation by Jamyang Lodoe
+  - en: The Hundred Deities of Tushita with Aspiration — recitation by Jamyang Lodoe
 file_type: audio
 language: Tibetan
 lang_tag: bo
