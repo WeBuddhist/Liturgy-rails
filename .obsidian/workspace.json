@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།/bo-jamyang-lodoe-recitation.md",
+                "file": "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།/bo-jamyang-lodoe-recitation.md",
                 "mode": "source",
                 "source": false
               },
@@ -196,11 +196,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b0d7db9b30ceb92",
+  "active": "74bd95f2146a1a4c",
   "lastOpenFiles": [
+    "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།.WAV",
+    "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།",
     "1-SOURCES/Text/ཁྱུང་པོའི་སྨོན་ལམ།.md",
     "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།/ཁྱུང་པོའི་སྨོན་ལམ།.WAV",
-    "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།",
     "1-SOURCES/Text/གསོལ་འདེབས་བསམ་པ་མྱུར་འགྲུབ་མ།.md",
     "1-SOURCES/Audio/ཀརྨ་པའི་གསོལ་འདེབས་རྒྱལ་ཀུན་ཕྲིན་ལས་གཟུགས་ཅན་མ་བཞུགས་སོ། །/bo-jamyang-lodoe-recitation.md",
@@ -217,7 +220,6 @@
     "1-SOURCES/Text/bo-གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས།.md",
     "1-SOURCES/Audio/གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས། །/གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས་བཞུགས་སོ།.wav",
     "1-SOURCES/Audio/གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས། །/གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས་བཞུགས་སོ། (2).wav",
-    "Untitled 1.base",
     "0-INBOX/Text 1/གསང་བ་སྔགས་ཀྱི་སྨོན་ལམ་འདོད་འཇོའི་དགའ་སྟོན།.md",
     "0-INBOX/Text 1/ཀྱེ་རྡོར་ལམ་དུས་མ་ནོར་དོན་གསལ།.md",
     "0-INBOX/Text 2/གྲུབ་པའི་དབང་ཕྱུག་བརྩོན་འགྲུས་བཟང་པོ་ལ་ཁྱུང་པོའི་གསེར་ཆོས་དང་མཐུན་པར་བསྔགས་པ་མི་ཤིགས་རང་སྒྲ།.md",
@@ -232,8 +234,6 @@
     "0-INBOX/Text 1/གཡུ་ཐོག་སྙིང་ཐིག་གི་བླ་སྒྲུབ་སྡུག་བསྔལ་མུན་སེལ་ཐུགས་རྗེའི་ཉི་འོད་ཀྱི་གསོལ་འདེབས།.md",
     "0-INBOX/Text 1/གཞི་ལམ་འབྲས་བུའི་སྨོན་ལམ།.md",
     "0-INBOX/Text 1/ཀློང་ཆེན་རབ་འབྱམས་ལ་བསྟོད་པ།.md",
-    "0-INBOX/Text 1/ཀླུ་བསངས་ནོར་བུ་དགོས་འདོད་ཀུན་འབྱུང་ཞེས་བྱ་བ་བཞུགས་སོ། །.md",
-    "0-INBOX/Text 2/གཙོ་རྒྱལ་མ།.md",
     "0-INBOX/Untitled.canvas"
   ]
 }
