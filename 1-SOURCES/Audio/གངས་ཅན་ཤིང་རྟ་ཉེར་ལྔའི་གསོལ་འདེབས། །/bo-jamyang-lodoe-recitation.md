@@ -43,8 +43,8 @@ status: TOC added
 
 One recording of the root text [[1-SOURCES/Text/bo-གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས།|གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས། །]], recited by **Jamyang Lodoe**. Recorded on a ZOOM H1essential on 2024-01-18 at 20:12:39.
 
-| Version    | File                              | Duration | Format                             |
-| ---------- | --------------------------------- | -------- | ---------------------------------- |
+| Version    | File                                       | Duration | Format                             |
+| ---------- | ------------------------------------------ | -------- | ---------------------------------- |
 | Recitation | `གངས་ཅན་ཤིང་རྟ་ཉེར་ལྔའི་གསོལ་འདེབས། །.wav` | 1:59.97  | WAV, 32-bit float / 48 kHz, stereo |
 
 ## Recitation
