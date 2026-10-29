@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4804d44c8a5be8fa",
+        "id": "6a3d06926fe75125",
         "type": "tabs",
         "children": [
           {
-            "id": "11b0a612a9b89bce",
+            "id": "42aad845c748b687",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11b0a612a9b89bce",
+  "active": "42aad845c748b687",
   "lastOpenFiles": [
     "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།/bo-jamyang-lodoe-recitation.md",
     "0-INBOX/Text 1/གསུར་མཆོད་ཉེར་མཁོ་སྤྱི་དང་དམིགས་བསལ་བ་ལེ་ཚན་གྱི་སྐོར།.md",
