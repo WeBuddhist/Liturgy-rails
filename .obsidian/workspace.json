@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "347ec4ea7cf274cf",
+        "id": "62a6d6a7b37d4ff8",
         "type": "tabs",
         "children": [
           {
-            "id": "26592825f5b46600",
+            "id": "a5c75b72b345f40c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,8 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26592825f5b46600",
+  "active": "a5c75b72b345f40c",
   "lastOpenFiles": [
+    "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།.WAV",
+    "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/sedrNrIKf",
+    "1-SOURCES/Audio/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའིའཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།.WAV",
+    "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།",
+    "1-SOURCES/Audio/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།",
     "1-SOURCES/Audio/དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།/དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།.WAV",
@@ -204,12 +211,7 @@
     "1-SOURCES/Audio/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།/bo-padma-namgyal-recitation.md",
     "1-SOURCES/Audio/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།",
-    "1-SOURCES/Audio/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །.WAV",
     "1-SOURCES/Audio/ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།/bo-jamyang-lodoe-recitation.md",
-    "1-SOURCES/Audio/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །/bo-jamyang-lodoe-recitation.md.tmp",
-    "1-SOURCES/Audio/དཔལ་གསང་བ་འདུས་པའི་བསྒོམ་བཟླས་རྒྱུན་འཁྱེར་བཞུགས་སོ། །",
-    "1-SOURCES/Audio/དཔལ་ལྡན་ས་གསུམ་མ།/sedZDhogD",
-    "1-SOURCES/Audio/དཔལ་ལྡན་ས་གསུམ་མ།/དཔལ་ལྡན་ས་གསུམ་མ།.WAV",
     "1-SOURCES/Text/ཐུབ་བསྟན་རིས་མེད་རྒྱས་པའི་སྨོན་ལམ།.md",
     "1-SOURCES/Audio/ཐུགས་རྗེ་ཆེན་པོའི་བསྒོམ་བཟླས་འགྲོ་དོན་མཁའ་ཁྱབ་མ་བཞུགས་སོ། །/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐབས་མཁས་ཐུགས་རྗེ་མ་བཞུགས་སོ།/bo-jamyang-lodoe-recitation.md",
@@ -227,8 +229,6 @@
     "0-INBOX/Text 1/གསུར་མཆོད་ཉེར་མཁོ་སྤྱི་དང་དམིགས་བསལ་བ་ལེ་ཚན་གྱི་སྐོར།.md",
     "0-INBOX/Text 1/གསུང་ངག་རིན་པོ་ཆེའི་ལམ་རིམ་རྒྱུད་ལ་སྐྱེ་བའི་སྨོན་ལམ།.md",
     "0-INBOX/Text 1/གསུང་ངག་རིན་པོ་ཆེ་ལམ་འབྲས་བུ་དང་བཅས་པའི་བླ་མ་བརྒྱུད་པ་ལ་གསོལ་བ་འདེབས་པ།.md",
-    "1-SOURCES/Audio/ཁྱུང་པོའི་སྨོན་ལམ།/bo-jamyang-lodoe-recitation.md",
-    "1-SOURCES/Text/ཁྱུང་པོའི་སྨོན་ལམ།.md",
     "0-INBOX/Untitled.canvas"
   ]
 }
