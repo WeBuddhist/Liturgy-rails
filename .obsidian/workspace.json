@@ -11,10 +11,14 @@
             "id": "a88932ad08604f51",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-SOURCES/Audio/བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།/bo-jamyang-lodoe-recitation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "bo-jamyang-lodoe-recitation"
             }
           }
         ]
@@ -192,8 +196,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74bd95f2146a1a4c",
+  "active": "a88932ad08604f51",
   "lastOpenFiles": [
+    "1-SOURCES/Audio/བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།/བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།.WAV",
+    "1-SOURCES/Audio/བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/བྱང་ཆུབ་སེམས་དཔའི་ལྟུང་བ་བཤགས་པ།",
     "1-SOURCES/Audio/དཔལ་ས་སྐྱ་པའི་བསྟན་པ་དར་ཞིང་རྒྱས་པའི་སྨོན་ལམ་འཇམ་དབྱངས་བླ་མ་དགྱེས་པའི་ཞལ་ལུང་།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐུབ་པའི་མཛད་པ་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།/ཐུབ་པའི་མཛད་བཅུ་གཉིས་ལ་བསྟོད་པ་ཞེས་བྱ་བ།.WAV",
@@ -206,8 +213,6 @@
     "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།.WAV",
     "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།/sedrNrIKf",
-    "1-SOURCES/Audio/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའིའཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།.WAV",
-    "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་ཐུབ་རྣམས་སྤངས་རྟོགས།",
     "1-SOURCES/Audio/དགེ་སློང་མ་དཔལ་མོས་མཛད་པའི་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གི་བསྟོད་པ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/དགའ་ལྡན་ལྷ་བརྒྱ་མ་འདོད་གསོལ་སྨོན་ལམ་དང་བཅས་པ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཐུབ་པའི་བསྟོད་པ་གང་ཚེ་རྐང་གཉིས་མ།/bo-jamyang-lodoe-recitation.md",
@@ -228,7 +233,6 @@
     "1-SOURCES/Audio/ཆགས་མེད་བདེ་སྨོན།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/དཔལ་ནཱ་ལེནྡྲའི་པཎ་གྲུབ་བཅུ་བདུན་གྱི་གསོལ་འདེབས།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/ཕ་དམ་པ་སངས་རྒྱས་ཀྱི་ཞལ་གདམས་དིང་རི་བརྒྱ་རྩ་མ་བཞུགས་སོ།/bo-jamyang-lodoe-recitation.md",
-    "1-SOURCES/Audio/གསོལ་འདེབས་བར་ཆད་ལམ་སེལ།/bo-jamyang-lodoe-recitation.md",
     "0-INBOX/Untitled.canvas"
   ]
 }
