@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "407a745a3f61ad38",
+        "id": "6ded92046b1c226c",
         "type": "tabs",
         "children": [
           {
-            "id": "366e534cd5b76bb9",
+            "id": "423bef9f63d35a41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-SOURCES/Audio/པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།/bo-jamyang-lodoe-recitation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "bo-jamyang-lodoe-recitation"
+              "title": "New tab"
             }
           }
         ]
@@ -196,10 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "366e534cd5b76bb9",
+  "active": "423bef9f63d35a41",
   "lastOpenFiles": [
-    "1-SOURCES/Audio/ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/བདུད་བཟློག་གསང་བའི་མན་ངག/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/བཀའ་ཐང་བསྡུས་པ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/པདྨ་མཁའ་འགྲོའི་རིགས་བྱེད་རྩལ་གྱི་བསང་མཆོད་པདྨའི་དྲྭ་བ་བཞུགས་སོ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/ཕྱག་ཆེན་བརྒྱུད་པའི་གསོལ་འདེབས་ནི།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/དབང་སྡུད་གསོལ་འདེབས།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/བྱམས་པའི་སྨོན་ལམ།/བྱམས་པའི་སྨོན་ལམ།.WAV",
@@ -232,8 +230,6 @@
     "0-INBOX/Text 1/གསོལ་འདེབས་དད་པའི་འཁྲི་ཤིང་།.md",
     "0-INBOX/Text 1/གསོལ་འདེབས་དངོས་གྲུབ་ཀུན་འབྱུང་།.md",
     "0-INBOX/Text 1/གསེར་སྐྱེམས་སྡེ་བརྒྱད་ཆ་སྙོམས།.md",
-    "0-INBOX/Text 1/གསུར་མཆོད་མདོར་བསྡུས།.md",
-    "0-INBOX/Text 1/གསུར་བསྔོ་ཡེ་ཤེས་སྤྲིན་ཕུང་།.md",
     "0-INBOX/Untitled.canvas"
   ]
 }
