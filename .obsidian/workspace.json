@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d25c46f5c7c10216",
+        "id": "407a745a3f61ad38",
         "type": "tabs",
         "children": [
           {
-            "id": "a8098fff65cbf656",
+            "id": "366e534cd5b76bb9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,8 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8098fff65cbf656",
+  "active": "74bd95f2146a1a4c",
   "lastOpenFiles": [
+    "1-SOURCES/Audio/དུས་མཁྱེན་གྱི་རྣམ་ཐར་བསྟོད་པ།/bo-jamyang-lodoe-recitation.md",
+    "1-SOURCES/Audio/དབང་སྡུད་གསོལ་འདེབས།/bo-jamyang-lodoe-recitation.md",
     "1-SOURCES/Audio/བྱམས་པའི་སྨོན་ལམ།/བྱམས་པའི་སྨོན་ལམ།.WAV",
     "1-SOURCES/Text/བྱམས་པའི་སྨོན་ལམ།.md",
     "1-SOURCES/Text/བོད་སྐྱོང་ལྷ་སྲུང་གི་འཕྲིན་བསྐུལ།.md",
@@ -211,7 +213,6 @@
     "1-SOURCES/Audio/བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།/བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།.WAV",
     "1-SOURCES/Audio/བསྔོ་བ་དང་སྨོན་ལམ་བསྡུས་པ་བཞུགས་སོ།",
     "1-SOURCES/Text/མཁས་གྲུབ་རྗེའི་བསྟོད་པ།.md",
-    "1-SOURCES/Audio/མཁས་གྲུབ་རྗེའི་བསྟོད་པ།/མཁས་གྲུབ་རྗེའི་བསྟོད་པ།.WAV",
     "1-SOURCES/Text/བློ་སྦྱོང་ཚིག་བརྒྱད་མ།.md",
     "0-INBOX/Text 2/༄༅། །གོང་མ་ཁྲི་ཆེན་རིན་པོ་ཆེའི་ཞབས་བརྟན་བཞུགས་སོ།.md",
     "0-INBOX/Text 1/ཉི་མ་སྦས་བའི་ལུགས་ཀྱི་སྒྲོལ་མའི་སྨོན་ལམ་ཤིས་བརྗོད་དྲང་སྲོང་གྲུབ་པའི་བདེན་ཚིག.md",
@@ -229,7 +230,6 @@
     "0-INBOX/Text 1/གསུར་བསྔོ་ཡེ་ཤེས་སྤྲིན་ཕུང་།.md",
     "1-SOURCES/Text/བླ་མ་རྒྱང་འབོད་མོས་གུས་སྙིང་གི་གཟེར་འདེབས་བཞུགས་སོ།.md",
     "1-SOURCES/Text/བྱིས་པའི་འབུམ་ཆུང་བཞུགས་སོ།།.md",
-    "1-SOURCES/Text/བྱིས་པའི་གདོན་ཆེན་བཅོ་ལྔ་ཞི་བར་བྱེད་པའི་གཟུངས་བཞུགས་སོ།.md",
     "0-INBOX/Untitled.canvas"
   ]
 }
