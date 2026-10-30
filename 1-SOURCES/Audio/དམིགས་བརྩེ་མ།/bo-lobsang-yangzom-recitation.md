@@ -9,17 +9,17 @@ performance_type: recitation
 root_text: "[[1-SOURCES/Text/དམིགས་བརྩེ་མ།]]"
 root_text_title: "དམིགས་བརྩེ་མ།"
 source_description: "Single recording of the recitation of Migtsema: A Prayer to Jé Tsongkhapa by Lobsang Yangzom."
-audio_file: "1-SOURCES/Audio/དམིགས་བརྩེ་མ།/དམིགས་རྩེ་མ།.m4a"
+audio_file: "1-SOURCES/Audio/དམིགས་བརྩེ་མ།/དམིགས་རྩེ་མ།.wav"
 accompaniment: false
-duration: "00:00:12.28"
-duration_seconds: 12.288
-format: "M4A (ALAC, lossless)"
-codec: "ALAC (Apple Lossless)"
+duration: "00:00:12.20"
+duration_seconds: 12.203
+format: "WAV (PCM 16-bit, converted from the original ALAC M4A)"
+codec: "PCM 16-bit little-endian"
 sample_rate_hz: 48000
 channels: 2
-bit_rate_kbps: 1072
-file_size_bytes: 1645844
-sha256: cf9e24d7b450dfaaa9e9714c0caefe597c798521c40d52c93aea7aa8a1f6b8ed
+bit_rate_kbps: 1536
+file_size_bytes: 2342990
+sha256: ac192c68de77396b60242ba4af330681a744abfca287b66b96f92a8908e063a9
 file_creation_time: "2026-02-04T16:30:21.000000Z"
 ---
 
@@ -27,19 +27,19 @@ file_creation_time: "2026-02-04T16:30:21.000000Z"
 
 One recording of the root text [[1-SOURCES/Text/དམིགས་བརྩེ་མ།|དམིགས་བརྩེ་མ།]], recited by **Lobsang Yangzom**.
 
-| Version    | File | Duration | Format |
-| ---------- | ---- | -------- | ------ |
-| Recitation | `དམིགས་རྩེ་མ།.m4a` | 0:12.28 | M4A / ALAC, 48000 Hz, stereo |
+| Version    | File               | Duration | Format                       |
+| ---------- | ------------------ | -------- | ---------------------------- |
+| Recitation | `དམིགས་རྩེ་མ།.wav` | 0:12.20  | WAV, 16-bit / 48 kHz, stereo |
 
 ## Recitation
 
-![[1-SOURCES/Audio/དམིགས་བརྩེ་མ།/དམིགས་རྩེ་མ།.m4a]]
+![[1-SOURCES/Audio/དམིགས་བརྩེ་མ།/དམིགས་རྩེ་མ།.wav]]
 
 ## Mapping
 
-Total duration 0:12.28. Start/End to be filled from the audio (mm:ss.s). Section numbers follow the block IDs (`^n`) of the root text.
+Total duration 0:12.20. Start/End to be filled from the audio (mm:ss.s). Section numbers follow the block IDs (`^n`) of the root text.
 
-| #   | Section | Text (first line) | Start | End |
-| --- | ------- | ----------------- | ----- | --- |
-| 0 | མགོ་བརྩམས། (title) | ༄༅། །དམིགས་བརྩེ་མ། |  |  |
-| 1 | (prayer) | དམིགས་མེད་བརྩེ་བའི་གཏེར་ཆེན་སྤྱན་རས་གཟིགས།། |  |  |
+| #   | Section             | Text (first line)                              | Start | End |
+| --- | ------------------- | ---------------------------------------------- | ----- | --- |
+| 0   | མགོ་བརྩམས། (title)  | ༄༅། །དམིགས་བརྩེ་མ།                               |       |     |
+| 1   | (prayer)            | དམིགས་མེད་བརྩེ་བའི་གཏེར་ཆེན་སྤྱན་རས་གཟིགས།། |       |     |
